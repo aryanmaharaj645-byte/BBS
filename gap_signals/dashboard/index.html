@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GAP SIGNAL — Weekend Trade Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="layout">
+
+  <!-- ── Sidebar ─────────────────────────────────────────────── -->
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <div class="logo-icon">G</div>
+      <div>
+        <div class="logo-name">GAP SIGNAL</div>
+        <div class="logo-sub">Weekend Trade Intelligence</div>
+      </div>
+    </div>
+
+    <div class="sidebar-section-label">NAVIGATION</div>
+    <nav class="sidebar-nav">
+      <a class="nav-item active" data-view="dashboard" href="#">
+        <span class="nav-icon">▦</span> Dashboard
+        <span class="nav-badge" id="nav-buy-count"></span>
+      </a>
+      <a class="nav-item" data-view="all" href="#">
+        <span class="nav-icon">≡</span> All Signals
+      </a>
+      <a class="nav-item" data-view="news" href="#">
+        <span class="nav-icon">◎</span> News Feed
+        <span class="nav-badge" id="nav-news-badge" style="background:var(--muted-bg);color:var(--muted)">—</span>
+      </a>
+    </nav>
+
+    <div class="sidebar-section-label" style="margin-top:24px">LAST RUN</div>
+    <div class="last-run-block">
+      <div class="last-run-time" id="sidebar-time">—</div>
+      <div class="last-run-meta" id="sidebar-meta">Run python3 main.py --save to refresh</div>
+      <div class="last-run-theme" id="sidebar-theme"></div>
+    </div>
+
+    <div class="sidebar-footer">
+      <div class="sidebar-section-label">RISK FLAGS</div>
+      <div class="risk-row">
+        <span class="risk-key">Trump</span>
+        <span class="risk-val" id="sb-trump">—</span>
+      </div>
+      <div class="risk-row">
+        <span class="risk-key">Geopolitical</span>
+        <span class="risk-val" id="sb-geo">—</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ── Main ───────────────────────────────────────────────── -->
+  <div class="main">
+
+    <!-- Top bar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <span class="topbar-date" id="topbar-date">—</span>
+        <span class="topbar-sep">·</span>
+        <span class="topbar-status"><span class="status-dot"></span> Ready</span>
+        <span class="topbar-sep">·</span>
+        <span class="topbar-time" id="topbar-time">—</span>
+      </div>
+      <button class="run-btn" onclick="location.reload()">▶ Run Analysis</button>
+    </header>
+
+    <!-- Page content -->
+    <div class="content">
+
+      <div class="page-title-row">
+        <div>
+          <h1 class="page-title">Weekend Gap Dashboard</h1>
+          <div class="page-sub" id="page-sub">Loading...</div>
+        </div>
+      </div>
+
+      <!-- Alert bar -->
+      <div class="alert-bar" id="alert-bar">
+        <span class="alert-icon">◈</span>
+        <span id="alert-text">Analysing market conditions...</span>
+      </div>
+
+      <!-- Stat cards -->
+      <div class="stat-cards">
+        <div class="stat-card">
+          <div class="stat-label">MARKET BIAS</div>
+          <div class="stat-value" id="stat-bias">—</div>
+          <div class="stat-sub" id="stat-bias-sub">—</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">STRONGEST SIGNAL</div>
+          <div class="stat-value highlight" id="stat-strongest">—</div>
+          <div class="stat-sub" id="stat-strongest-sub">—</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">RISK LEVEL</div>
+          <div class="stat-value" id="stat-risk">—</div>
+          <div class="stat-sub">Geo + VIX composite</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">GAP PROBABILITY</div>
+          <div class="stat-value" id="stat-gap">—</div>
+          <div class="stat-sub" id="stat-gap-sub">—</div>
+        </div>
+      </div>
+
+      <!-- Tabs -->
+      <div class="view-tabs">
+        <button class="vtab active" data-vtab="signals">Top Signals</button>
+        <button class="vtab" data-vtab="macro">Macro Summary</button>
+        <button class="vtab" data-vtab="picks">Best Setups</button>
+      </div>
+
+      <!-- Signals table -->
+      <div id="view-signals">
+        <div class="filter-row">
+          <button class="filt active" data-group="all">All</button>
+          <button class="filt" data-group="forex">Forex</button>
+          <button class="filt" data-group="indices">Indices</button>
+          <button class="filt" data-group="commodities">Commodities</button>
+          <button class="filt" data-group="buy">↑ Buy</button>
+          <button class="filt" data-group="sell">↓ Sell</button>
+          <button class="filt" data-group="high">High Conf</button>
+        </div>
+
+        <div class="table-wrap">
+          <table class="signal-table">
+            <thead>
+              <tr>
+                <th>INSTRUMENT</th>
+                <th>DIRECTION</th>
+                <th>CONVICTION</th>
+                <th>CONFIDENCE</th>
+                <th>GAP TYPE</th>
+                <th>KEY DRIVERS</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="signal-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Macro view -->
+      <div id="view-macro" style="display:none">
+        <div class="macro-card">
+          <div class="macro-card-label">MACRO THEME</div>
+          <div class="macro-card-text" id="macro-full-text">—</div>
+        </div>
+        <div class="macro-grid" id="macro-grid"></div>
+      </div>
+
+      <!-- Picks view -->
+      <div id="view-picks" style="display:none">
+        <div class="picks-grid" id="picks-grid"></div>
+      </div>
+
+      <!-- News feed view -->
+      <div id="view-news" style="display:none">
+        <div class="news-feed" id="news-feed"></div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<!-- Detail modal -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal">
+    <div class="modal-header-bar" id="modal-header-bar"></div>
+    <div class="modal-inner">
+      <button class="modal-close" id="modal-close">✕</button>
+      <div class="modal-title-row">
+        <div class="modal-asset" id="modal-asset"></div>
+        <div id="modal-top-badges"></div>
+      </div>
+      <div class="modal-bias-box" id="modal-bias"></div>
+      <div class="modal-cols">
+        <div>
+          <div class="modal-sec-label">Key Drivers</div>
+          <ul class="modal-list green" id="modal-drivers"></ul>
+        </div>
+        <div>
+          <div class="modal-sec-label">Invalidation Risks</div>
+          <ul class="modal-list red" id="modal-risks"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

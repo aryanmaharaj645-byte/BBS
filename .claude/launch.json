@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "platform",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "3005", "--directory", "/Users/Aryan/BBS"],
+      "port": 3005
+    },
+    {
+      "name": "cpi-dashboard",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/Users/Aryan/cpi-dashboard", "run", "dev"],
+      "port": 3000
+    },
+    {
+      "name": "nfp-dashboard",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["run-nfp.sh"],
+      "port": 3002
+    },
+    {
+      "name": "nfp-html",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "3003", "--directory", "/Users/Aryan/nfp-dashboard"],
+      "port": 3003
+    }
+  ]
+}

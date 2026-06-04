@@ -1,0 +1,322 @@
+{
+  "generated_at": "Friday 2026-05-29 11:19 UTC",
+  "macro_theme": "Risk-on sentiment prevails despite ongoing geopolitical tensions, driven by hopes of a US-Iran ceasefire and a potential OPEC+ production policy monitor. However, the overall sentiment remains cautious due to the uncertainty surrounding these events.",
+  "trump_risk_level": "MEDIUM",
+  "geopolitical_risk": "HIGH",
+  "recommended_assets": [
+    "USDJPY",
+    "US30",
+    "NAS100"
+  ],
+  "assets_to_avoid": [
+    "GBPUSD",
+    "EURGBP",
+    "GBPAUD"
+  ],
+  "signals": {
+    "EURUSD": {
+      "direction": "SELL",
+      "confidence": 60,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "OPEC+ production policy monitor"
+      ],
+      "risks": [
+        "Unexpected Trump tweet",
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data"
+      ],
+      "trade_bias": "Look for a short opportunity on a gap fill towards the 1.1600 level."
+    },
+    "GBPUSD": {
+      "direction": "NEUTRAL",
+      "confidence": 40,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Brexit uncertainty"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "Trump tweet on trade"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+    },
+    "USDJPY": {
+      "direction": "BUY",
+      "confidence": 80,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "OPEC+ production policy monitor"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "BoJ intervention"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 160.00 level."
+    },
+    "USDCHF": {
+      "direction": "BUY",
+      "confidence": 70,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "OPEC+ production policy monitor"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "SNB intervention"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 0.7900 level."
+    },
+    "AUDUSD": {
+      "direction": "SELL",
+      "confidence": 50,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Disappointing economic data"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Trump tweet on trade",
+        "RBA rate cut"
+      ],
+      "trade_bias": "Look for a short opportunity on a gap fill towards the 0.7100 level."
+    },
+    "NZDUSD": {
+      "direction": "SELL",
+      "confidence": 60,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Disappointing economic data"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Trump tweet on trade",
+        "RBNZ rate cut"
+      ],
+      "trade_bias": "Look for a short opportunity on a gap fill towards the 0.5900 level."
+    },
+    "USDCAD": {
+      "direction": "BUY",
+      "confidence": 70,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "OPEC+ production policy monitor",
+        "US-Iran ceasefire extension hopes"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "BoC rate cut"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 1.3900 level."
+    },
+    "EURJPY": {
+      "direction": "BUY",
+      "confidence": 80,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "OPEC+ production policy monitor"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "BoJ intervention"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 187.00 level."
+    },
+    "GBPJPY": {
+      "direction": "NEUTRAL",
+      "confidence": 40,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Brexit uncertainty"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "Trump tweet on trade"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+    },
+    "EURGBP": {
+      "direction": "NEUTRAL",
+      "confidence": 40,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Brexit uncertainty"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "Trump tweet on trade"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+    },
+    "AUDJPY": {
+      "direction": "BUY",
+      "confidence": 70,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "OPEC+ production policy monitor"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "BoJ intervention"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 116.00 level."
+    },
+    "EURAUD": {
+      "direction": "BUY",
+      "confidence": 60,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "OPEC+ production policy monitor"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "RBA rate cut"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 1.6300 level."
+    },
+    "GBPAUD": {
+      "direction": "NEUTRAL",
+      "confidence": 40,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Brexit uncertainty"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "Trump tweet on trade"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+    },
+    "EURCAD": {
+      "direction": "BUY",
+      "confidence": 70,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "OPEC+ production policy monitor",
+        "US-Iran ceasefire extension hopes"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "BoC rate cut"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 1.6100 level."
+    },
+    "CADJPY": {
+      "direction": "BUY",
+      "confidence": 70,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "OPEC+ production policy monitor",
+        "US-Iran ceasefire extension hopes"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "BoJ intervention"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 116.50 level."
+    },
+    "US30": {
+      "direction": "BUY",
+      "confidence": 80,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "OPEC+ production policy monitor"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "Fed rate hike"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 51000 level."
+    },
+    "NAS100": {
+      "direction": "BUY",
+      "confidence": 90,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "OPEC+ production policy monitor"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "Fed rate hike"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 30500 level."
+    },
+    "GOLD": {
+      "direction": "SELL",
+      "confidence": 60,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "OPEC+ production policy monitor"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "Fed rate cut"
+      ],
+      "trade_bias": "Look for a short opportunity on a gap fill towards the 4500 level."
+    },
+    "OIL": {
+      "direction": "SELL",
+      "confidence": 70,
+      "gap_type": "FILL",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "OPEC+ production policy monitor"
+      ],
+      "risks": [
+        "Geopolitical escalation in the Middle East",
+        "Disappointing economic data",
+        "OPEC+ production cut"
+      ],
+      "trade_bias": "Look for a short opportunity on a gap fill towards the 85.00 level."
+    }
+  }
+}

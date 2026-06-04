@@ -1,0 +1,341 @@
+{
+  "generated_at": "Friday 2026-05-29 12:04 UTC",
+  "macro_theme": "Risk-on sentiment prevails as US-Iran ceasefire talks progress, while geopolitical risks in the Middle East and Ukraine remain. The overall market mood is cautiously optimistic, with a focus on the potential for a peace deal and its impact on global oil prices.",
+  "trump_risk_level": "MEDIUM",
+  "geopolitical_risk": "HIGH",
+  "recommended_assets": [
+    "USDJPY",
+    "US30",
+    "NAS100"
+  ],
+  "assets_to_avoid": [
+    "GBPUSD",
+    "AUDUSD",
+    "EURAUD"
+  ],
+  "signals": {
+    "EURUSD": {
+      "direction": "SELL",
+      "confidence": 60,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "German May preliminary CPI",
+        "Risk-on sentiment"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "European economic data"
+      ],
+      "trade_bias": "Look for a short-term sell opportunity on a gap fill, targeting the 1.1600 level."
+    },
+    "GBPUSD": {
+      "direction": "NEUTRAL",
+      "confidence": 40,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "UK economic data",
+        "Brexit uncertainty"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "UK political instability"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+    },
+    "USDJPY": {
+      "direction": "BUY",
+      "confidence": 80,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "Japanese economic data",
+        "Risk-on sentiment"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "Japanese yen safe-haven flows"
+      ],
+      "trade_bias": "Look for a long-term buy opportunity on a gap continuation, targeting the 162.00 level."
+    },
+    "USDCHF": {
+      "direction": "BUY",
+      "confidence": 50,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "Swiss economic data",
+        "Risk-on sentiment"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "Swiss franc safe-haven flows"
+      ],
+      "trade_bias": "Look for a short-term buy opportunity on a gap fill, targeting the 0.7900 level."
+    },
+    "AUDUSD": {
+      "direction": "NEUTRAL",
+      "confidence": 30,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "Australian economic data",
+        "Commodity prices"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "Australian dollar volatility"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+    },
+    "NZDUSD": {
+      "direction": "BUY",
+      "confidence": 70,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "New Zealand economic data",
+        "Risk-on sentiment"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "New Zealand dollar volatility"
+      ],
+      "trade_bias": "Look for a long-term buy opportunity on a gap continuation, targeting the 0.6300 level."
+    },
+    "USDCAD": {
+      "direction": "SELL",
+      "confidence": 50,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "Canadian economic data",
+        "Oil prices"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "Canadian dollar volatility"
+      ],
+      "trade_bias": "Look for a short-term sell opportunity on a gap fill, targeting the 1.3700 level."
+    },
+    "EURJPY": {
+      "direction": "BUY",
+      "confidence": 60,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "European economic data",
+        "Risk-on sentiment"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "Japanese yen safe-haven flows"
+      ],
+      "trade_bias": "Look for a long-term buy opportunity on a gap continuation, targeting the 190.00 level."
+    },
+    "GBPJPY": {
+      "direction": "NEUTRAL",
+      "confidence": 40,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "UK economic data",
+        "Brexit uncertainty"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "UK political instability"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+    },
+    "EURGBP": {
+      "direction": "BUY",
+      "confidence": 50,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "European economic data",
+        "Brexit uncertainty"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "European economic data"
+      ],
+      "trade_bias": "Look for a short-term buy opportunity on a gap fill, targeting the 0.8700 level."
+    },
+    "AUDJPY": {
+      "direction": "NEUTRAL",
+      "confidence": 30,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "Australian economic data",
+        "Commodity prices"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "Australian dollar volatility"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+    },
+    "EURAUD": {
+      "direction": "SELL",
+      "confidence": 60,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "European economic data",
+        "Commodity prices"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "European economic data"
+      ],
+      "trade_bias": "Look for a short-term sell opportunity on a gap fill, targeting the 1.6000 level."
+    },
+    "GBPAUD": {
+      "direction": "NEUTRAL",
+      "confidence": 40,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "UK economic data",
+        "Brexit uncertainty"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "UK political instability"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+    },
+    "EURCAD": {
+      "direction": "BUY",
+      "confidence": 50,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "European economic data",
+        "Oil prices"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "Canadian dollar volatility"
+      ],
+      "trade_bias": "Look for a long-term buy opportunity on a gap continuation, targeting the 1.6500 level."
+    },
+    "CADJPY": {
+      "direction": "NEUTRAL",
+      "confidence": 30,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "Canadian economic data",
+        "Oil prices"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "Canadian dollar volatility"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+    },
+    "US30": {
+      "direction": "BUY",
+      "confidence": 80,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "US economic data",
+        "Risk-on sentiment"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "US economic data"
+      ],
+      "trade_bias": "Look for a long-term buy opportunity on a gap continuation, targeting the 52000 level."
+    },
+    "NAS100": {
+      "direction": "BUY",
+      "confidence": 90,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "LARGE(>0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "US economic data",
+        "Risk-on sentiment"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "US economic data"
+      ],
+      "trade_bias": "Look for a long-term buy opportunity on a gap continuation, targeting the 32000 level."
+    },
+    "GOLD": {
+      "direction": "SELL",
+      "confidence": 60,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "Risk-on sentiment",
+        "US economic data"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "US economic data"
+      ],
+      "trade_bias": "Look for a short-term sell opportunity on a gap fill, targeting the 4500 level."
+    },
+    "OIL": {
+      "direction": "SELL",
+      "confidence": 80,
+      "gap_type": "FILL",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire talks",
+        "Oil prices",
+        "Geopolitical risks in the Middle East"
+      ],
+      "risks": [
+        "Geopolitical risks in the Middle East",
+        "Trump tweets on trade",
+        "Oil prices"
+      ],
+      "trade_bias": "Look for a short-term sell opportunity on a gap fill, targeting the 80 level."
+    }
+  }
+}

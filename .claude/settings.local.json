@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/Aryan/cpi-dashboard/**)",
+      "Bash(npm install *)",
+      "Bash(mkdir -p /Users/Aryan/cpi-dashboard/app/api/market-data /Users/Aryan/cpi-dashboard/app/api/analyze)",
+      "Bash(mkdir -p /Users/Aryan/cpi-dashboard/components)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000/api/market-data)",
+      "Bash(python3 -m json.tool)",
+      "Bash(kill 8539)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(mkdir -p /Users/Aryan/cpi-dashboard/.claude)",
+      "Bash(mkdir -p /Users/Aryan/BBS/.claude)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(find /Users/Aryan/BBS/gap_signals -type f | head -40 && echo \"---\" && find /Users/Aryan/nfp-dashboard -type f -not -path \"*/node_modules/*\" -not -path \"*/.next/*\" | head -60)"
+    ]
+  }
+}

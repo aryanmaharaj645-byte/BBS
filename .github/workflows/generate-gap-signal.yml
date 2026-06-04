@@ -1,0 +1,33 @@
+name: Generate Gap Signal
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r gap_signals/requirements.txt
+
+      - name: Run gap signal generator
+        run: python3 gap_signals/main.py --save
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+
+      - name: Copy output to platform
+        run: cp gap_signals/dashboard/data/latest.json platform/data/latest.json
+
+      - name: Commit and push
+        run: |
+          git config user.email "gapsignal-bot@tradeintel"
+          git config user.name "Gap Signal Bot"
+          git add platform/data/latest.json gap_signals/dashboard/data/latest.json
+          git diff --staged --quiet || git commit -m "gap signals $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

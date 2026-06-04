@@ -1,0 +1,303 @@
+{
+  "generated_at": "Friday 2026-05-29 11:21 UTC",
+  "macro_theme": "The market is experiencing a risk-on sentiment, driven by hopes of a US-Iran ceasefire extension and a potential deal, which could lead to increased market volatility and potential gaps in various assets. However, the overall sentiment is cautiously optimistic, with investors waiting for further developments.",
+  "trump_risk_level": "MEDIUM",
+  "geopolitical_risk": "HIGH",
+  "recommended_assets": [
+    "USDJPY",
+    "GOLD",
+    "US30"
+  ],
+  "assets_to_avoid": [
+    "GBPJPY",
+    "EURAUD",
+    "GBPAUD"
+  ],
+  "signals": {
+    "EURUSD": {
+      "direction": "SELL",
+      "confidence": 60,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Fed's commitment to inflation"
+      ],
+      "risks": [
+        "Unexpected geopolitical events",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Look for a short opportunity on a gap fill towards the 1.1600 level."
+    },
+    "GBPUSD": {
+      "direction": "SELL",
+      "confidence": 55,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "UK's economic data"
+      ],
+      "risks": [
+        "Brexit-related news",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Look for a short opportunity on a gap fill towards the 1.3300 level."
+    },
+    "USDJPY": {
+      "direction": "BUY",
+      "confidence": 70,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Japan's intervention in the FX market"
+      ],
+      "risks": [
+        "Unexpected geopolitical events",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 160.00 level."
+    },
+    "USDCHF": {
+      "direction": "BUY",
+      "confidence": 65,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Switzerland's economic data"
+      ],
+      "risks": [
+        "Unexpected geopolitical events",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 0.7900 level."
+    },
+    "AUDUSD": {
+      "direction": "NEUTRAL",
+      "confidence": 40,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Australia's economic data"
+      ],
+      "risks": [
+        "Unexpected geopolitical events",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
+    },
+    "NZDUSD": {
+      "direction": "NEUTRAL",
+      "confidence": 45,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "New Zealand's economic data"
+      ],
+      "risks": [
+        "Unexpected geopolitical events",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
+    },
+    "USDCAD": {
+      "direction": "BUY",
+      "confidence": 60,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Canada's economic data"
+      ],
+      "risks": [
+        "Unexpected geopolitical events",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 1.3900 level."
+    },
+    "EURJPY": {
+      "direction": "BUY",
+      "confidence": 65,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Japan's intervention in the FX market"
+      ],
+      "risks": [
+        "Unexpected geopolitical events",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 187.00 level."
+    },
+    "GBPJPY": {
+      "direction": "NEUTRAL",
+      "confidence": 30,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "UK's economic data"
+      ],
+      "risks": [
+        "Brexit-related news",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
+    },
+    "EURGBP": {
+      "direction": "BUY",
+      "confidence": 55,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "UK's economic data"
+      ],
+      "risks": [
+        "Brexit-related news",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap fill towards the 0.8650 level."
+    },
+    "AUDJPY": {
+      "direction": "NEUTRAL",
+      "confidence": 40,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Australia's economic data"
+      ],
+      "risks": [
+        "Unexpected geopolitical events",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
+    },
+    "EURAUD": {
+      "direction": "NEUTRAL",
+      "confidence": 35,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Australia's economic data"
+      ],
+      "risks": [
+        "Unexpected geopolitical events",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
+    },
+    "GBPAUD": {
+      "direction": "NEUTRAL",
+      "confidence": 30,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "UK's economic data"
+      ],
+      "risks": [
+        "Brexit-related news",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
+    },
+    "EURCAD": {
+      "direction": "BUY",
+      "confidence": 60,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Canada's economic data"
+      ],
+      "risks": [
+        "Unexpected geopolitical events",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 1.6100 level."
+    },
+    "CADJPY": {
+      "direction": "NEUTRAL",
+      "confidence": 40,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Canada's economic data"
+      ],
+      "risks": [
+        "Unexpected geopolitical events",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
+    },
+    "US30": {
+      "direction": "BUY",
+      "confidence": 70,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "US economic data"
+      ],
+      "risks": [
+        "Unexpected geopolitical events",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 51000 level."
+    },
+    "NAS100": {
+      "direction": "BUY",
+      "confidence": 75,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "US economic data"
+      ],
+      "risks": [
+        "Unexpected geopolitical events",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 30500 level."
+    },
+    "GOLD": {
+      "direction": "BUY",
+      "confidence": 65,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "Central bank interventions"
+      ],
+      "risks": [
+        "Unexpected geopolitical events",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap continuation towards the 4600 level."
+    },
+    "OIL": {
+      "direction": "SELL",
+      "confidence": 60,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran ceasefire extension hopes",
+        "OPEC's production policy"
+      ],
+      "risks": [
+        "Unexpected geopolitical events",
+        "Central bank interventions"
+      ],
+      "trade_bias": "Look for a short opportunity on a gap fill towards the 85.00 level."
+    }
+  }
+}
