@@ -6,7 +6,7 @@
   <title>TRADE INTEL — Unified Market Intelligence</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=2"/>
+  <link rel="stylesheet" href="style.css?v=3"/>
 </head>
 <body>
 <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
@@ -208,6 +208,15 @@
         <span id="nfp-alert-text">Adjust model inputs then click ▶ Generate Signal to compute NFP forecast</span>
       </div>
 
+      <div class="consensus-bar">
+        <span class="cb-label">Street Consensus</span>
+        <div class="cb-input-wrap">
+          <input type="number" id="nfp-consensus-input" class="cb-input" placeholder="e.g. 75" step="5" min="-200" max="700">
+          <span class="cb-unit">k NFP</span>
+        </div>
+        <div class="cb-vs" id="nfp-consensus-vs">Enter street forecast to compare with model</div>
+      </div>
+
       <div class="stat-cards">
         <div class="stat-card">
           <div class="stat-label">NFP FORECAST</div>
@@ -285,6 +294,15 @@
       <div class="alert-bar neutral" id="cpi-alert-bar">
         <span class="alert-icon">◈</span>
         <span id="cpi-alert-text">Adjust model inputs then click ▶ Generate Signal to compute CPI forecast</span>
+      </div>
+
+      <div class="consensus-bar">
+        <span class="cb-label">Street Consensus</span>
+        <div class="cb-input-wrap">
+          <input type="number" id="cpi-consensus-input" class="cb-input" placeholder="e.g. 2.4" step="0.1" min="0" max="10">
+          <span class="cb-unit">% CPI YoY</span>
+        </div>
+        <div class="cb-vs" id="cpi-consensus-vs">Enter street forecast to compare with model</div>
       </div>
 
       <div class="stat-cards">

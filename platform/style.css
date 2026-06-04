@@ -960,6 +960,57 @@ body {
 
 .gen-step.muted { color: var(--muted); }
 
+/* ── Consensus bar ─────────────────────────────────── */
+.consensus-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.cb-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+.cb-input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.cb-input {
+  width: 90px;
+  padding: 5px 8px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 500;
+}
+.cb-input:focus { outline: none; border-color: var(--cyan); }
+.cb-unit {
+  font-size: 11px;
+  color: var(--muted);
+  font-family: var(--mono);
+}
+.cb-vs {
+  font-size: 12px;
+  color: var(--muted);
+  font-family: var(--mono);
+}
+.cb-vs.beat  { color: var(--green); font-weight: 600; }
+.cb-vs.miss  { color: var(--red);   font-weight: 600; }
+.cb-vs.inline { color: var(--yellow); font-weight: 600; }
+
 /* ── Hamburger ─────────────────────────────────────── */
 .hamburger {
   display: none;

@@ -310,10 +310,12 @@ let gapAllSignals    = {};
 let nfpInputs      = { ...NFP_FALLBACK };
 let nfpPrediction  = null;
 let nfpActiveVtab  = 'signals';
+let nfpConsensus   = null;
 
 let cpiInputs      = { ...CPI_FALLBACK };
 let cpiPrediction  = null;
 let cpiActiveVtab  = 'signals';
+let cpiConsensus   = null;
 
 // ── NFP Prediction (ported from TypeScript) ────────────────────
 function computeNFP(inputs) {
@@ -866,6 +868,7 @@ function generateNFP() {
   renderNFPDrivers();
   renderNFPNews();
   updateSidebarForSection();
+  updateNFPConsensusDisplay();
 }
 
 function renderNFPStats() {
@@ -966,6 +969,7 @@ function renderNFPSignalTable() {
       <td><span class="driver-pill" title="${rat}">${rat}</span></td>
       <td><span class="chevron">›</span></td>
     `;
+    tr.onclick = () => openNFPAssetModal(asset, name, signal, rat, p);
     tbody.appendChild(tr);
   });
 
@@ -1148,6 +1152,7 @@ function generateCPI() {
   renderCPIDrivers();
   renderCPINews();
   updateSidebarForSection();
+  updateCPIConsensusDisplay();
 }
 
 function renderCPIStats() {
@@ -1246,6 +1251,7 @@ function renderCPISignalTable() {
       <td><span class="driver-pill" title="${rat}">${rat}</span></td>
       <td><span class="chevron">›</span></td>
     `;
+    tr.onclick = () => openCPIAssetModal(asset, name, signal, rat, cp);
     tbody.appendChild(tr);
   });
 
@@ -1647,6 +1653,131 @@ function switchCPIVtab(vtab) {
   if (vtab === 'drivers' && cpiPrediction) renderCPIDrivers();
 }
 
+// ── Consensus display ──────────────────────────────────────────
+
+function updateNFPConsensusDisplay() {
+  const el = document.getElementById('nfp-consensus-vs');
+  if (!el) return;
+  if (!nfpConsensus || !nfpPrediction) {
+    el.textContent = 'Enter street forecast to compare with model';
+    el.className = 'cb-vs';
+    return;
+  }
+  const diff = nfpPrediction.headline - nfpConsensus;
+  const absDiff = Math.abs(diff);
+  if (absDiff < 15) {
+    el.textContent = `Model ${nfpPrediction.headline}k · Street ${nfpConsensus}k · In-line (${diff >= 0 ? '+' : ''}${diff}k)`;
+    el.className = 'cb-vs inline';
+  } else if (diff > 0) {
+    el.textContent = `Model ${nfpPrediction.headline}k · Street ${nfpConsensus}k · Model +${diff}k above street → POTENTIAL BEAT`;
+    el.className = 'cb-vs beat';
+  } else {
+    el.textContent = `Model ${nfpPrediction.headline}k · Street ${nfpConsensus}k · Model ${diff}k below street → POTENTIAL MISS`;
+    el.className = 'cb-vs miss';
+  }
+}
+
+function updateCPIConsensusDisplay() {
+  const el = document.getElementById('cpi-consensus-vs');
+  if (!el) return;
+  if (!cpiConsensus || !cpiPrediction) {
+    el.textContent = 'Enter street forecast to compare with model';
+    el.className = 'cb-vs';
+    return;
+  }
+  const diff = Math.round((cpiPrediction.headline - cpiConsensus) * 100) / 100;
+  const absDiff = Math.abs(diff);
+  if (absDiff < 0.1) {
+    el.textContent = `Model ${cpiPrediction.headline}% · Street ${cpiConsensus}% · In-line (${diff >= 0 ? '+' : ''}${diff}%)`;
+    el.className = 'cb-vs inline';
+  } else if (diff > 0) {
+    el.textContent = `Model ${cpiPrediction.headline}% · Street ${cpiConsensus}% · Model +${diff}% hotter → UPSIDE RISK`;
+    el.className = 'cb-vs miss';
+  } else {
+    el.textContent = `Model ${cpiPrediction.headline}% · Street ${cpiConsensus}% · Model ${diff}% softer → DOWNSIDE RISK`;
+    el.className = 'cb-vs beat';
+  }
+}
+
+// ── NFP / CPI Asset Modals ─────────────────────────────────────
+
+function openNFPAssetModal(asset, name, signal, rat, p) {
+  const sc = signalClass(signal);
+  const da = dirArrow(signal);
+
+  document.getElementById('modal-header-bar').style.background = '#06b6d4';
+  const ma = document.getElementById('modal-asset');
+  ma.textContent = `${asset} — NFP`;
+  ma.style.color = '#06b6d4';
+
+  document.getElementById('modal-top-badges').innerHTML = `
+    <span class="dir-badge dir-${sc}" style="font-size:13px">${da} ${signal} · ${p.confidence}%</span>
+    <span class="gap-badge ${regimeBadgeClass(p.regime)}" style="font-size:11px">${p.regime} LABOR</span>
+    <span class="gap-badge ${fomcBadgeClass(p.fomcReaction)}" style="font-size:11px">${p.fomcReaction} FOMC</span>
+  `;
+
+  document.getElementById('modal-bias').textContent = rat;
+
+  const dl = document.getElementById('modal-drivers'); dl.innerHTML = '';
+  const topDrivers = [...p.drivers].sort((a, b) => b.contribution - a.contribution).slice(0, 3);
+  [
+    `NFP forecast: ${p.headline}k (${p.direction} than consensus)`,
+    `Labor regime: ${p.regime} · Fed reaction: ${p.fomcReaction}`,
+    ...topDrivers.map(d => `${d.name}: ${d.bullish ? '↑ bullish' : '↓ bearish'} (${d.contribution}% model weight)`)
+  ].forEach(t => { const li = document.createElement('li'); li.textContent = t; dl.appendChild(li); });
+
+  const rl = document.getElementById('modal-risks'); rl.innerHTML = '';
+  [
+    sc === 'BUY'
+      ? `Miss below ${p.bear}k reverses bullish thesis`
+      : sc === 'SELL'
+        ? `Beat above ${p.bull}k negates bearish thesis`
+        : `Print outside ${p.bear}k–${p.bull}k range breaks neutrality`,
+    `Unexpected Fed guidance shift at next FOMC`,
+    `Strong revision to prior month NFP data`
+  ].forEach(r => { const li = document.createElement('li'); li.textContent = r; rl.appendChild(li); });
+
+  document.getElementById('modal-overlay').classList.add('open');
+}
+
+function openCPIAssetModal(asset, name, signal, rat, cp) {
+  const sc = signalClass(signal);
+  const da = dirArrow(signal);
+
+  document.getElementById('modal-header-bar').style.background = '#f97316';
+  const ma = document.getElementById('modal-asset');
+  ma.textContent = `${asset} — CPI`;
+  ma.style.color = '#f97316';
+
+  document.getElementById('modal-top-badges').innerHTML = `
+    <span class="dir-badge dir-${sc}" style="font-size:13px">${da} ${signal} · ${Math.round(cp.confidence)}%</span>
+    <span class="gap-badge ${regimeBadgeClass(cp.regime)}" style="font-size:11px">${cp.regime} CPI${cp.stagflation ? ' ⚠' : ''}</span>
+  `;
+
+  document.getElementById('modal-bias').textContent = rat;
+
+  const dl = document.getElementById('modal-drivers'); dl.innerHTML = '';
+  const topDrivers = [...cp.drivers].sort((a, b) => b.contribution - a.contribution).slice(0, 3);
+  [
+    `CPI forecast: ${cp.headline}% YoY · Core MoM: ${cp.coreMoM}%`,
+    `Inflation regime: ${cp.regime}${cp.stagflation ? ' (stagflation risk)' : ''}`,
+    ...topDrivers.map(d => `${d.name}: ${d.bullish ? '↑ inflationary' : '↓ disinflationary'} (${d.contribution}% weight)`)
+  ].forEach(t => { const li = document.createElement('li'); li.textContent = t; dl.appendChild(li); });
+
+  const rl = document.getElementById('modal-risks'); rl.innerHTML = '';
+  [
+    cp.regime === 'Hot'
+      ? `Softer core MoM (below 0.25%) could trigger dovish repricing`
+      : cp.regime === 'Soft'
+        ? `Energy spike or wage surprise could reignite inflation narrative`
+        : `Break above ${cp.bull}% or below ${cp.bear}% shifts regime`,
+    `Fed communication overrides data — watch FOMC speakers`,
+    `Prior month revision changes trajectory baseline`
+  ].forEach(r => { const li = document.createElement('li'); li.textContent = r; rl.appendChild(li); });
+
+  document.getElementById('modal-overlay').classList.add('open');
+}
+
 // ── Modals ─────────────────────────────────────────────────────
 
 function closeDetailModal() {
@@ -1807,6 +1938,21 @@ function wireEvents() {
   // Keyboard
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') { closeDetailModal(); closeCommandModal(); }
+  });
+
+  // Consensus inputs
+  const nfpCI = document.getElementById('nfp-consensus-input');
+  if (nfpCI) nfpCI.addEventListener('input', () => {
+    const v = parseFloat(nfpCI.value);
+    nfpConsensus = isNaN(v) ? null : v;
+    updateNFPConsensusDisplay();
+  });
+
+  const cpiCI = document.getElementById('cpi-consensus-input');
+  if (cpiCI) cpiCI.addEventListener('input', () => {
+    const v = parseFloat(cpiCI.value);
+    cpiConsensus = isNaN(v) ? null : v;
+    updateCPIConsensusDisplay();
   });
 }
 
