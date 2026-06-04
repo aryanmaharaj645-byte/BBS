@@ -44,8 +44,8 @@ def build_analysis_prompt(
 
     # Compress news to stay within Groq free tier token limits (~10k input target)
     news_text = "\n".join([
-        f"[{a['age_hours']:.0f}h|{a['source']}] {a['title']}: {a['summary'][:150]}"
-        for a in news_articles[:40]
+        f"[{a['age_hours']:.0f}h|{a['source']}] {a['title']}: {a['summary'][:120]}"
+        for a in news_articles[:30]
     ])
 
     # Compact market snapshot — only key fields
