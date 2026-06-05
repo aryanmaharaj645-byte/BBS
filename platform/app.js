@@ -1529,7 +1529,7 @@ function switchSection(section) {
   });
 
   // Show/hide sections
-  ['gap','nfp','cpi','news'].forEach(s => {
+  ['gap','cpi','news'].forEach(s => {
     document.getElementById(`section-${s}`).style.display = s === section ? '' : 'none';
   });
 
@@ -1538,8 +1538,6 @@ function switchSection(section) {
   btn.className = `run-btn section-${section}`;
   if (section === 'gap') {
     btn.textContent = '▶ Generate Signal';
-  } else if (section === 'nfp') {
-    btn.textContent = '▶ Generate NFP';
   } else if (section === 'cpi') {
     btn.textContent = '▶ Generate CPI';
   } else {
@@ -1548,17 +1546,13 @@ function switchSection(section) {
   }
 
   // Topbar label
-  const labels = { gap:'Gap Signal', nfp:'NFP Forecast', cpi:'CPI Forecast', news:'News Feed' };
+  const labels = { gap:'Gap Signal', cpi:'CPI Forecast', news:'News Feed' };
   document.getElementById('topbar-section-label').textContent = labels[section] || section;
 
   // Render news module whenever we enter it
   if (section === 'news') renderMainNews();
 
   // Fetch live API data on first visit
-  if (section === 'nfp' && !nfpDataLoaded) {
-    nfpDataLoaded = true;
-    loadNFPLiveData();
-  }
   if (section === 'cpi' && !cpiDataLoaded) {
     cpiDataLoaded = true;
     loadCPILiveData();
@@ -1568,44 +1562,25 @@ function switchSection(section) {
 }
 
 function updateSidebarForSection() {
-  const gapRiskRows   = ['sb-trump', 'sb-geo'];
-  const nfpRiskRow    = document.getElementById('sb-fomc-row');
-  const cpiRiskRow    = document.getElementById('sb-inflation-row');
+  const nfpRiskRow = document.getElementById('sb-fomc-row');
+  const cpiRiskRow = document.getElementById('sb-inflation-row');
 
-  // Always show gap risk flags if data available
   if (currentSection === 'gap') {
-    nfpRiskRow.style.display    = 'none';
-    cpiRiskRow.style.display    = 'none';
-  } else if (currentSection === 'nfp') {
-    nfpRiskRow.style.display    = nfpPrediction ? '' : 'none';
-    cpiRiskRow.style.display    = 'none';
-    if (nfpPrediction) {
-      const el = document.getElementById('sb-fomc');
-      el.textContent = nfpPrediction.fomcReaction;
-      el.className   = `risk-val risk-${nfpPrediction.fomcReaction}`;
-    }
-    if (!gapData) {
-      document.getElementById('sidebar-time').textContent = 'Not computed';
-      document.getElementById('sidebar-meta').textContent = 'Click ▶ Generate NFP';
-    } else if (nfpPrediction) {
-      document.getElementById('sidebar-time').textContent = nfpPrediction.headline + 'k';
-      document.getElementById('sidebar-meta').textContent = `${nfpPrediction.regime} · ${nfpPrediction.fomcReaction} Fed`;
-    }
-  } else {
-    nfpRiskRow.style.display    = 'none';
-    cpiRiskRow.style.display    = cpiPrediction ? '' : 'none';
+    nfpRiskRow.style.display = 'none';
+    cpiRiskRow.style.display = 'none';
+  } else if (currentSection === 'cpi') {
+    nfpRiskRow.style.display = 'none';
+    cpiRiskRow.style.display = cpiPrediction ? '' : 'none';
     if (cpiPrediction) {
       const el = document.getElementById('sb-inflation');
       el.textContent = cpiPrediction.headline + '% ' + cpiPrediction.regime;
       el.className   = `risk-val risk-${cpiPrediction.regime}`;
-    }
-    if (!gapData) {
-      document.getElementById('sidebar-time').textContent = 'Not computed';
-      document.getElementById('sidebar-meta').textContent = 'Click ▶ Generate CPI';
-    } else if (cpiPrediction) {
       document.getElementById('sidebar-time').textContent = cpiPrediction.headline + '%';
       document.getElementById('sidebar-meta').textContent = `${cpiPrediction.regime} · Core MoM ${cpiPrediction.coreMoM}%`;
     }
+  } else {
+    nfpRiskRow.style.display = 'none';
+    cpiRiskRow.style.display = 'none';
   }
 }
 
@@ -1885,14 +1860,11 @@ function wireEvents() {
   document.getElementById('run-btn').onclick = () => {
     if (currentSection === 'gap') {
       triggerGapSignal();
-    } else if (currentSection === 'nfp') {
-      generateNFP();
-      if (nfpActiveVtab !== 'inputs') switchNFPVtab('signals');
     } else if (currentSection === 'cpi') {
       generateCPI();
       if (cpiActiveVtab !== 'inputs') switchCPIVtab('signals');
     } else if (currentSection === 'news') {
-      renderMainNews();
+      loadGapData();
     }
   };
 
@@ -1962,16 +1934,17 @@ async function init() {
   startClock();
   wireEvents();
 
-  // Render NFP inputs panel once so it's ready
-  renderNFPInputs();
+  // Render CPI inputs panel once so it's ready
   renderCPIInputs();
 
-  // Run initial predictions with fallback data
-  generateNFP();
+  // Run initial CPI prediction with fallback data
   generateCPI();
 
   // Load gap signal data
   await loadGapData();
+
+  // Auto-refresh news every 5 minutes
+  setInterval(() => loadGapData(), 5 * 60 * 1000);
 
   // Show initial section (gap)
   switchSection('gap');

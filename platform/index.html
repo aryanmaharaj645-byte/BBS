@@ -28,10 +28,6 @@
         <span class="nav-icon">⬡</span> Gap Signal
         <span class="nav-badge" id="nav-gap-badge">—</span>
       </button>
-      <button class="nav-item" data-section="nfp">
-        <span class="nav-icon">◷</span> NFP Forecast
-        <span class="nav-badge nav-badge-cyan" id="nav-nfp-badge">—</span>
-      </button>
       <button class="nav-item" data-section="cpi">
         <span class="nav-icon">◈</span> CPI Forecast
         <span class="nav-badge nav-badge-orange" id="nav-cpi-badge">—</span>
@@ -188,94 +184,6 @@
 
       <div id="gap-view-news" style="display:none">
         <div class="news-feed" id="gap-news-feed"></div>
-      </div>
-    </div>
-
-    <!-- ════════════════════════════════════════════════════
-         NFP SECTION
-    ════════════════════════════════════════════════════ -->
-    <div id="section-nfp" class="section content" style="display:none">
-      <div class="page-title-row">
-        <div>
-          <h1 class="page-title">NFP Forecast Model</h1>
-          <div class="page-sub" id="nfp-page-sub">Nonfarm Payrolls — Labor Market Intelligence</div>
-          <div class="data-badge fallback" id="nfp-data-badge">⚡ Fallback values</div>
-        </div>
-      </div>
-
-      <div class="alert-bar neutral" id="nfp-alert-bar">
-        <span class="alert-icon">◈</span>
-        <span id="nfp-alert-text">Adjust model inputs then click ▶ Generate Signal to compute NFP forecast</span>
-      </div>
-
-      <div class="consensus-bar">
-        <span class="cb-label">Street Consensus</span>
-        <div class="cb-input-wrap">
-          <input type="number" id="nfp-consensus-input" class="cb-input" placeholder="e.g. 75" step="5" min="-200" max="700">
-          <span class="cb-unit">k NFP</span>
-        </div>
-        <div class="cb-vs" id="nfp-consensus-vs">Enter street forecast to compare with model</div>
-      </div>
-
-      <div class="stat-cards">
-        <div class="stat-card">
-          <div class="stat-label">NFP FORECAST</div>
-          <div class="stat-value highlight" id="nfp-stat-headline">—</div>
-          <div class="stat-sub" id="nfp-stat-headline-sub">Nonfarm payrolls (k)</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-label">REGIME</div>
-          <div class="stat-value" id="nfp-stat-regime">—</div>
-          <div class="stat-sub" id="nfp-stat-regime-sub">Labor market condition</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-label">FOMC REACTION</div>
-          <div class="stat-value" id="nfp-stat-fomc">—</div>
-          <div class="stat-sub">Expected Fed policy bias</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-label">MODEL CONFIDENCE</div>
-          <div class="stat-value" id="nfp-stat-conf">—</div>
-          <div class="stat-sub">Signal alignment score</div>
-        </div>
-      </div>
-
-      <div class="view-tabs">
-        <button class="vtab active" data-section-vtab="nfp" data-vtab="signals">Asset Signals</button>
-        <button class="vtab" data-section-vtab="nfp" data-vtab="forecast">Forecast Detail</button>
-        <button class="vtab" data-section-vtab="nfp" data-vtab="inputs">Model Inputs</button>
-        <button class="vtab" data-section-vtab="nfp" data-vtab="drivers">Drivers</button>
-        <button class="vtab" data-section-vtab="nfp" data-vtab="news">News Feed</button>
-      </div>
-
-      <div id="nfp-view-signals">
-        <div class="table-wrap">
-          <table class="signal-table">
-            <thead>
-              <tr>
-                <th>ASSET</th><th>SIGNAL</th><th>CONVICTION</th>
-                <th>CONFIDENCE</th><th>CONTEXT</th><th>RATIONALE</th><th></th>
-              </tr>
-            </thead>
-            <tbody id="nfp-signal-tbody"></tbody>
-          </table>
-        </div>
-      </div>
-
-      <div id="nfp-view-forecast" style="display:none">
-        <div id="nfp-forecast-content"></div>
-      </div>
-
-      <div id="nfp-view-inputs" style="display:none">
-        <div id="nfp-inputs-content"></div>
-      </div>
-
-      <div id="nfp-view-drivers" style="display:none">
-        <div id="nfp-drivers-content"></div>
-      </div>
-
-      <div id="nfp-view-news" style="display:none">
-        <div class="news-feed" id="nfp-news-feed"></div>
       </div>
     </div>
 
