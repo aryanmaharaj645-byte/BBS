@@ -319,10 +319,10 @@ let cpiConsensus   = null;
 
 // ── NFP Prediction (ported from TypeScript) ────────────────────
 function computeNFP(inputs) {
-  const BASE = 150;
+  const BASE = 165;
 
-  const adpContrib       = (inputs.adp - 150) * 0.78;
-  const claimsContrib    = (225 - inputs.initialClaims) * 1.4;
+  const adpContrib       = (inputs.adp - 150) * 0.85;
+  const claimsContrib    = (225 - inputs.initialClaims) * 1.5;
   const ismSvcContrib    = (inputs.ismServicesEmp - 50) * 7.5;
   const ismMfgContrib    = (inputs.ismMfgEmp - 50) * 3.0;
   const joltsContrib     = (inputs.joltsOpenings - 7.5) * 18;
@@ -330,12 +330,12 @@ function computeNFP(inputs) {
   const ccNorm           = (inputs.confBoardCC - 100) * 0.3;
   const umichNorm        = (inputs.umich - 70) * 0.3;
   const sentimentContrib = (nfibNorm + ccNorm + umichNorm) / 3;
-  const challengerContrib= -(Math.max(0, inputs.challengerCuts - 40) * 0.55);
-  const govContrib       = -Math.abs(inputs.federalLayoffs);
-  const tariffContrib    = -(Math.max(0, inputs.tariffImpact - 2) * 4.5) - (Math.max(0, inputs.tradeWarSeverity - 2) * 2);
+  const challengerContrib= -(Math.max(0, inputs.challengerCuts - 40) * 0.45);
+  const govContrib       = -Math.abs(inputs.federalLayoffs) * 0.7;
+  const tariffContrib    = -(Math.max(0, inputs.tariffImpact - 2) * 3.0) - (Math.max(0, inputs.tradeWarSeverity - 2) * 1.5);
   const trumpContrib     = inputs.trumpSentiment * 4.5;
-  const immigContrib     = -(Math.max(0, inputs.immigrationRestriction - 4) * 2.8);
-  const rateContrib      = -(Math.max(0, inputs.fedRate - 3.0) * 3.0);
+  const immigContrib     = -(Math.max(0, inputs.immigrationRestriction - 4) * 2.0);
+  const rateContrib      = -(Math.max(0, inputs.fedRate - 3.0) * 2.5);
   const spreadContrib    = -(Math.max(0, inputs.creditSpread - 100) * 0.055);
   const yieldContrib     = inputs.yieldCurve < 0 ? inputs.yieldCurve * 5 : 0;
   const finContrib       = rateContrib + spreadContrib + yieldContrib;
@@ -376,8 +376,8 @@ function computeNFP(inputs) {
   const bear = Math.round(headline - uncertaintyBand * 0.85);
   const bull = Math.round(headline + uncertaintyBand * 0.65);
 
-  const CONSENSUS = 180;
-  const direction = headline >= CONSENSUS + 30 ? 'stronger' : headline <= CONSENSUS - 30 ? 'weaker' : 'in-line';
+  const CONSENSUS = (typeof nfpConsensus === 'number' && nfpConsensus > 0) ? nfpConsensus : 160;
+  const direction = headline >= CONSENSUS + 20 ? 'stronger' : headline <= CONSENSUS - 20 ? 'weaker' : 'in-line';
 
   let regime;
   if      (headline >= 250) regime = 'Hot';
