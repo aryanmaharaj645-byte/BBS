@@ -1794,8 +1794,38 @@ async function triggerGapSignal() {
 
 function showGeneratingModal() {
   document.getElementById('generating-overlay').classList.add('open');
-  // Auto-reload after 2 min when Netlify redeploy should be live
-  setTimeout(() => window.location.reload(), 120000);
+
+  const currentTs = gapData?.generated_at || '';
+  const RAW_URL = 'https://raw.githubusercontent.com/aryanmaharaj645-byte/BBS/main/platform/data/latest.json';
+
+  let attempts = 0;
+  const poll = setInterval(async () => {
+    attempts++;
+    try {
+      const res  = await fetch(RAW_URL + '?t=' + Date.now());
+      if (!res.ok) return;
+      const data = await res.json();
+      if (data.generated_at && data.generated_at !== currentTs) {
+        clearInterval(poll);
+        gapData       = data;
+        gapAllSignals = data.signals || {};
+        gapRecommended = data.recommended_assets || [];
+        gapAvoid      = data.assets_to_avoid || [];
+        applyGapToSidebar(data);
+        renderGapStats(data);
+        renderGapTable();
+        renderGapPicks();
+        renderGapMacro(data);
+        renderGapNews(data.news_articles || []);
+        renderMainNews();
+        document.getElementById('generating-overlay').classList.remove('open');
+      }
+    } catch { /* network blip — keep polling */ }
+    if (attempts >= 36) { // 3 min timeout fallback
+      clearInterval(poll);
+      window.location.reload();
+    }
+  }, 5000);
 }
 
 function showCommandModal() {
