@@ -1,69 +1,69 @@
 {
-  "generated_at": "Friday 2026-06-05 20:35 UTC",
-  "macro_theme": "The dominant theme this week is the strong US jobs report, which has led to expectations of a Federal Reserve rate increase, causing bond yields to rise and the US dollar to strengthen. Additionally, geopolitical tensions in the Middle East and Ukraine are also influencing market sentiment.",
-  "trump_risk_level": "MEDIUM",
-  "geopolitical_risk": "HIGH",
+  "generated_at": "Wednesday 2026-06-10 17:59 UTC",
+  "macro_theme": "The dominant theme this week is the escalating tensions between the US and Iran, with Trump's rhetoric and actions driving market volatility. The US inflation rate hitting a three-year high has also contributed to the uncertainty.",
+  "trump_risk_level": "EXTREME",
+  "geopolitical_risk": "EXTREME",
   "recommended_assets": [
     "USDJPY",
     "USDCHF",
-    "USDCAD"
+    "GOLD"
   ],
   "assets_to_avoid": [
-    "EURGBP",
-    "AUDJPY",
-    "CADJPY"
+    "AUDUSD",
+    "NZDUSD",
+    "EURGBP"
   ],
   "signals": {
     "EURUSD": {
       "direction": "SELL",
-      "confidence": 70,
+      "confidence": 60,
       "gap_type": "FILL",
-      "expected_gap_size": "SMALL(<0.2%)",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "Strong US jobs report",
-        "Rising US bond yields",
-        "Trump's comments on interest rates"
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "DXY strength"
       ],
       "risks": [
-        "Geopolitical tensions in the Middle East",
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected European economic data"
+        "Unexpected dovish Fed comments",
+        "Iran-US conflict escalation",
+        "Eurozone economic data surprise"
       ],
-      "trade_bias": "Look for a short-term sell opportunity on a gap fill, targeting the 1.1500 level."
+      "trade_bias": "Look for a short opportunity on a gap fill towards 1.1500."
     },
     "GBPUSD": {
       "direction": "SELL",
-      "confidence": 60,
+      "confidence": 55,
       "gap_type": "FILL",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "Strong US jobs report",
-        "Rising US bond yields",
-        "Brexit uncertainty"
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "UK economic data weakness"
       ],
       "risks": [
-        "Geopolitical tensions in the Middle East",
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected UK economic data"
+        "BOE surprises with a rate hike",
+        "Iran-US conflict escalation",
+        "UK-US trade deal announcement"
       ],
-      "trade_bias": "Look for a short-term sell opportunity on a gap fill, targeting the 1.3300 level."
+      "trade_bias": "Consider a short position on a gap fill towards 1.3300."
     },
     "USDJPY": {
       "direction": "BUY",
       "confidence": 80,
       "gap_type": "CONTINUATION",
-      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "expected_gap_size": "LARGE(>0.5%)",
       "key_drivers": [
-        "Strong US jobs report",
-        "Rising US bond yields",
-        "Safe-haven flows into the US dollar"
+        "Trump's rhetoric against Iran",
+        "US inflation rate hits three-year high",
+        "Japanese economic data weakness"
       ],
       "risks": [
-        "Geopolitical tensions in the Middle East",
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data"
+        "Unexpected dovish Fed comments",
+        "Iran-US conflict de-escalation",
+        "Japanese intervention in the FX market"
       ],
-      "trade_bias": "Look for a long-term buy opportunity on a gap continuation, targeting the 162.00 level."
+      "trade_bias": "Look for a long opportunity on a gap continuation towards 162.00."
     },
     "USDCHF": {
       "direction": "BUY",
@@ -71,99 +71,101 @@
       "gap_type": "CONTINUATION",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "Strong US jobs report",
-        "Rising US bond yields",
-        "Safe-haven flows into the US dollar"
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "Swiss economic data weakness"
       ],
       "risks": [
-        "Geopolitical tensions in the Middle East",
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data"
+        "SNB surprises with a rate hike",
+        "Iran-US conflict escalation",
+        "Swiss-US trade deal announcement"
       ],
-      "trade_bias": "Look for a long-term buy opportunity on a gap continuation, targeting the 0.8000 level."
+      "trade_bias": "Consider a long position on a gap continuation towards 0.8100."
     },
     "AUDUSD": {
-      "direction": "SELL",
-      "confidence": 65,
-      "gap_type": "FILL",
-      "expected_gap_size": "SMALL(<0.2%)",
-      "key_drivers": [
-        "Strong US jobs report",
-        "Rising US bond yields",
-        "Weaker-than-expected Australian economic data"
-      ],
-      "risks": [
-        "Geopolitical tensions in the Middle East",
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data"
-      ],
-      "trade_bias": "Look for a short-term sell opportunity on a gap fill, targeting the 0.7000 level."
-    },
-    "NZDUSD": {
-      "direction": "SELL",
-      "confidence": 60,
-      "gap_type": "FILL",
-      "expected_gap_size": "SMALL(<0.2%)",
-      "key_drivers": [
-        "Strong US jobs report",
-        "Rising US bond yields",
-        "Weaker-than-expected New Zealand economic data"
-      ],
-      "risks": [
-        "Geopolitical tensions in the Middle East",
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data"
-      ],
-      "trade_bias": "Look for a short-term sell opportunity on a gap fill, targeting the 0.5800 level."
-    },
-    "USDCAD": {
-      "direction": "BUY",
-      "confidence": 70,
-      "gap_type": "CONTINUATION",
-      "expected_gap_size": "MEDIUM(0.2-0.5%)",
-      "key_drivers": [
-        "Strong US jobs report",
-        "Rising US bond yields",
-        "OPEC production policy monitor"
-      ],
-      "risks": [
-        "Geopolitical tensions in the Middle East",
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data"
-      ],
-      "trade_bias": "Look for a long-term buy opportunity on a gap continuation, targeting the 1.4000 level."
-    },
-    "EURJPY": {
       "direction": "NEUTRAL",
       "confidence": 40,
       "gap_type": "UNCERTAIN",
       "expected_gap_size": "NONE",
       "key_drivers": [
-        "Geopolitical tensions in the Middle East",
-        "Weaker-than-expected European economic data"
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "Australian economic data surprise"
       ],
       "risks": [
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data",
-        "Safe-haven flows into the Japanese yen"
+        "RBA surprises with a rate cut",
+        "Iran-US conflict escalation",
+        "Australian-US trade deal announcement"
       ],
-      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
     },
-    "GBPJPY": {
+    "NZDUSD": {
       "direction": "NEUTRAL",
       "confidence": 35,
       "gap_type": "UNCERTAIN",
       "expected_gap_size": "NONE",
       "key_drivers": [
-        "Geopolitical tensions in the Middle East",
-        "Brexit uncertainty"
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "New Zealand economic data surprise"
       ],
       "risks": [
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data",
-        "Safe-haven flows into the Japanese yen"
+        "RBNZ surprises with a rate cut",
+        "Iran-US conflict escalation",
+        "New Zealand-US trade deal announcement"
       ],
-      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
+    },
+    "USDCAD": {
+      "direction": "BUY",
+      "confidence": 65,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "Canadian economic data weakness"
+      ],
+      "risks": [
+        "BOC surprises with a rate hike",
+        "Iran-US conflict escalation",
+        "Canadian-US trade deal announcement"
+      ],
+      "trade_bias": "Consider a long position on a gap continuation towards 1.4000."
+    },
+    "EURJPY": {
+      "direction": "SELL",
+      "confidence": 50,
+      "gap_type": "FILL",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "European economic data weakness"
+      ],
+      "risks": [
+        "ECB surprises with a rate hike",
+        "Iran-US conflict escalation",
+        "European-Japanese trade deal announcement"
+      ],
+      "trade_bias": "Look for a short opportunity on a gap fill towards 180.00."
+    },
+    "GBPJPY": {
+      "direction": "SELL",
+      "confidence": 45,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "UK economic data weakness"
+      ],
+      "risks": [
+        "BOE surprises with a rate hike",
+        "Iran-US conflict escalation",
+        "UK-Japanese trade deal announcement"
+      ],
+      "trade_bias": "Consider a short position on a gap fill towards 210.00."
     },
     "EURGBP": {
       "direction": "NEUTRAL",
@@ -171,15 +173,16 @@
       "gap_type": "UNCERTAIN",
       "expected_gap_size": "NONE",
       "key_drivers": [
-        "Geopolitical tensions in the Middle East",
-        "Brexit uncertainty"
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "European economic data surprise"
       ],
       "risks": [
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data",
-        "Weaker-than-expected European economic data"
+        "ECB surprises with a rate hike",
+        "Iran-US conflict escalation",
+        "European-UK trade deal announcement"
       ],
-      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
     },
     "AUDJPY": {
       "direction": "NEUTRAL",
@@ -187,520 +190,574 @@
       "gap_type": "UNCERTAIN",
       "expected_gap_size": "NONE",
       "key_drivers": [
-        "Geopolitical tensions in the Middle East",
-        "Weaker-than-expected Australian economic data"
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "Australian economic data surprise"
       ],
       "risks": [
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data",
-        "Safe-haven flows into the Japanese yen"
+        "RBA surprises with a rate cut",
+        "Iran-US conflict escalation",
+        "Australian-Japanese trade deal announcement"
       ],
-      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
     },
     "EURAUD": {
       "direction": "BUY",
-      "confidence": 55,
+      "confidence": 60,
       "gap_type": "CONTINUATION",
-      "expected_gap_size": "SMALL(<0.2%)",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "Strong US jobs report",
-        "Rising US bond yields",
-        "Weaker-than-expected Australian economic data"
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "European economic data strength"
       ],
       "risks": [
-        "Geopolitical tensions in the Middle East",
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data"
+        "ECB surprises with a rate hike",
+        "Iran-US conflict escalation",
+        "European-Australian trade deal announcement"
       ],
-      "trade_bias": "Look for a long-term buy opportunity on a gap continuation, targeting the 1.6500 level."
+      "trade_bias": "Consider a long position on a gap continuation towards 1.7000."
     },
     "GBPAUD": {
       "direction": "BUY",
-      "confidence": 50,
-      "gap_type": "CONTINUATION",
-      "expected_gap_size": "SMALL(<0.2%)",
-      "key_drivers": [
-        "Strong US jobs report",
-        "Rising US bond yields",
-        "Brexit uncertainty"
-      ],
-      "risks": [
-        "Geopolitical tensions in the Middle East",
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data"
-      ],
-      "trade_bias": "Look for a long-term buy opportunity on a gap continuation, targeting the 1.9000 level."
-    },
-    "EURCAD": {
-      "direction": "BUY",
-      "confidence": 60,
-      "gap_type": "CONTINUATION",
-      "expected_gap_size": "MEDIUM(0.2-0.5%)",
-      "key_drivers": [
-        "Strong US jobs report",
-        "Rising US bond yields",
-        "OPEC production policy monitor"
-      ],
-      "risks": [
-        "Geopolitical tensions in the Middle East",
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data"
-      ],
-      "trade_bias": "Look for a long-term buy opportunity on a gap continuation, targeting the 1.6200 level."
-    },
-    "CADJPY": {
-      "direction": "NEUTRAL",
-      "confidence": 20,
-      "gap_type": "UNCERTAIN",
-      "expected_gap_size": "NONE",
-      "key_drivers": [
-        "Geopolitical tensions in the Middle East",
-        "OPEC production policy monitor"
-      ],
-      "risks": [
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data",
-        "Safe-haven flows into the Japanese yen"
-      ],
-      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
-    },
-    "US30": {
-      "direction": "NEUTRAL",
-      "confidence": 45,
-      "gap_type": "UNCERTAIN",
-      "expected_gap_size": "NONE",
-      "key_drivers": [
-        "Strong US jobs report",
-        "Rising US bond yields"
-      ],
-      "risks": [
-        "Geopolitical tensions in the Middle East",
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data"
-      ],
-      "trade_bias": "Avoid trading this index due to high uncertainty and conflicting signals."
-    },
-    "NAS100": {
-      "direction": "SELL",
-      "confidence": 65,
-      "gap_type": "FILL",
-      "expected_gap_size": "SMALL(<0.2%)",
-      "key_drivers": [
-        "Strong US jobs report",
-        "Rising US bond yields",
-        "Weaker-than-expected tech earnings"
-      ],
-      "risks": [
-        "Geopolitical tensions in the Middle East",
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data"
-      ],
-      "trade_bias": "Look for a short-term sell opportunity on a gap fill, targeting the 28000 level."
-    },
-    "GOLD": {
-      "direction": "BUY",
       "confidence": 55,
       "gap_type": "CONTINUATION",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "Geopolitical tensions in the Middle East",
-        "Safe-haven flows into gold"
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "UK economic data strength"
       ],
       "risks": [
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data",
-        "Stronger-than-expected US dollar"
+        "BOE surprises with a rate hike",
+        "Iran-US conflict escalation",
+        "UK-Australian trade deal announcement"
       ],
-      "trade_bias": "Look for a long-term buy opportunity on a gap continuation, targeting the 4400 level."
+      "trade_bias": "Look for a long opportunity on a gap continuation towards 1.9500."
     },
-    "OIL": {
+    "EURCAD": {
+      "direction": "NEUTRAL",
+      "confidence": 40,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "European economic data surprise"
+      ],
+      "risks": [
+        "ECB surprises with a rate hike",
+        "Iran-US conflict escalation",
+        "European-Canadian trade deal announcement"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
+    },
+    "CADJPY": {
+      "direction": "NEUTRAL",
+      "confidence": 30,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "Canadian economic data surprise"
+      ],
+      "risks": [
+        "BOC surprises with a rate hike",
+        "Iran-US conflict escalation",
+        "Canadian-Japanese trade deal announcement"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
+    },
+    "US30": {
+      "direction": "SELL",
+      "confidence": 70,
+      "gap_type": "FILL",
+      "expected_gap_size": "LARGE(>0.5%)",
+      "key_drivers": [
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "US economic data weakness"
+      ],
+      "risks": [
+        "Fed surprises with a rate cut",
+        "Iran-US conflict escalation",
+        "US-China trade deal announcement"
+      ],
+      "trade_bias": "Look for a short opportunity on a gap fill towards 49000."
+    },
+    "NAS100": {
+      "direction": "SELL",
+      "confidence": 75,
+      "gap_type": "FILL",
+      "expected_gap_size": "LARGE(>0.5%)",
+      "key_drivers": [
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "US tech sector weakness"
+      ],
+      "risks": [
+        "Fed surprises with a rate cut",
+        "Iran-US conflict escalation",
+        "US-China trade deal announcement"
+      ],
+      "trade_bias": "Consider a short position on a gap fill towards 28000."
+    },
+    "GOLD": {
       "direction": "BUY",
-      "confidence": 60,
+      "confidence": 80,
       "gap_type": "CONTINUATION",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "Geopolitical tensions in the Middle East",
-        "OPEC production policy monitor"
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "Geopolitical tensions"
       ],
       "risks": [
-        "Unexpected change in Fed policy",
-        "Weaker-than-expected US economic data",
-        "Stronger-than-expected US dollar"
+        "Fed surprises with a rate hike",
+        "Iran-US conflict de-escalation",
+        "Gold supply increase"
       ],
-      "trade_bias": "Look for a long-term buy opportunity on a gap continuation, targeting the 95.00 level."
+      "trade_bias": "Look for a long opportunity on a gap continuation towards 4200."
+    },
+    "OIL": {
+      "direction": "BUY",
+      "confidence": 75,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US inflation rate hits three-year high",
+        "Trump's rhetoric against Iran",
+        "Geopolitical tensions"
+      ],
+      "risks": [
+        "OPEC surprises with a production increase",
+        "Iran-US conflict de-escalation",
+        "Oil supply increase"
+      ],
+      "trade_bias": "Consider a long position on a gap continuation towards 95.00."
     }
   },
   "news_articles": [
     {
+      "source": "Investing.com News",
+      "title": "Taiwan-listed Ennoconn offers to buy Austria\u2019s Kontron in $1.7 billion deal",
+      "summary": "",
+      "url": "https://www.investing.com/news/stock-market-news/taiwanlisted-ennoconn-offers-to-buy-austrias-kontron-in-17-billion-deal-4735884",
+      "age_hours": 0.1
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Form 144 Howard Hughes Holdings Inc. For: 10 June",
+      "summary": "",
+      "url": "https://www.investing.com/news/filings/form-144-howard-hughes-holdings-inc-for-10-june-93CH-4735883",
+      "age_hours": 0.1
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Wall Street indexes slide 1% each as Trump ramps up rhetoric against Iran",
+      "summary": "",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-amid-more-iran-strikes-tech-weakness-cpi-data-awaited-4734248",
+      "age_hours": 0.1
+    },
+    {
+      "source": "BBC Business",
+      "title": "Trump says he 'loves the inflation' as US prices rise at fastest rate in three years",
+      "summary": "Consumers are increasingly feeling the strain of the US Israel war in Iran.",
+      "url": "https://www.bbc.com/news/articles/c0myzxjkw99o?at_medium=RSS&at_campaign=rss",
+      "age_hours": 0.1
+    },
+    {
+      "source": "BBC World",
+      "title": "Trump says US will hit Iran 'hard' again today",
+      "summary": "The US president warns Iran \"will have to pay the price\" for taking too long to agree a deal, after Tehran vows retaliation to any attacks.",
+      "url": "https://www.bbc.com/news/articles/ce371kw2ex2o?at_medium=RSS&at_campaign=rss",
+      "age_hours": 0.4
+    },
+    {
       "source": "CNBC Top News",
-      "title": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push",
-      "summary": "Meta shares dropped after the Financial Times reported the company could potentially raise tens of billions of dollars in a stock offering to help its AI push.",
-      "url": "https://www.cnbc.com/2026/06/05/meta-stock-sinks-on-report-company-could-raise-tens-of-billions-for-ai.html",
-      "age_hours": 0.2
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Earnings and AI-Driven CapEx as Key to Sustained Gains",
-      "summary": "Katherine Bordlethwait, Goldman Sachs asset management co head of equity client portfolio management, discussed the current equity market environment amid record highs and strong investor enthusiasm. She emphasized that continued earnings growth is critical for the market to sustain its momentum, no",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-05/earnings-and-ai-driven-capex-as-key-to-sustained-gains-video",
-      "age_hours": 0.2
-    },
-    {
-      "source": "CNBC Top News",
-      "title": "Bitcoin cracks $60,000, sinking to lowest level since October 2024",
-      "summary": "The weeklong sell-off was exacerbated after a stronger-than-expected\u00a0May jobs report Friday sent yields higher and pressured risk assets.",
-      "url": "https://www.cnbc.com/2026/06/05/bitcoin-dismal-week-price-below-all-time-high-crypto-investors.html",
-      "age_hours": 0.3
-    },
-    {
-      "source": "FT Markets",
-      "title": "Nasdaq tumbles 4% as shares in chip and memory groups sink",
-      "summary": "Rising expectations of a Federal Reserve rate increase send US bond yields rising sharply",
-      "url": "https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603",
+      "title": "Trump pledges more Iran strikes, saying U.S. will be 'attacking them very hard'",
+      "summary": "President Donald Trump promised more attacks on Iran after strikes resumed this week. Earlier this week, he said a deal to end the war was near.",
+      "url": "https://www.cnbc.com/2026/06/10/trump-iran-war-attacks-deal.html",
       "age_hours": 0.5
     },
     {
       "source": "CNBC Top News",
-      "title": "Iran's threats against this Red Sea chokepoint are a big vulnerability for the oil market",
-      "summary": "Oil prices would spike if Iran's Houthi allies started attacking ships passing through the Bab el-Mandeb Strait.",
-      "url": "https://www.cnbc.com/2026/06/05/iran-war-oil-price-strait-hormuz-bab-el-mandeb-chokepoint.html",
-      "age_hours": 0.7
+      "title": "Trump says 'I love the inflation' after consumer price index hits 3-year high",
+      "summary": "President Trump suggested that inflation would drop when the U.S. war against Iran ends, and said,  \"we've been taking out millions of barrels of oil.\"",
+      "url": "https://www.cnbc.com/2026/06/10/trump-inflation-cpi-iran-oil.html",
+      "age_hours": 0.5
     },
     {
-      "source": "Al Jazeera",
-      "title": "France opens \u2018war crimes\u2019 probe into Israel\u2019s treatment of Gaza activists",
-      "summary": "French activists who took part in a Gaza-bound foreign aid flotilla accuse Israeli forces of abuse and torture.",
-      "url": "https://www.aljazeera.com/news/2026/6/5/france-opens-war-crimes-probe-into-israels-treatment-of-gaza-activists?traffic_source=rss",
-      "age_hours": 0.7
+      "source": "OilPrice.com",
+      "title": "Energy Prices Drive U.S. Inflation To Three-Year High",
+      "summary": "U.S. inflation climbed above 4% for the first time in three years in May as rising energy costs tied to the Iran war pushed consumer costs sharply higher, with the Consumer Price Index rising 0.5% from April and 4.2% from a year earlier, according to data released Wednesday by the Bureau of Labor St",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Energy-Prices-Drive-US-Inflation-To-Three-Year-High.html",
+      "age_hours": 0.5
     },
     {
-      "source": "Al Jazeera",
-      "title": "Families clear rubble after overnight Israeli strikes in Gaza",
-      "summary": "Families in Az-Zawayda, central Gaza, clear rubble after overnight Israeli strikes in Gaza",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/5/families-clear-rubble-after-overnight-israeli-strikes-in-gaza?traffic_source=rss",
+      "source": "CNBC Top News",
+      "title": "Volatility surge has trader eyeing one 'stable' stock",
+      "summary": "Mike Khouw is looking for a stable, cash-generating business where he can sell volatility instead of buying drama.",
+      "url": "https://www.cnbc.com/2026/06/10/volatility-surge-has-trader-eyeing-one-stable-stock.html",
+      "age_hours": 0.6
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Iren Ltd (IREN): Crypto Mining Giving Way to AI Data Centers",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/iren-ltd-iren-crypto-mining-172553278.html",
+      "age_hours": 0.6
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "T. Rowe Price Group Inc (TROW) Looks to Crypto to Meet Client Needs",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/t-rowe-price-group-inc-172541989.html",
+      "age_hours": 0.6
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "BlackRock Inc (BLK) Offers Dividend As It Sees Crypto Shaping Markets",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/blackrock-inc-blk-offers-dividend-172523489.html",
+      "age_hours": 0.6
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "In Robinhood Markets Inc (HOOD)\u2019s AI-Powered Trading, Crypto Comes Later",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/robinhood-markets-inc-hood-ai-172512571.html",
+      "age_hours": 0.6
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Mastercard Inc (MA) Secures New York Crypto License",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/mastercard-inc-ma-secures-york-172447319.html",
+      "age_hours": 0.6
+    },
+    {
+      "source": "ForexLive",
+      "title": "Bessent: US disrupts procurement networks that support Iran",
+      "summary": "Treasury Sec Bessent: US has disrupted procurement networks that support Iran. Frozen the Iranians regimes assets severely disrupted is economy. Dismantled its war machine Bessent adds that the US treasury will not tolerate any support of the Iranian military.  arlier Pres. Trump said that the US wi",
+      "url": "https://investinglive.com/news/bessent-us-disrupts-procurement-networks-that-support-iran-20260610/",
+      "age_hours": 0.6
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "We thought we found the perfect luxury retirement community, but it\u2019s millions of dollars in debt. Are we trapped?",
+      "summary": "\u201cIf we were to leave, we would lose a portion of our buy-in \u2014 about $80,000.\u201d",
+      "url": "https://www.marketwatch.com/story/we-thought-we-found-the-perfect-luxury-retirement-community-but-its-millions-of-dollars-in-debt-are-we-trapped-cde2e8f5?mod=mw_rss_topstories",
       "age_hours": 0.9
     },
     {
-      "source": "BBC Business",
-      "title": "Trump to meet AI leaders to discuss US investment in their companies",
-      "summary": "The US president said on Friday he expects to meet the leaders of top AI companies next week.",
-      "url": "https://www.bbc.com/news/articles/c98r8r7dz5no?at_medium=RSS&at_campaign=rss",
+      "source": "ForexLive",
+      "title": "U.S. Treasury auctions off $39 billion of 10 year notes at a high yield of 4.538%",
+      "summary": "High yield 4.538%. WI level at the time of the auction 4.539%. Tail -0.1 basis points versus six auction average of 0.6 basis points Bid to cover 2.57X versus 2.44X Directs 12.3% versus average of 21.1% Indirects 78.21% versus average of 67.6% Dealers 9.5% vs average 11.4% Auction Grade B+ The only ",
+      "url": "https://investinglive.com/news/us-treasury-auctions-off-39-billion-of-10-year-notes-at-a-high-yield-of-4538-20260610/",
+      "age_hours": 0.9
+    },
+    {
+      "source": "OilPrice.com",
+      "title": "China Unveils Nuclear-Powered Floating Hub for Zero-Emission Shipping",
+      "summary": "China has proposed a large offshore logistics platform powered by nuclear energy that would function as both a cargo transfer hub and a refuelling/charging centre for ships, according to the South China Morning Post. The concept, unveiled by Jiangnan Shipyard, combines port infrastructure, energy ge",
+      "url": "https://oilprice.com/Energy/Energy-General/China-Unveils-Nuclear-Powered-Floating-Hub-for-Zero-Emission-Shipping.html",
       "age_hours": 1.0
     },
     {
-      "source": "CNBC Finance",
-      "title": "Hot jobs report puts Fed cuts further out of reach as Chair Warsh faces policy tests",
-      "summary": "Another big jobs report in May has swept aside the possibility of interest rate cuts anytime soon.",
-      "url": "https://www.cnbc.com/2026/06/05/hot-jobs-report-puts-fed-cuts-further-out-of-reach-as-chair-warsh-faces-policy-tests.html",
+      "source": "CNBC Top News",
+      "title": "Sen. Warren calls on SEC to delay SpaceX IPO, flagging concerns about valuation and governance",
+      "summary": "Sen. Elizabeth Warren noted Elon Musk's \"uniquely unchecked\" power as SpaceX's majority shareholder and other concerns in a letter to the SEC.",
+      "url": "https://www.cnbc.com/2026/06/10/spacex-elizabeth-warren-elon-musk-sec-ipo.html",
+      "age_hours": 1.1
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "US inflation hits new three-year high amid energy price surge",
+      "summary": "US markets stumbled as inflation data sparked fears of interest rate rises in the coming months.",
+      "url": "https://www.aljazeera.com/economy/2026/6/10/us-inflation-hits-new-three-year-high-amid-energy-price-surge?traffic_source=rss",
+      "age_hours": 1.1
+    },
+    {
+      "source": "ForexLive",
+      "title": "The US treasury to auction 10 year notes. Why is it so important?",
+      "summary": "The US treasury will auction off $39 billion of 10 year notes at the top of the hour. The current 10 year yield is at 4.534%. At the last auction the yield was set at 4.468%. Since the war started on February 28, the low yield was at 3.926% on March 2, the high was reached at 4.687% on May 19. The c",
+      "url": "https://investinglive.com/news/the-us-treasury-to-auction-10-year-notes-why-is-it-so-important-20260610/",
+      "age_hours": 1.2
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "LIVE: Portugal vs Nigeria \u2013 World Cup 2026 international friendly",
+      "summary": "Follow our live build-up, with full team news coverage, ahead of our text commentary stream of the World Cup warm-up.",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/6/10/live-portugal-vs-nigeria-world-cup-2026-international-friendly?traffic_source=rss",
+      "age_hours": 1.2
+    },
+    {
+      "source": "Guardian World",
+      "title": "Hegseth warns Cuba against acquiring weapons in visit to Guant\u00e1namo Bay",
+      "summary": "US defense secretary continues ramp-up of pressure against country including sanctions and devastating oil blockade Pete Hegseth  has warned Cuba against acquiring weapons that could threaten the United States, during a visit to the US military base at Guant\u00e1namo Bay. Washington has ramped up pressu",
+      "url": "https://www.theguardian.com/us-news/2026/jun/10/hegseth-warns-cuba-weapons-guantanamo-bay",
+      "age_hours": 1.3
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Oil Crunch Is Stoking Asia\u2019s Demand for Coal, Shipping CEO Says",
+      "summary": "Coal is emerging as an increasingly attractive alternative to oil for energy-starved countries across Asia, according to Stamatis Tsantanis, chief executive officer of Seanergy Maritime Holdings Corp.",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-10/china-restocks-massive-coal-amounts-as-strait-of-hormuz-closure-reshapes-energy",
       "age_hours": 1.4
     },
     {
-      "source": "Al Jazeera",
-      "title": "Anthropic urges AI labs to pause, warns humans risk losing control",
-      "summary": "It warned that rapid advances in technology could soon allow AI systems to improve themselves faster than human control.",
-      "url": "https://www.aljazeera.com/economy/2026/6/5/anthropic-urges-ai-labs-to-pause-warns-humans-risk-losing-control?traffic_source=rss",
-      "age_hours": 1.4
+      "source": "Bloomberg Markets",
+      "title": "Warburg CEO Calls IPO Market \u2018Broken\u2019 Even Amid Giant Offerings",
+      "summary": "Bloomberg's Dani Burger speaks with Warburg Pincus CEO Jeffrey Perlman at the SuperReturn conference in Berlin. They discuss US IPOs as the current pipeline is now worth some $3.6 trillion.\n\n (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-10/warburg-ceo-calls-ipo-market-broken-amid-giant-offerings-video",
+      "age_hours": 1.5
+    },
+    {
+      "source": "OilPrice.com",
+      "title": "Hormuz Shutdown Forces Malaysia to Overhaul Crude Supply Chain",
+      "summary": "Malaysia is looking to diversify its crude sourcing with supply from the U.S., South America, and Africa as the Hormuz crisis has choked off its key Middle Eastern deliveries, Malaysian Economy Minister Akmal Nasrullah Mohd Nasir said on Wednesday. The Asian economies were the first to be hit by the",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shutdown-Forces-Malaysia-to-Overhaul-Crude-Supply-Chain.html",
+      "age_hours": 1.5
+    },
+    {
+      "source": "CNBC Top News",
+      "title": "Trump signs $70 billion immigration funding bill after months of delay",
+      "summary": "The $70 billion package will fund Immigration and Customs Enforcement and Customs and Border Protection through the end of President Donald Trump's term.",
+      "url": "https://www.cnbc.com/2026/06/10/trump-ice-70-billion-immigration-funding.html",
+      "age_hours": 1.6
+    },
+    {
+      "source": "OilPrice.com",
+      "title": "UK Economy Set to Shrink as Iran Energy Shock Hits Growth",
+      "summary": "The UK economy is expected to contract despite a boost at the start of the year, with economists warning that the war in Iran\u2019s energy price shock will now show up in fresh data.\u00a0 Economists believe that the UK economy declined by 0.1 per cent in April. Official figures will be published on Friday.\u00a0",
+      "url": "https://oilprice.com/Energy/Energy-General/UK-Economy-Set-to-Shrink-as-Iran-Energy-Shock-Hits-Growth.html",
+      "age_hours": 2.0
     },
     {
       "source": "Al Jazeera",
-      "title": "Judge strikes down Trump bar on asylum, visa processing for 39 countries",
-      "summary": "Judge says restrictions put lives of immigrants in 'indeterminate legal limbo', motivated by 'anti-immigrant sentiment'.",
-      "url": "https://www.aljazeera.com/news/2026/6/5/judge-strikes-down-trump-bar-on-asylum-visa-processing-for-39-countries?traffic_source=rss",
-      "age_hours": 1.8
+      "title": "Trump hardens tone against Iran, says \u2018may keep going\u2019 with strikes",
+      "summary": "US president claims Iran is 'completely defeated' and renews threats to bomb the country's civilian infrastructure.",
+      "url": "https://www.aljazeera.com/news/2026/6/10/trump-hardens-tone-against-iran-says-may-keep-going-with-strikes?traffic_source=rss",
+      "age_hours": 2.1
     },
     {
-      "source": "Al Jazeera",
-      "title": "Is the latest US ceasefire deal for Lebanon meaningless?",
-      "summary": "Israel and Hezbollah continue fighting after truce announcement.",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/6/5/is-the-latest-us-ceasefire-deal-for-lebanon-meaningless?traffic_source=rss",
-      "age_hours": 1.8
+      "source": "ForexLive",
+      "title": "Trump: We will be attacking Iran \"very hard\"",
+      "summary": "Trump cites the downed helicopter. We want a deal that's meaningful and works We're going to hit them again hard today We'll see what happens with the deal They keep tapping us along They should sign the deal Declined to say he was going to hit bridges and power plants They have agreed to not have a",
+      "url": "https://investinglive.com/news/trump-we-will-be-attacking-iran-hard-20260610/",
+      "age_hours": 2.2
     },
     {
-      "source": "MarketWatch Top",
-      "title": "Will you be audited by Trump\u2019s IRS? New data says there\u2019s one group that can breathe a lot easier.",
-      "summary": "A new report out Friday reflects IRS audit activity and other operations at the start of the second Trump presidency.",
-      "url": "https://www.marketwatch.com/story/will-you-be-audited-by-trumps-irs-new-data-says-theres-one-group-that-can-breathe-a-lot-easier-43b68411?mod=mw_rss_topstories",
+      "source": "ForexLive",
+      "title": "Hegseth: Iran would be unwise to challenge the US further",
+      "summary": "Trump earlier talked about the US hitting back and I'd say that's likely but a bit less on this. This is a guy who was talking tough every day during the early phase of the war and now there's a comment like this? That reads as someone looking for a way out of this. It looks like Iran is trying to e",
+      "url": "https://investinglive.com/news/hegseth-iran-would-be-unwise-to-challenge-the-us-further-20260610/",
       "age_hours": 2.3
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Sanctions on settlers not enough: Target Israeli gov\u2019t, say campaigners",
+      "summary": "Campaigners argue that sanctions reflect a need to manage public anger rather than a genuine shift in state policy.",
+      "url": "https://www.aljazeera.com/news/2026/6/10/sanctions-on-settlers-not-enough-target-israeli-govt-say-campaigners?traffic_source=rss",
+      "age_hours": 2.5
+    },
+    {
+      "source": "OilPrice.com",
+      "title": "EnQuest Bets $833 Million on Malaysia's Offshore Oil",
+      "summary": "EnQuest PLC has agreed to buy interests in four production sharing contracts offshore Malaysia from local state firm Petronas for up to $833 million, as the UK-based oil and gas producer bets on growth opportunities in Southeast Asia. EnQuest on Wednesday said that its wholly-owned subsidiary, EnQue",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/EnQuest-Bets-833-Million-on-Malaysias-Offshore-Oil.html",
+      "age_hours": 2.5
+    },
+    {
+      "source": "Guardian World",
+      "title": "Labor scraps plan to make spy agency\u2019s 9/11-era questioning powers permanent",
+      "summary": "But Australian government will expand offences covered by rules to include promotion of communal violence and attacks on defence system Get our  breaking news email ,  free app  or  daily news podcast Labor has quietly backed down on moves to make spy agency Asio\u2019s powers for compulsory questioning ",
+      "url": "https://www.theguardian.com/australia-news/2026/jun/11/australian-government-scraps-asio-compulsory-questioning-plans",
+      "age_hours": 3.0
     },
     {
       "source": "BBC World",
-      "title": "Putin says there is 'no point' meeting Zelensky over ending Ukraine war",
-      "summary": "The Russian president's refusal comes after his Ukrainian counterpart wrote an open letter calling for face-to-face talks.",
-      "url": "https://www.bbc.com/news/articles/cpqpqx5qe40o?at_medium=RSS&at_campaign=rss",
-      "age_hours": 2.3
-    },
-    {
-      "source": "CNBC Top News",
-      "title": "Crypto mutiny on Strategy: Shorts target 'MSTR' in bitcoin bloodbath",
-      "summary": "Flows around Strategy (MSTR) and the company's variable-rate preferred stock STRC are turning bearish this week.",
-      "url": "https://www.cnbc.com/2026/06/05/crypto-mutiny-on-strategy-shorts-target-mstr-in-bitcoin-bloodbath.html",
-      "age_hours": 2.4
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "The Fed may already be too late in hiking interest rates \u2014 which is bad news for these borrowers",
-      "summary": "Friday\u2019s strong jobs report could soon feel like a double-edged sword for borrowers struggling to keep up with inflation and their bills.",
-      "url": "https://www.marketwatch.com/story/the-fed-may-already-be-too-late-in-hiking-interest-rates-which-is-bad-news-for-these-borrowers-a482641c?mod=mw_rss_topstories",
-      "age_hours": 2.4
-    },
-    {
-      "source": "CNBC Top News",
-      "title": "Trump wants Bill Pulte to fire big chunk of national intelligence office staff: WSJ",
-      "summary": "President Trump's comments are sure to roil members of Congress who criticized the appointment of Bill Pulte as acting national intelligence director.",
-      "url": "https://www.cnbc.com/2026/06/05/trump-bill-pulte-fire-intelligence-dni.html",
-      "age_hours": 2.6
-    },
-    {
-      "source": "ForexLive",
-      "title": "Trump: Would like to see lower interest rates",
-      "summary": "Will leave interest rate decision to Warsh Would like to see lower interest rates Says the country is doing well, market should go up He would not mind if Warsh were to cut interest rates.  Will leave rate cut to Warsh during October meeting.  What is curious is his response that will leave rate cut",
-      "url": "https://investinglive.com/news/trump-would-like-to-see-lower-interest-rates-20260605/",
-      "age_hours": 2.7
-    },
-    {
-      "source": "ForexLive",
-      "title": "Baker Hughes oil rig count up 2 to 431",
-      "summary": "The Baker Hughes rig count for the current week shows oil im inventories up 2 to 431 . Natural Gas inventories are down -1 to 124 and Total rigs are up 1 to 563. The decline in rigs has been hard since the peak above 1000 rigs back in early 2019. What is the stories behind the declines? 2018 boom: T",
-      "url": "https://investinglive.com/news/baker-hughes-oil-rig-count-up-2-to-431-20260605/",
-      "age_hours": 3.1
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "\u2018DOGE\u2019 wanted to declare 2.7 million people \u2018dead\u2019 at Social Security: whistleblower",
-      "summary": "This is the third whistleblower to come forward about alleged illegal activity by Trump\u2019s Department of Government Efficiency.",
-      "url": "https://www.marketwatch.com/story/doge-wanted-to-declare-2-7-million-people-dead-at-social-security-whistleblower-e195065b?mod=mw_rss_topstories",
+      "title": "Israeli strikes in southern Lebanon kill 17, reports say",
+      "summary": "Nine of them were killed in a series of attacks in the town of Tayr Debba, according to Lebanon's state news agency.",
+      "url": "https://www.bbc.com/news/articles/cpq3d44l907o?at_medium=RSS&at_campaign=rss",
       "age_hours": 3.2
     },
     {
+      "source": "CNBC Finance",
+      "title": "Regulators' proposed prediction markets rules ban trading on terrorism, assassinations",
+      "summary": "The proposed rules from the commission will now face a public comment period.",
+      "url": "https://www.cnbc.com/2026/06/10/regulators-proposed-prediction-markets-rules-ban-trading-on-terrorism-assassinations.html",
+      "age_hours": 3.3
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Amazon Inks $17.5 Billion Loan as AI Borrowing Frenzy Grows",
+      "summary": "Soon after selling the biggest Canadian corporate bond sale on record, Amazon.com Inc. inked another multi-billion dollar financing as spending on artificial intelligence soars.",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-10/amazon-inks-17-5-billion-loan-in-financing-led-by-citigroup",
+      "age_hours": 4.0
+    },
+    {
+      "source": "FT Markets",
+      "title": "Apollo executive says private equity got \u2018a little out of whack\u2019",
+      "summary": "There will be a \u2018price to pay\u2019 for industry after exuberance of 2017-22, warns Scott Kleinman",
+      "url": "https://www.ft.com/content/31f7dab8-532d-434a-8f97-f2a23ca8b488",
+      "age_hours": 4.0
+    },
+    {
       "source": "BBC World",
-      "title": "Astronauts return to ISS after sheltering during air leak repair attempt",
-      "summary": "Russian attempt to repair tunnel area sparks safe-haven procedure for five other astronauts onboard.",
-      "url": "https://www.bbc.com/news/articles/c5y7yryg01mo?at_medium=RSS&at_campaign=rss",
+      "title": "Growing backlash in Japan over Trump's use of anime characters",
+      "summary": "The US president has angered some fans by using the images of characters like Pikachu and Naruto.",
+      "url": "https://www.bbc.com/news/articles/cdx7vynyl4eo?at_medium=RSS&at_campaign=rss",
       "age_hours": 4.3
     },
     {
-      "source": "ForexLive",
-      "title": "CNN: Iran-US  talks reportedly deadlocked",
-      "summary": "CNN is reporting: Iran says negotiations with the U.S. have stalled, with senior adviser Mohsen Rezaei claiming President Trump must act to break the impasse.\n Iran is demanding the release of $24 billion in frozen assets as part of any agreement:\n $12 billion upon signing an interim deal.\n Another ",
-      "url": "https://investinglive.com/news/cnn-iran-us-talks-reportedly-deadlocked-20260605/",
-      "age_hours": 4.4
-    },
-    {
-      "source": "ForexLive",
-      "title": "Putin: It would be efficient for US to use Russia's LNG technologies in Alaska",
-      "summary": "Putin is back saying:  it will be official for United States use Russia's LNG technologies in Alaska On benefits for Russia from war in Iran: market stability is important. Oil supply decline rattles markets, we are there in OPEC plus to balance the market. We are grateful to Saudi Arabia for cooper",
-      "url": "https://investinglive.com/news/putin-it-would-be-efficient-for-us-to-use-russias-lng-technologies-in-alaska-20260605/",
+      "source": "Al Jazeera",
+      "title": "US bombs Iran\u2019s water facilities: Why that\u2019s so significant",
+      "summary": "The US struck several sites in Iran, saying it retaliated against the downing of a US helicopter in the Strait of Hormuz",
+      "url": "https://www.aljazeera.com/news/2026/6/10/us-bombs-irans-water-facilities-why-thats-so-significant?traffic_source=rss",
       "age_hours": 4.5
     },
     {
-      "source": "ForexLive",
-      "title": "Energy Sec Wright: We will refill the SPR by 40M barrels after Iran conflict is over",
-      "summary": "US Energy Secretary Wright is saying that the US will add 40M barrels after the Iran conflict is over.  Here's the full picture: Current level: As of the week ending May 29, 2026, the SPR recorded a release of 8 million barrels, bringing the total down to 357.1 million barrels \u2014 the lowest level sin",
-      "url": "https://investinglive.com/news/energy-sec-wright-we-will-refill-the-spr-by-40m-barrels-after-iran-conflict-is-over-20260605/",
-      "age_hours": 4.8
+      "source": "Guardian World",
+      "title": "Trump targeting immigrants from countries hit most by climate shocks",
+      "summary": "A Guardian analysis reveals how most of 39 countries facing US entry restrictions are most vulnerable environmentally \u2018Every day it\u2019s more barriers\u2019: how the US is shutting out climate refugees Donald Trump \u2019s immigration crackdown is largely targeting people from the countries most vulnerable to di",
+      "url": "https://www.theguardian.com/us-news/2026/jun/10/trump-administration-immigrants-climate-crisis",
+      "age_hours": 5.0
+    },
+    {
+      "source": "FT Markets",
+      "title": "US inflation jumped to 4.2% in May amid Middle East energy shock",
+      "summary": "Figure marks new three-year high",
+      "url": "https://www.ft.com/content/f27a9e1b-891f-41b5-b78c-6bc729b1cfd4",
+      "age_hours": 5.5
     },
     {
       "source": "BBC World",
-      "title": "Three jailed over heist of ancient golden helmet from Dutch museum",
-      "summary": "The men are sentenced to 47 months each for stealing the 2,500-year-old Romanian Co\u021bofene\u0219ti helmet.",
-      "url": "https://www.bbc.com/news/articles/cy020317g1no?at_medium=RSS&at_campaign=rss",
-      "age_hours": 4.9
+      "title": "Ukraine says missiles hit military plant deep inside Russia",
+      "summary": "Ukraine's military also says it has struck a Russian oil refinery and a \"shadow fleet\" oil tanker in the Black Sea.",
+      "url": "https://www.bbc.com/news/articles/c5yzm2nzgr2o?at_medium=RSS&at_campaign=rss",
+      "age_hours": 6.3
+    },
+    {
+      "source": "FT Markets",
+      "title": "Every slice of China\u2019s bond market has now succumbed to Japanisation",
+      "summary": "A scoop of belatedly spotting something and trying to make a thing of it",
+      "url": "https://www.ft.com/content/9a2a49cc-2990-45b9-b931-de6828be8d37",
+      "age_hours": 7.0
+    },
+    {
+      "source": "Guardian World",
+      "title": "Japanese manga fans urge Trump to stop using characters in his online posts",
+      "summary": "Renewed outrage at White House\u2019s use manga and anime imagery after US president is depicted as ninja Naruto Japanese anime and manga fans are urging Donald Trump to stop using their favourite characters in his social media posts. About 20,000 people have signed a petition on Change.org entitled Prot",
+      "url": "https://www.theguardian.com/world/2026/jun/10/japanese-manga-anime-fans-urge-trump-to-stop-using-characters-social-media-posts",
+      "age_hours": 8.8
+    },
+    {
+      "source": "FT Markets",
+      "title": "Gold and bitcoin: the assets the rally forgot",
+      "summary": "Gold and \u2018digital gold\u2019 both feel like yesterday\u2019s Fomo trades",
+      "url": "https://www.ft.com/content/830cacfc-cda7-4da8-acde-49f6079bc524",
+      "age_hours": 12.5
+    },
+    {
+      "source": "CNBC Finance",
+      "title": "Beijing escalating AI espionage to catch up with the U.S. on tech, cybersecurity firm says",
+      "summary": "U.S. cybersecurity giant CrowdStrike said China-based entities made over half of state-sponsored cyberattacks on tech firms for artificial intelligence assets.",
+      "url": "https://www.cnbc.com/2026/06/10/crowdstrike-warns-of-increasing-chinese-ai-cyberattacks-on-us-tech.html",
+      "age_hours": 12.9
+    },
+    {
+      "source": "FT Markets",
+      "title": "ECB moved to rein in Revolut\u2019s \u2018self-guided missiles\u2019 in Europe",
+      "summary": "Europe\u2019s most valuable fintech was ordered to address \u2018deficiencies\u2019 in oversight amid a rapid product rollout",
+      "url": "https://www.ft.com/content/7cc86162-f68c-4772-b7ce-9c72dfb15f05",
+      "age_hours": 14.0
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Gold Extends Pullback as Trump Threatens More Strikes on Iran",
+      "summary": "Gold extended declines after US President Donald Trump vowed to strike Iran again, rekindling concerns that oil disruptions will lead to higher interest rates.",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-09/gold-extends-fall-as-renewed-us-iran-clashes-test-fragile-truce",
+      "age_hours": 18.5
+    },
+    {
+      "source": "BBC Business",
+      "title": "Bill debt soars but many don't know help is available",
+      "summary": "The majority of billpayers are unaware of special tariffs for water and broadband, the spending watchdog says.",
+      "url": "https://www.bbc.com/news/articles/cdjkevgv9rzo?at_medium=RSS&at_campaign=rss",
+      "age_hours": 18.9
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Stocks Fall as US-Iran Tension Spurs Rally in Oil: Markets Wrap",
+      "summary": "A flare-up in geopolitical tensions spurred a rally in oil and drove stocks lower, with Wall Street also rattled by a renewed selloff in some the world\u2019s largest technology companies.",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-09/stock-market-today-dow-s-p-live-updates",
+      "age_hours": 19.8
     },
     {
       "source": "BBC World",
-      "title": "Ukraine strikes cargo ships and admits Romania drone blast",
-      "summary": "Ukraine says it struck five ships carrying illegal cargo in the Sea of Azov and in coastal waters of Russian-occupied territories.",
-      "url": "https://www.bbc.com/news/articles/c707098wkzpo?at_medium=RSS&at_campaign=rss",
-      "age_hours": 5.1
+      "title": "Inside Myanmar, rebels are losing ground as military forces men into army",
+      "summary": "The BBC travels with rebels to frontline positions in Myanmar to see how the war is unfolding.",
+      "url": "https://www.bbc.com/news/articles/c20y6966xqzo?at_medium=RSS&at_campaign=rss",
+      "age_hours": 20.8
     },
     {
-      "source": "FT Markets",
-      "title": "Bitcoin tumbles after Strategy sale unnerves crypto traders",
-      "summary": "Cryptocurrency is heading for biggest weekly loss since November 2022",
-      "url": "https://www.ft.com/content/06bb85c7-ab3c-4cc2-bdcf-679976b6e901",
-      "age_hours": 5.3
-    },
-    {
-      "source": "FT Markets",
-      "title": "India exempts foreign investors from tax on bonds to shore up rupee",
-      "summary": "Central bank holds interest rates despite pressure on currency from foreign outflows and war in Iran",
-      "url": "https://www.ft.com/content/4a0dc7f4-33e5-4584-a60d-be701a2978ed",
-      "age_hours": 6.8
-    },
-    {
-      "source": "FT Markets",
-      "title": "The dollar\u2019s decline is overstated \u2014\u00a0but still real",
-      "summary": "The most reliable measure of dollar dominance is probably the loans and other dollar obligations created outside US",
-      "url": "https://www.ft.com/content/4d56a60c-ec78-485a-841f-7a803066911a",
-      "age_hours": 7.5
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "US Bonds Slide as Strong Jobs Data Fuels Bets on 2026 Fed Hike",
-      "summary": "Bond traders fully priced in a Federal Reserve interest-rate hike by the end of this year after US job growth topped all forecasts in May, spurring yields higher in the $31 trillion Treasuries market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-05/traders-fully-price-in-fed-rate-hike-this-year-after-jobs-data",
-      "age_hours": 7.8
+      "source": "Federal Reserve",
+      "title": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
+      "summary": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
+      "age_hours": 22.0
     },
     {
       "source": "BBC Business",
-      "title": "Is there an AI stock market bubble, and is it ready to burst?",
-      "summary": "Despite the Iran war, inflation and debt fears, US markets keep hitting record highs, fueled largely by AI. BBC's Samira Hussain looks into whether that bubble will burst.",
-      "url": "https://www.bbc.com/news/videos/c1m2mr7gr27o?at_medium=RSS&at_campaign=rss",
-      "age_hours": 7.8
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Nasdaq 100 Slides 4.8% as Traders Dump Tech, Buy Defensive Names",
-      "summary": "The massive months-long rally in US stocks took a painful turn on Friday as traders rushed to dump mega-cap technology stocks and snap up more defensive names, while the latest employment data boosted expectations for an interest-rate hike this year.",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-05/s-p-500-s-record-win-streak-in-danger-as-ai-selloff-continues",
-      "age_hours": 8.2
-    },
-    {
-      "source": "CNBC Finance",
-      "title": "Where investors may find the next 'big wave' for AI trade",
-      "summary": "Tim Urbanowicz, chief investment strategist at Innovator from Goldman Sachs Asset Management, tackles the AI boom.",
-      "url": "https://www.cnbc.com/2026/06/05/where-investors-may-find-the-next-big-wave-for-ai-trade.html",
-      "age_hours": 8.3
-    },
-    {
-      "source": "BBC World",
-      "title": "US journalist pleads guilty to working as China's agent",
-      "summary": "Thomas Weir Pauken II, 50, knowingly worked with people employed by the Chinese government for years.",
-      "url": "https://www.bbc.com/news/articles/crmpmxg1ym4o?at_medium=RSS&at_campaign=rss",
-      "age_hours": 9.3
-    },
-    {
-      "source": "FT Markets",
-      "title": "The battle over Ben & Jerry\u2019s gets ugly",
-      "summary": "War of words over ice cream maker\u2019s governance as legal showdown looms",
-      "url": "https://www.ft.com/content/7bdb14a7-db48-4fcf-8356-4fe22755ff42",
-      "age_hours": 9.6
-    },
-    {
-      "source": "Guardian World",
-      "title": "Typhoon Jangmi sweeps northwards leaving 23 injured in Japan",
-      "summary": "More than 1 million people advised to evacuate homes amid 80mph winds and heavy rain Typhoon Jangmi (also known as Typhoon No 6) moved northwards over the course of this week. From Okinawa to mainland Japan, prolonged and heavy rainfall led to landslide warnings and the flooding of rivers, with Japa",
-      "url": "https://www.theguardian.com/environment/2026/jun/05/typhoon-jangmi-no-6-japan",
-      "age_hours": 10.1
-    },
-    {
-      "source": "CNBC Finance",
-      "title": "China poaches more AI talent from the U.S. as it eyes the next 'super-app'",
-      "summary": "Tencent Chief AI Scientist Yao Shunyu, who joined the company from OpenAI, said Friday he aims to pursue artificial general intelligence.",
-      "url": "https://www.cnbc.com/2026/06/05/china-may-move-toward-us-path-on-ai-as-firms-poach-employees.html",
-      "age_hours": 12.7
+      "title": "Final piece of 'iconic' Denby Pottery signed",
+      "summary": "The firm, founded in 1809, appointed administrators due to rising energy and labour costs.",
+      "url": "https://www.bbc.com/news/articles/cx2vljzw5ego?at_medium=RSS&at_campaign=rss",
+      "age_hours": 28.9
     },
     {
       "source": "BBC Business",
-      "title": "China cracks down on soft porn, violence and materialism in viral micro dramas",
-      "summary": "Micro dramas have surged in popularity, but drawn criticism for often sensationalist content.",
-      "url": "https://www.bbc.com/news/articles/clypy34pj6yo?at_medium=RSS&at_campaign=rss",
-      "age_hours": 15.3
-    },
-    {
-      "source": "Guardian World",
-      "title": "US imposes new sanctions on Cuban president and Castro family members",
-      "summary": "US secretary of state Marco Rubio says anyone providing services to listed entities \u2018is at risk of sanctions themselves\u2019 The United States has announced fresh economic sanctions on Cuba\u2019s president and some of his immediate family, alongside members of the Castro family, in Washington\u2019s latest rampi",
-      "url": "https://www.theguardian.com/world/2026/jun/05/us-sanctions-cuba-president-castro-family",
-      "age_hours": 19.5
-    },
-    {
-      "source": "BBC Business",
-      "title": "Trump announces $700m coal investment using wartime powers",
-      "summary": "The president is directing money into coal as the Iran war drives up energy costs for Americans.",
-      "url": "https://www.bbc.com/news/articles/cy0209r62k5o?at_medium=RSS&at_campaign=rss",
-      "age_hours": 20.5
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Nasdaq 100 Sinks 5% in AI-Led Rout as Yields Climb: Markets Wrap",
-      "summary": "Wall Street\u2019s historic weekly run came to a halt, with stocks hit by a tech selloff and higher bond yields after a solid jobs report added to bets the Federal Reserve\u2019s next interest-rate move will be a hike.",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/asian-stocks-poised-to-edge-lower-oil-steadies-markets-wrap",
-      "age_hours": 22.4
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "This Jobs Report Will Not Help the Fed, Says JPM's Berro",
-      "summary": "Kelsey Berro, fixed income portfolio manager at JPMorgan Asset Management, joins Katie Greifeld on \"Bloomberg Real Yield.\" She says the May monthly jobs report won't help the Federal Reserve because it's still so concerned about the inflation outlook. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-04/jobs-report-will-not-help-fed-berro-video",
-      "age_hours": 25.8
-    },
-    {
-      "source": "Guardian World",
-      "title": "Outrage in Argentina after two teen girls murdered as femicide crisis endures",
-      "summary": "Country is shaken by the brutal murders of two girls, aged 14 and 17, whose bodies were discovered just days apart Argentina has reacted with fury after the bodies of two murdered teenage girls were found just two days apart. The latest killings underscore the South American country\u2019s enduring femic",
-      "url": "https://www.theguardian.com/world/2026/jun/04/argentina-teen-girls-murdered-femicide-crisis",
-      "age_hours": 27.7
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Better and Coinbase issue the first crypto-backed conventional mortgage",
-      "summary": "",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/better-and-coinbase-issue-the-first-crypto-backed-conventional-mortgage-124500216.html",
-      "age_hours": 31.8
-    },
-    {
-      "source": "Guardian World",
-      "title": "Experts criticise plan for American-only Ebola quarantine centre in Kenya",
-      "summary": "Plan departs from policy of bringing CDC staff back to US for treatment and offering support to all health workers Former top US officials and other experts are urging the Trump administration to abandon plans for an Ebola quarantine and treatment centre in Kenya, as the union for workers with the U",
-      "url": "https://www.theguardian.com/world/2026/jun/04/experts-criticise-plan-for-american-only-ebola-quarantine-centre-in-kenya",
-      "age_hours": 32.1
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Trump promised not to touch Social Security \u2014 but his Big Beautiful bill comes with a $169B shock. Protect yourself",
-      "summary": "",
-      "url": "https://finance.yahoo.com/economy/policy/articles/trump-promised-not-touch-social-110500883.html",
-      "age_hours": 33.5
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "S&P Global warns of looming problems at Odyssey  as it cuts rating",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-global-warns-looming-problems-110000089.html",
-      "age_hours": 33.6
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "The Oil Market Is Near a Tipping Point",
-      "summary": "",
-      "url": "https://www.wsj.com/finance/stocks/the-oil-market-is-near-a-tipping-point-5fa78c6e?siteid=yhoof2&yptr=yahoo",
-      "age_hours": 34.0
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Markets News, June 4, 2026: Dow Soars 875 Points to Record Close; S&P 500 Overcomes Broadcom-Led Tech Pullback; Oil Retreats",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-june-4-2026-103832790.html",
-      "age_hours": 34.0
-    },
-    {
-      "source": "Guardian World",
-      "title": "Japan sees shortage of plastic bags, trays and gloves, as Iran war-induced naphtha shortage worsens",
-      "summary": "The Middle East is Japan\u2019s main source of crude oil, from which naphtha is extracted and used to make items including printing ink and plastics Takeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ing",
-      "url": "https://www.theguardian.com/world/2026/jun/04/japan-naphtha-shortage-plastic-bag",
-      "age_hours": 44.4
+      "title": "US adds BYD to list of firms with alleged Chinese military ties",
+      "summary": "The Pentagon list warns US firms of risks linked to working with flagged Chinese companies.",
+      "url": "https://www.bbc.com/news/articles/c75y6e5p9reo?at_medium=RSS&at_campaign=rss",
+      "age_hours": 34.6
     },
     {
       "source": "CNBC Finance",
-      "title": "Bitcoin set to slump to new lows for 2026 after recent sell-off, traders forecast",
-      "summary": "The cryptocurrency is likely to break below its lows hit in early February, traders on prediction market Kalshi believe.",
-      "url": "https://www.cnbc.com/2026/06/03/bitcoin-to-slump-to-new-lows-after-recent-sell-off-traders-predict.html",
-      "age_hours": 48.5
-    },
-    {
-      "source": "CNBC Finance",
-      "title": "Morgan Stanley will soon open its trillion-dollar wealth management funnel to AI agents",
-      "summary": "Morgan Stanley's move is one of the earliest instances of a major Wall Street bank opening its platforms to external AI tools.",
-      "url": "https://www.cnbc.com/2026/06/03/ai-agents-morgan-stanley-wealth-management-funnel.html",
-      "age_hours": 53.0
+      "title": "Electric vehicle giant BYD predicts 80% of China car sales will soon be electric",
+      "summary": "BYD expects China's competitive electric vehicle market to continue growing, even as manufacturers and analysts anticipate domestic demand to taper further.",
+      "url": "https://www.cnbc.com/2026/06/09/electric-vehicle-giant-byd-predicts-80percent-of-china-car-sales-will-soon-be-electric.html",
+      "age_hours": 35.1
     },
     {
       "source": "BBC Business",
-      "title": "US announces new tariffs over forced labour concerns",
-      "summary": "It comes after the US Supreme Court struck down many of US President Donald Trump's previous duties in February.",
-      "url": "https://www.bbc.com/news/articles/cq6pe7nvldmo?at_medium=RSS&at_campaign=rss",
-      "age_hours": 53.4
+      "title": "Jailed crypto founder Sam Bankman-Fried seeks Trump pardon",
+      "summary": "The former leader of crypto platform FTX, currently serving a 25-year sentence, on Monday officially applied to be pardoned.",
+      "url": "https://www.bbc.com/news/articles/cjwgd6jqd5do?at_medium=RSS&at_campaign=rss",
+      "age_hours": 48.7
+    },
+    {
+      "source": "CNBC Finance",
+      "title": "Bitcoin is cratering, but a new Wall Street crypto hype is on the rise",
+      "summary": "As bitcoin dropped to its lowest price since 2024, investors flock to a new type of crypto investment linked to the hyperliquid platforms, HYPE ETFs.",
+      "url": "https://www.cnbc.com/2026/06/06/bitcoin-price-crash-crypto-hype-hyperliquid-etfs.html",
+      "age_hours": 50.8
+    },
+    {
+      "source": "Guardian World",
+      "title": "Xi Jinping arrives in Pyongyang on trip to revitalise China-North Korea ties",
+      "summary": "Kim Jong-un welcomes Chinese leader on visit to renew relations strained amid Pyongyang\u2019s closeness with Russia Xi Jinping has arrived in North Korea for a two-day trip, his first in nearly seven years, as China\u2019s leader looks to revitalise ties with his junior ally. Footage published by China\u2019s Xin",
+      "url": "https://www.theguardian.com/world/2026/jun/08/xi-jinping-kim-jong-un-meeting-north-korea",
+      "age_hours": 55.2
+    },
+    {
+      "source": "ECB News",
+      "title": "ECB announces main milestones for roll-out of Integrated Reporting Framework",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260608~6766ec7154.en.html",
+      "age_hours": 58.0
     }
   ]
 }
