@@ -1,257 +1,290 @@
 {
-  "generated_at": "Sunday 2026-06-14 23:46 UTC",
-  "macro_theme": "Risk-on sentiment prevails as the US and Iran reach a peace deal, potentially reopening the Strait of Hormuz and easing tensions in the Middle East. However, the situation remains fragile, and any signs of renewed conflict could quickly reverse market sentiment.",
-  "trump_risk_level": "MEDIUM",
-  "geopolitical_risk": "MEDIUM",
+  "generated_at": "Sunday 2026-06-21 23:13 UTC",
+  "macro_theme": "Risk-off sentiment driven by geopolitical tensions in the Middle East and uncertainty around US-Iran talks, while Trump's comments on Iran and Hezbollah add to the volatility. The overall market mood is cautious, with investors eyeing the OPEC+ production policy monitor and China's PMI data for direction.",
+  "trump_risk_level": "EXTREME",
+  "geopolitical_risk": "HIGH",
   "recommended_assets": [
     "USDJPY",
-    "US30",
+    "USDCHF",
     "GOLD"
   ],
   "assets_to_avoid": [
-    "AUDJPY",
-    "CADJPY"
+    "EURGBP",
+    "GBPAUD",
+    "EURAUD"
   ],
   "signals": {
     "EURUSD": {
-      "direction": "BUY",
+      "direction": "SELL",
       "confidence": 60,
       "gap_type": "FILL",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "US-Iran peace deal",
-        "Risk-on sentiment"
+        "US-Iran talks",
+        "Trump's comments on Iran",
+        "Weak EU economic data"
       ],
       "risks": [
-        "Renewed Middle East tensions",
-        "European economic data misses"
+        "Unexpected positive EU data",
+        "US-Iran talks breakthrough",
+        "Trump's tweets on EU"
       ],
-      "trade_bias": "Buy on dips towards 1.1550, targeting 1.1650."
+      "trade_bias": "Sell on rallies towards 1.1500, targeting 1.1400."
     },
     "GBPUSD": {
-      "direction": "BUY",
+      "direction": "SELL",
       "confidence": 55,
       "gap_type": "FILL",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "US-Iran peace deal",
-        "UK economic data beats"
+        "UK energy crisis",
+        "Weak UK economic data",
+        "Trump's comments on UK"
       ],
       "risks": [
-        "Brexit uncertainty",
-        "UK political instability"
+        "Unexpected positive UK data",
+        "US-UK trade deal progress",
+        "Trump's tweets on UK"
       ],
-      "trade_bias": "Buy on dips towards 1.3350, targeting 1.3450."
+      "trade_bias": "Sell on rallies towards 1.3300, targeting 1.3200."
     },
     "USDJPY": {
-      "direction": "SELL",
+      "direction": "BUY",
       "confidence": 70,
       "gap_type": "CONTINUATION",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "US-Iran peace deal",
-        "Risk-on sentiment"
+        "US-Iran talks",
+        "Trump's comments on Iran",
+        "Safe-haven flows"
       ],
       "risks": [
-        "Safe-haven flows",
-        "Japanese economic data beats"
+        "Unexpected US-Japan trade deal progress",
+        "Trump's tweets on Japan",
+        "Weak US economic data"
       ],
-      "trade_bias": "Sell on rallies towards 160.50, targeting 159.00."
+      "trade_bias": "Buy on dips towards 160.00, targeting 162.00."
     },
     "USDCHF": {
-      "direction": "SELL",
+      "direction": "BUY",
       "confidence": 65,
       "gap_type": "CONTINUATION",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "US-Iran peace deal",
-        "Risk-on sentiment"
+        "US-Iran talks",
+        "Trump's comments on Iran",
+        "Safe-haven flows"
       ],
       "risks": [
-        "Safe-haven flows",
-        "Swiss economic data beats"
+        "Unexpected US-Switzerland trade deal progress",
+        "Trump's tweets on Switzerland",
+        "Weak US economic data"
       ],
-      "trade_bias": "Sell on rallies towards 0.8050, targeting 0.7950."
+      "trade_bias": "Buy on dips towards 0.8000, targeting 0.8100."
     },
     "AUDUSD": {
-      "direction": "BUY",
+      "direction": "SELL",
       "confidence": 50,
       "gap_type": "FILL",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "US-Iran peace deal",
-        "Commodity price rebound"
+        "China's PMI data",
+        "Weak Australian economic data",
+        "Trump's comments on China"
       ],
       "risks": [
-        "Australian economic data misses",
-        "Chinese economic slowdown"
+        "Unexpected positive Australian data",
+        "US-China trade deal progress",
+        "Trump's tweets on Australia"
       ],
-      "trade_bias": "Buy on dips towards 0.7000, targeting 0.7100."
+      "trade_bias": "Sell on rallies towards 0.7100, targeting 0.7000."
     },
     "NZDUSD": {
-      "direction": "BUY",
-      "confidence": 55,
+      "direction": "SELL",
+      "confidence": 45,
       "gap_type": "FILL",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "US-Iran peace deal",
-        "Commodity price rebound"
+        "Weak New Zealand economic data",
+        "Trump's comments on New Zealand",
+        "China's PMI data"
       ],
       "risks": [
-        "New Zealand economic data misses",
-        "Chinese economic slowdown"
+        "Unexpected positive New Zealand data",
+        "US-New Zealand trade deal progress",
+        "Trump's tweets on New Zealand"
       ],
-      "trade_bias": "Buy on dips towards 0.5800, targeting 0.5900."
+      "trade_bias": "Sell on rallies towards 0.5900, targeting 0.5800."
     },
     "USDCAD": {
-      "direction": "SELL",
+      "direction": "BUY",
       "confidence": 60,
       "gap_type": "CONTINUATION",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "US-Iran peace deal",
-        "Oil price rebound"
+        "OPEC+ production policy monitor",
+        "Trump's comments on Canada",
+        "Oil price movements"
       ],
       "risks": [
-        "Canadian economic data beats",
-        "Oil price volatility"
+        "Unexpected US-Canada trade deal progress",
+        "Trump's tweets on Canada",
+        "Weak US economic data"
       ],
-      "trade_bias": "Sell on rallies towards 1.4050, targeting 1.3950."
+      "trade_bias": "Buy on dips towards 1.4100, targeting 1.4200."
     },
     "EURJPY": {
-      "direction": "BUY",
-      "confidence": 65,
-      "gap_type": "CONTINUATION",
-      "expected_gap_size": "MEDIUM(0.2-0.5%)",
-      "key_drivers": [
-        "US-Iran peace deal",
-        "Risk-on sentiment"
-      ],
-      "risks": [
-        "Safe-haven flows",
-        "Japanese economic data beats"
-      ],
-      "trade_bias": "Buy on dips towards 183.00, targeting 186.00."
-    },
-    "GBPJPY": {
-      "direction": "BUY",
-      "confidence": 60,
-      "gap_type": "CONTINUATION",
-      "expected_gap_size": "MEDIUM(0.2-0.5%)",
-      "key_drivers": [
-        "US-Iran peace deal",
-        "Risk-on sentiment"
-      ],
-      "risks": [
-        "Safe-haven flows",
-        "Japanese economic data beats"
-      ],
-      "trade_bias": "Buy on dips towards 212.00, targeting 215.00."
-    },
-    "EURGBP": {
-      "direction": "NEUTRAL",
-      "confidence": 40,
-      "gap_type": "UNCERTAIN",
-      "expected_gap_size": "NONE",
-      "key_drivers": [
-        "European economic data",
-        "UK economic data"
-      ],
-      "risks": [
-        "Brexit uncertainty",
-        "European economic data misses"
-      ],
-      "trade_bias": "Avoid trading this pair due to high uncertainty."
-    },
-    "AUDJPY": {
       "direction": "NEUTRAL",
       "confidence": 30,
       "gap_type": "UNCERTAIN",
       "expected_gap_size": "NONE",
       "key_drivers": [
-        "Australian economic data",
-        "Japanese economic data"
+        "US-Iran talks",
+        "Trump's comments on Iran",
+        "EU-Japan trade deal progress"
       ],
       "risks": [
-        "Australian economic data misses",
-        "Japanese economic data beats"
+        "Unexpected EU-Japan trade deal breakthrough",
+        "Trump's tweets on EU-Japan",
+        "Weak EU economic data"
       ],
-      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
+    },
+    "GBPJPY": {
+      "direction": "SELL",
+      "confidence": 40,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "UK energy crisis",
+        "Weak UK economic data",
+        "Trump's comments on UK"
+      ],
+      "risks": [
+        "Unexpected positive UK data",
+        "US-UK trade deal progress",
+        "Trump's tweets on UK"
+      ],
+      "trade_bias": "Sell on rallies towards 215.00, targeting 210.00."
+    },
+    "EURGBP": {
+      "direction": "NEUTRAL",
+      "confidence": 20,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "UK energy crisis",
+        "Weak EU economic data",
+        "Trump's comments on EU"
+      ],
+      "risks": [
+        "Unexpected EU-UK trade deal breakthrough",
+        "Trump's tweets on EU-UK",
+        "Weak EU economic data"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
+    },
+    "AUDJPY": {
+      "direction": "SELL",
+      "confidence": 35,
+      "gap_type": "FILL",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "China's PMI data",
+        "Weak Australian economic data",
+        "Trump's comments on China"
+      ],
+      "risks": [
+        "Unexpected positive Australian data",
+        "US-China trade deal progress",
+        "Trump's tweets on Australia"
+      ],
+      "trade_bias": "Sell on rallies towards 115.00, targeting 110.00."
     },
     "EURAUD": {
-      "direction": "SELL",
-      "confidence": 55,
-      "gap_type": "FILL",
-      "expected_gap_size": "SMALL(<0.2%)",
+      "direction": "NEUTRAL",
+      "confidence": 25,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
       "key_drivers": [
-        "European economic data",
-        "Commodity price rebound"
+        "EU-Australia trade deal progress",
+        "Trump's comments on EU-Australia",
+        "Weak EU economic data"
       ],
       "risks": [
-        "Australian economic data beats",
-        "European economic data misses"
+        "Unexpected EU-Australia trade deal breakthrough",
+        "Trump's tweets on EU-Australia",
+        "Weak EU economic data"
       ],
-      "trade_bias": "Sell on rallies towards 1.6500, targeting 1.6350."
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
     },
     "GBPAUD": {
+      "direction": "NEUTRAL",
+      "confidence": 20,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "UK-Australia trade deal progress",
+        "Trump's comments on UK-Australia",
+        "Weak UK economic data"
+      ],
+      "risks": [
+        "Unexpected UK-Australia trade deal breakthrough",
+        "Trump's tweets on UK-Australia",
+        "Weak UK economic data"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty."
+    },
+    "EURCAD": {
       "direction": "BUY",
       "confidence": 50,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "OPEC+ production policy monitor",
+        "Trump's comments on Canada",
+        "Oil price movements"
+      ],
+      "risks": [
+        "Unexpected EU-Canada trade deal progress",
+        "Trump's tweets on EU-Canada",
+        "Weak EU economic data"
+      ],
+      "trade_bias": "Buy on dips towards 1.6000, targeting 1.6100."
+    },
+    "CADJPY": {
+      "direction": "SELL",
+      "confidence": 40,
       "gap_type": "FILL",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "UK economic data",
-        "Commodity price rebound"
+        "OPEC+ production policy monitor",
+        "Trump's comments on Canada",
+        "Oil price movements"
       ],
       "risks": [
-        "Australian economic data beats",
-        "UK economic data misses"
+        "Unexpected Canada-Japan trade deal progress",
+        "Trump's tweets on Canada-Japan",
+        "Weak Canadian economic data"
       ],
-      "trade_bias": "Buy on dips towards 1.8800, targeting 1.9000."
+      "trade_bias": "Sell on rallies towards 114.00, targeting 112.00."
     },
-    "EURCAD": {
-      "direction": "SELL",
+    "US30": {
+      "direction": "BUY",
       "confidence": 60,
       "gap_type": "CONTINUATION",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "European economic data",
-        "Oil price rebound"
+        "US-Iran talks",
+        "Trump's comments on Iran",
+        "US economic data"
       ],
       "risks": [
-        "Canadian economic data beats",
-        "Oil price volatility"
+        "Unexpected US economic downturn",
+        "Trump's tweets on US economy",
+        "Weak US corporate earnings"
       ],
-      "trade_bias": "Sell on rallies towards 1.6300, targeting 1.6150."
-    },
-    "CADJPY": {
-      "direction": "NEUTRAL",
-      "confidence": 35,
-      "gap_type": "UNCERTAIN",
-      "expected_gap_size": "NONE",
-      "key_drivers": [
-        "Canadian economic data",
-        "Japanese economic data"
-      ],
-      "risks": [
-        "Canadian economic data beats",
-        "Japanese economic data misses"
-      ],
-      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
-    },
-    "US30": {
-      "direction": "BUY",
-      "confidence": 70,
-      "gap_type": "CONTINUATION",
-      "expected_gap_size": "MEDIUM(0.2-0.5%)",
-      "key_drivers": [
-        "US-Iran peace deal",
-        "Risk-on sentiment"
-      ],
-      "risks": [
-        "US economic data misses",
-        "Geopolitical tensions"
-      ],
-      "trade_bias": "Buy on dips towards 50500, targeting 51500."
+      "trade_bias": "Buy on dips towards 51000, targeting 52000."
     },
     "NAS100": {
       "direction": "BUY",
@@ -259,466 +292,465 @@
       "gap_type": "CONTINUATION",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "US-Iran peace deal",
-        "Risk-on sentiment"
+        "US-Iran talks",
+        "Trump's comments on Iran",
+        "US tech sector performance"
       ],
       "risks": [
-        "US economic data misses",
-        "Geopolitical tensions"
+        "Unexpected US tech sector downturn",
+        "Trump's tweets on US tech",
+        "Weak US economic data"
       ],
-      "trade_bias": "Buy on dips towards 29200, targeting 29800."
+      "trade_bias": "Buy on dips towards 30000, targeting 31000."
     },
     "GOLD": {
-      "direction": "SELL",
-      "confidence": 60,
-      "gap_type": "CONTINUATION",
-      "expected_gap_size": "MEDIUM(0.2-0.5%)",
-      "key_drivers": [
-        "US-Iran peace deal",
-        "Risk-on sentiment"
-      ],
-      "risks": [
-        "Safe-haven flows",
-        "Inflation concerns"
-      ],
-      "trade_bias": "Sell on rallies towards 4350, targeting 4250."
-    },
-    "OIL": {
       "direction": "BUY",
       "confidence": 70,
       "gap_type": "CONTINUATION",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "US-Iran peace deal",
-        "Strait of Hormuz reopening"
+        "US-Iran talks",
+        "Trump's comments on Iran",
+        "Safe-haven flows"
       ],
       "risks": [
-        "Oil price volatility",
-        "OPEC production cuts"
+        "Unexpected US-Iran talks breakthrough",
+        "Trump's tweets on gold",
+        "Weak US economic data"
       ],
-      "trade_bias": "Buy on dips towards 78.00, targeting 82.00."
+      "trade_bias": "Buy on dips towards 4150, targeting 4200."
+    },
+    "OIL": {
+      "direction": "BUY",
+      "confidence": 65,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "OPEC+ production policy monitor",
+        "Trump's comments on oil",
+        "US-Iran talks"
+      ],
+      "risks": [
+        "Unexpected OPEC+ production increase",
+        "Trump's tweets on oil",
+        "Weak US economic data"
+      ],
+      "trade_bias": "Buy on dips towards 75.00, targeting 80.00."
     }
   },
   "news_articles": [
     {
-      "source": "Yahoo Finance",
-      "title": "Dow Jones Futures Rise, Oil Prices Dive As Trump Announces Iran Deal; SpaceX's Next Test",
-      "summary": "",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-iran-deal-spacex/?src=A00220&yptr=yahoo",
-      "age_hours": 0.1
+      "source": "OilPrice.com",
+      "title": "Britain\u2019s Energy Crisis Is Driving Manufacturing Offshore",
+      "summary": "The UK risks a major wave of deindustrialization and widespread factory closures unless the government expands emergency relief measures for manufacturers battling soaring energy costs, a prominent manufacturing trade body has warned, as reported by the Guardian. According to a June 2026 survey by M",
+      "url": "https://oilprice.com/Energy/Energy-General/Britains-Energy-Crisis-Is-Driving-Manufacturing-Offshore.html",
+      "age_hours": 0.2
     },
     {
-      "source": "ForexLive",
-      "title": "Trump is already threatening to resume strikes on Iran",
-      "summary": "Trump spoke with the New York Times in a phone interview.  says he reached a  deal , despite objections from Israeli PM Netanyahu described Netanyahu as \"very difficult\" says US will resume Iran strikes if it can't reach a nuclear accord \n                            This article was written by Eamon",
-      "url": "https://investinglive.com/news/trump-is-already-threatening-to-resume-strikes-on-iran-20260614/",
+      "source": "CNBC Finance",
+      "title": "The new oil? Inside the effort to turn AI computing power into a tradeable commodity",
+      "summary": "AI compute futures could eventually rival some of the world's largest commodity markets, Silicon Data's Carmen Li believes.",
+      "url": "https://www.cnbc.com/2026/06/16/the-new-oil-inside-the-effort-to-turn-ai-computing-power-into-a-tradeable-commodity.html",
       "age_hours": 0.3
     },
     {
-      "source": "BBC Business",
-      "title": "Millions of people can get discounts on their bills - here's how",
-      "summary": "Lower social tariffs allow many people on benefits to get cheaper deals for water, broadband and phone.",
-      "url": "https://www.bbc.com/news/articles/c4gyplpyj00o?at_medium=RSS&at_campaign=rss",
-      "age_hours": 0.3
-    },
-    {
-      "source": "BBC Business",
-      "title": "Millions of people can get discounts on their bills - here's how",
-      "summary": "Lower social tariffs allow many people on benefits to get cheaper deals for water, broadband and phone.",
-      "url": "https://www.bbc.com/news/articles/c4gyplpyj00o?at_medium=RSS&at_campaign=rss",
-      "age_hours": 0.3
-    },
-    {
-      "source": "CNBC Top News",
-      "title": "U.S. and Iran agree on peace deal to end the war, Trump and Pakistan say",
-      "summary": "The deal follows weeks of mixed messaging from both Washington and Tehran on the trajectory of the conflict.",
-      "url": "https://www.cnbc.com/2026/06/14/us-iran-war-peace-deal.html",
+      "source": "Guardian World",
+      "title": "Far-right millionaire Abelardo de la Espriella wins Colombia\u2019s presidential runoff",
+      "summary": "Leftwing opponent alleges vote count irregularities after Trump-endorsed lawyer secures narrow majority The Trump-admiring far-right millionaire lawyer and self-styled \u201coutsider\u201d Abelardo de la Espriella has won Colombia\u2019s presidential runoff, defeating the leftwing senator Iv\u00e1n Cepeda. With 99.65% ",
+      "url": "https://www.theguardian.com/world/2026/jun/21/far-right-millionaire-abelardo-de-la-espriella-wins-colombia-presidential-runoff",
       "age_hours": 0.4
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Japanese Stocks Set to Rise After US-Iran Peace Deal Reached",
-      "summary": "Japanese stocks are set to gain after President Donald Trump said the US and Iran have reached a peace deal, raising hopes the Middle East war is nearing an end and the Strait of Hormuz will reopen.",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-14/japanese-stocks-set-to-rise-after-us-iran-peace-deal-reached",
+      "source": "MarketWatch Top",
+      "title": "This bull market isn\u2019t going to end because of Fed rate hikes under Warsh",
+      "summary": "Trump-selected Fed chair Kevin Warsh may hope the threat of rate hikes is enough. But stocks might gain ground if he does. Past rate-hike cycles can be a guide.",
+      "url": "https://www.marketwatch.com/story/this-bull-market-isnt-going-to-end-because-of-fed-rate-hikes-under-warsh-8f63fa85?mod=mw_rss_topstories",
+      "age_hours": 0.5
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "$165 Billion Stock Selloff Looms as Goldman Flags Rising Leverage",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/165-billion-stock-selloff-looms-223539994.html",
       "age_hours": 0.6
     },
     {
-      "source": "MarketWatch Top",
-      "title": "Stock futures jump, oil prices fall as Trump says U.S. has reached peace deal with Iran",
-      "summary": "Oil prices fell and U.S. stock-index futures jumped Sunday after President Donald Trump said the U.S. has agreed to a peace deal with Iran, apparently ending months of hostilities that shut the Strait of Hormuz and sent the global economy into an oil shock.",
-      "url": "https://www.marketwatch.com/story/trump-says-u-s-had-reached-peace-deal-with-iran-57a93e56?mod=mw_rss_topstories",
-      "age_hours": 0.7
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "UK, France, Germany Ready to Lift Relevant Iran Sanctions",
-      "summary": "\u201cWe are prepared to lift relevant sanctions in response to clear, verifiable steps by Iran on its nuclear programme,\u201d according to a joint statement from the leaders of the UK, France, Germany and Italy.",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-14/uk-france-germany-ready-to-lift-relevant-sanctions",
-      "age_hours": 0.7
-    },
-    {
-      "source": "FT Markets",
-      "title": "Strait of Hormuz backlog could take weeks to clear after US-Iran deal",
-      "summary": "Analysts warn oil flows may be slow to recover and remain vulnerable to renewed disruption",
-      "url": "https://www.ft.com/content/c2d4e116-c49a-4f6b-9b2e-d10d37e4c2e8",
-      "age_hours": 0.7
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "World Cup nations slam UEFA chief for \u2018disappointing\u2019 48-team criticism",
-      "summary": "'There's no such thing as an unimportant World Cup match,' 13 World Cup participant nations say in a statement.",
-      "url": "https://www.aljazeera.com/sports/2026/6/14/world-cup-nations-slam-uefa-chief-for-disappointing-48-team-criticism?traffic_source=rss",
-      "age_hours": 0.7
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "LNG Tanker Heads Toward Hormuz as Deal Raises Hopes of Reopening",
-      "summary": "A liquefied natural gas tanker that has been trapped in the Persian Gulf for over three months appears to be heading toward the Strait of Hormuz, just as the US and Iran say they have reached a deal to reopen the waterway.",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-14/lng-tanker-heads-toward-hormuz-as-deal-raises-hopes-of-reopening",
-      "age_hours": 0.8
-    },
-    {
       "source": "Investing.com News",
-      "title": "Shares jump, oil skids in Asia on news of Gulf deal",
+      "title": "Brent oil rises more than $1/bbl after bumpy start to US-Iran peace talks",
       "summary": "",
-      "url": "https://www.investing.com/news/stock-market-news/shares-jump-oil-skids-in-asia-on-news-of-gulf-deal-4741121",
-      "age_hours": 0.8
-    },
-    {
-      "source": "Investing.com News",
-      "title": "UK, France, Germany and Italy ready to lift Iran sanctions after US-Iran deal",
-      "summary": "",
-      "url": "https://www.investing.com/news/world-news/uk-france-germany-and-italy-ready-to-lift-iran-sanctions-after-usiran-deal-4741120",
-      "age_hours": 0.8
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "BREAKING: US, Iran announce ceasefire agreement",
-      "summary": "US President Donald Trump has announced a ceasefire agreement with Iran.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/14/breaking-us-iran-announce-ceasefire-agreement?traffic_source=rss",
+      "url": "https://www.investing.com/news/commodities-news/brent-oil-rises-more-than-1bbl-after-bumpy-start-to-usiran-peace-talks-4751687",
       "age_hours": 0.9
     },
     {
       "source": "Yahoo Finance",
-      "title": "Stock market today: S&P 500, Nasdaq, Dow futures jump after US and Iran reach peace deal",
+      "title": "Could Bitcoin Become the World's Reserve Digital Currency?",
       "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-15-224751171.html",
-      "age_hours": 1.0
+      "url": "https://finance.yahoo.com/markets/crypto/articles/could-bitcoin-become-worlds-digital-222000248.html",
+      "age_hours": 0.9
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "US Futures Slip, Oil Climbs on Renewed Iran Threat: Markets Wrap",
+      "summary": "US stock futures fell and oil climbed as talks between Washington and Tehran were clouded by a renewed threat from President Donald Trump to strike Iran. The pound slipped on speculation around Keir Starmer\u2019s future as UK prime minister.",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-21/us-futures-slip-oil-climbs-on-renewed-iran-threat-markets-wrap",
+      "age_hours": 1.1
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Oil Climbs After Fresh Trump Threat as US-Iran Peace Talks Begin",
+      "summary": "Oil advanced after President Donald Trump threatened strikes on Iran if Hezbollah keeps attacking Israel, raising concerns about progress for peace talks between Washington and Tehran.",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-21/latest-oil-market-news-and-analysis-for-june-22",
+      "age_hours": 1.2
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Singapore Dollar Set to Gain Despite Hawkish Fed, Analysts Say",
+      "summary": "The Singapore dollar is poised to strengthen against the US dollar in the second half of the year despite a hawkish Federal Reserve boosting sentiment toward the greenback, according to strategists.",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-21/singapore-dollar-set-to-gain-despite-hawkish-fed-analysts-say",
+      "age_hours": 1.2
     },
     {
       "source": "Al Jazeera",
-      "title": "US-Iran ceasefire deal announced, Trump says Strait of Hormuz reopening",
-      "summary": "Trump announces that a ceasefire deal with Iran has been agreed, and that the Strait of Hormuz will reopen for shipping.",
-      "url": "https://www.aljazeera.com/news/2026/6/14/us-iran-ceasefire-deal-announced-trump-says-strait-of-hormuz-reopening?traffic_source=rss",
-      "age_hours": 1.0
-    },
-    {
-      "source": "CNBC Top News",
-      "title": "Trump heads to G7 summit in France after reaching deal to end war with Iran",
-      "summary": "The G7 is likely to address the Iran peace deal, as well as Russia's war against Ukraine, which continues to rage in eastern Europe.",
-      "url": "https://www.cnbc.com/2026/06/14/trump-g7-iran-deal-france-ukraine.html",
-      "age_hours": 1.3
-    },
-    {
-      "source": "Investing.com News",
-      "title": "Trump says deal with Iran now complete,  Strait of Hormuz to reopen",
-      "summary": "",
-      "url": "https://www.investing.com/news/economy-news/trump-says-iran-deal-could-be-signed-sunday-tehran-disputes-timing-4741061",
+      "title": "Belgium see red in goalless World Cup draw with Iran in Los Angeles",
+      "summary": "Nathan Ngoy was sent off for hauling down Mehdi Taremi, whose first-half strike was ruled offside in close Group G game.",
+      "url": "https://www.aljazeera.com/sports/2026/6/21/iran-belgium-wc-mehdi-taremi-score-los-angeles-draw?traffic_source=rss",
       "age_hours": 1.5
     },
     {
-      "source": "Investing.com News",
-      "title": "Oil slips over 4% after US, Iran reach peace deal, reopen Strait of Hormuz",
-      "summary": "",
-      "url": "https://www.investing.com/news/commodities-news/oil-slips-over-4-after-us-iran-reach-peace-deal-reopen-strait-of-hormuz-4741118",
-      "age_hours": 1.6
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Oil Slumps as US-Iran Deal May Allow Strait of Hormuz to Reopen",
-      "summary": "Oil tumbled after the US and Iran agreed to a peace deal to end the war in the Middle East, potentially allowing the Strait of Hormuz to reopen.",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-14/latest-oil-market-news-and-analysis-for-june-15",
-      "age_hours": 1.7
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "US Futures Climb, Oil Falls on Iran Peace Deal: Markets Wrap",
-      "summary": "US equity futures climbed, oil slumped and the dollar fell after the US and Iran said they had reached a deal to reopen the Strait of Hormuz.",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
-      "age_hours": 1.7
-    },
-    {
-      "source": "Investing.com News",
-      "title": "US, Iran reach peace deal, signing set for Friday, Pakistan says",
-      "summary": "",
-      "url": "https://www.investing.com/news/world-news/us-iran-reach-peace-deal-signing-set-for-friday-pakistan-says-4741116",
-      "age_hours": 2.1
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "LIVE: Ilia Topuria vs Justin Gaethje title fight at UFC Freedom 250",
-      "summary": "Title fights, Topuria-Gaethje and Pereira-Gane, to be staged in front of US President Donald Trump at the White House.",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/6/14/live-ilia-topuria-vs-justin-gaethje-title-fight-at-ufc-freedom-250?traffic_source=rss",
-      "age_hours": 2.4
-    },
-    {
       "source": "MarketWatch Top",
-      "title": "Will the real Kevin Warsh please stand up? Ahead of his first Fed meeting, economists honestly don\u2019t know what to expect.",
-      "summary": "Perhaps the only thing that can be said with certainty about Kevin Warsh\u2019s press conference following his first meeting as Federal Reserve chair this week is that he will have a captive audience.",
-      "url": "https://www.marketwatch.com/story/will-the-real-kevin-warsh-please-stand-up-ahead-of-his-first-fed-meeting-economists-honestly-dont-know-what-to-expect-6fa95c8c?mod=mw_rss_topstories",
-      "age_hours": 2.8
+      "title": "The loneliness crisis has gotten so bad that lawmakers are ready to spend millions of dollars to fight it",
+      "summary": "The health damage of loneliness is similar to heavy smoking and obesity",
+      "url": "https://www.marketwatch.com/story/the-loneliness-crisis-has-gotten-so-bad-that-lawmakers-are-ready-to-spend-millions-of-dollars-to-fight-it-f7e7c7b7?mod=mw_rss_topstories",
+      "age_hours": 1.9
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
+      "summary": "",
+      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4751686",
+      "age_hours": 1.9
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom",
+      "summary": "",
+      "url": "https://finance.yahoo.com/energy/articles/hormuz-crisis-sparks-middle-east-210000952.html",
+      "age_hours": 2.2
     },
     {
       "source": "Al Jazeera",
-      "title": "Gaza mourns four killed in Israeli strike",
-      "summary": "Cries of grief echoed through Gaza City for four Palestinians killed near the Jabalia refugee camp in northern Gaza.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/14/gaza-mourns-four-killed-in-israeli-strike?traffic_source=rss",
-      "age_hours": 2.8
+      "title": "What are the end goals of Iran-US negotiations?",
+      "summary": "Professor and political analyst Mahjoub Zweiri breaks down what intentions behind US-Iran talks will result in.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/21/what-are-the-end-goals-of-iran-us-negotiations?traffic_source=rss",
+      "age_hours": 2.2
     },
     {
       "source": "OilPrice.com",
-      "title": "Nuclear Drives \u201cAll of the Above\u201d Trend in Energy Security",
-      "summary": "Japan plans to rebuild over a dozen nuclear reactors by 2050; China is building seven new ones this year alone; in the U.S., two companies are building a hybrid nuclear-and-gas power plant; Germany admitted killing nuclear was a big mistake. Nuclear is back\u2014and it makes the backbone of a new approac",
-      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Nuclear-Drives-All-of-the-Above-Trend-in-Energy-Security.html",
-      "age_hours": 2.8
+      "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom",
+      "summary": "The blockading of the Strait of Hormuz was something that was never going to happen\u2014until it did, paralyzing a fifth of global LNG and crude oil flows and causing quite a bit of economic pain to both producers and consumers of energy commodities. Now, they are taking care to never let a disruption o",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Crisis-Sparks-a-Middle-East-Pipeline-Boom.html",
+      "age_hours": 2.2
     },
     {
       "source": "ForexLive",
-      "title": "Iranian state TV says Israel \"will be heavily bombed tonight.\"",
-      "summary": "Israel struck Beirut; Trump publicly rebuked Netanyahu; Iran rejected a U.S. restraint offer and vowed an Islamic response, threatening a peace deal Trump said was close.   Netanyahu and Trump have reportedly spoken.  Summary:\nSources: Channel 12; Trump Truth Social post; Iran Supreme National Secur",
-      "url": "https://investinglive.com/news/iranian-state-tv-says-israel-will-be-heavily-bombed-tonight-20260614/",
+      "title": "Economic and event calendar in Asia Monday, June 22, 2026 is a light one",
+      "summary": "We won't be getting impetus from any of this lot.  That PBoC rate decision is on the LPRs, and is of little relevance to traders. The central bank now treats the seven-day reverse repo rate as its primary policy instrument.  Much more on this here.  \n                            This article was writ",
+      "url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-monday-june-22-2026-is-a-light-one-20260621/",
+      "age_hours": 2.3
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Mourners gather to remember Lebanese conservationist killed by Israel",
+      "summary": "People gathered in Beirut in memory of beloved turtle conservationist Mona Khalil, killed in Israeli attack.",
+      "url": "https://www.aljazeera.com/news/2026/6/21/mourners-gather-to-remember-lebanese-conservationist-killed-by-israel?traffic_source=rss",
+      "age_hours": 2.9
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Remembering Al Jazeera cameraman Ahmed Wishah\u2019s life\u2019s work",
+      "summary": "Al Jazeera cameraman Ahmed Wishah dedicated his life to documenting life in Gaza before he was killed by Israel.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/21/remembering-al-jazeera-cameraman-ahmed-wishahs-lifes-work?traffic_source=rss",
+      "age_hours": 3.0
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Displaced Lebanese inspect shattered Nabatieh after Israel halts attacks",
+      "summary": "Displaced residents returned to Nabatieh after Israel ordered a halt to fighting in southern Lebanon.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/21/displaced-lebanese-inspect-shattered-nabatieh-after-israel-halts-attacks?traffic_source=rss",
       "age_hours": 3.1
     },
     {
-      "source": "CNBC Finance",
-      "title": "Charlie Javice reportedly seeking a pardon from Trump",
-      "summary": "Javice founded a startup called Frank that JPMorgan acquired in 2021 for $175 million.",
-      "url": "https://www.cnbc.com/2026/06/14/charlie-javice-reportedly-seeking-a-pardon-from-trump-.html",
-      "age_hours": 3.3
+      "source": "BBC World",
+      "title": "Trump and Iran's negotiator trade warnings as talks held in Switzerland",
+      "summary": "The US president, who is not at the talks, threatens to attack Iran if it does not restrain Hezbollah in Lebanon.",
+      "url": "https://www.bbc.com/news/articles/cwy0q41v1lzo?at_medium=RSS&at_campaign=rss",
+      "age_hours": 3.7
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Bond Traders Burned by Fed\u2019s Pivot Look to Prices Gauge, Oil",
+      "summary": "Bond traders, recently forced to reposition for the possibility of higher interest rates ahead, are looking to this week\u2019s personal spending data for an early read on whether the market\u2019s newly hawkish stance is warranted.",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-21/bond-traders-burned-by-fed-s-pivot-look-to-prices-gauge-oil",
+      "age_hours": 4.2
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Bitcoin coils below $65K resistance: Live levels",
+      "summary": "",
+      "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-hits-66380-resistance-after-wbottom-breakout-live-levels-93CH-4741296",
+      "age_hours": 4.2
+    },
+    {
+      "source": "FT Markets",
+      "title": "Warsh\u2019s push to axe Fed guidance may lift US borrowing costs, investors warn",
+      "summary": "Traders see more volatility ahead as new central bank chair declines to give dot plot on future path of interest rates",
+      "url": "https://www.ft.com/content/6a9330ad-a2db-494b-bf61-7dd417ab9c9a",
+      "age_hours": 5.2
     },
     {
       "source": "Yahoo Finance",
-      "title": "NVIDIA (NVDA): AI Factory Demand Shows How Growth Can Stay High Without Balance Sheet Strain",
+      "title": "Jim Cramer Highlights Goldman Sachs (GS) as Investment Banking Activity Explodes",
       "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-ai-factory-demand-194442636.html",
-      "age_hours": 4.0
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Palantir (PLTR): Debt-Free AI Growth Shows Why Its Software Story Still Has Financial Firepower",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-pltr-debt-free-ai-194437119.html",
-      "age_hours": 4.0
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Jim Cramer Returns To Diamondback Energy (FANG) As Oil Prices Touch $96",
-      "summary": "",
-      "url": "https://finance.yahoo.com/sectors/energy/articles/jim-cramer-returns-diamondback-energy-190827712.html",
-      "age_hours": 4.6
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-highlights-goldman-sachs-134003398.html",
+      "age_hours": 5.6
     },
     {
       "source": "OilPrice.com",
-      "title": "Alaska\u2019s Untapped Oil Wealth Is Still Struggling to Find Investors",
-      "summary": "Alaskan oil and gas production has always been a complicated issue, as energy companies want to tap the region\u2019s vast reserves and environmentalists fear irreparable damage to the vulnerable ecosystem. The Biden administration introduced far-reaching protections in Alaska, aimed at preventing new oi",
-      "url": "https://oilprice.com/Energy/Energy-General/Alaskas-Untapped-Oil-Wealth-Is-Still-Struggling-to-Find-Investors.html",
-      "age_hours": 4.8
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Defaults in debt markets are starting again, warns Pimco. Here\u2019s the bond giant\u2019s game plan.",
-      "summary": "Investors should increasingly seek out fixed income to anchor portfolios as equity valuations look stretched, says Pimco.",
-      "url": "https://www.marketwatch.com/story/defaults-in-debt-markets-are-starting-again-warns-pimco-heres-the-bond-giants-game-plan-16559c6d?mod=mw_rss_topstories",
+      "title": "Equinor Expands Giant Troll Field as Europe Hunts for More Gas",
+      "summary": "Equinor and its partners are investing more than NOK 4 billion ($390 million) to expand the Troll field, a giant North Sea asset that supplies around 10% of Europe's natural gas and contains 40% of Norway's remaining gas reserves. The project is expected to unlock around 11 billion cubic meters of n",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Equinor-Expands-Giant-Troll-Field-as-Europe-Hunts-for-More-Gas.html",
       "age_hours": 6.2
     },
     {
-      "source": "OilPrice.com",
-      "title": "Silicon Valley\u2019s AI Dreams Face a Blue-Collar Reality",
-      "summary": "Most discussions about artificial intelligence focus on chips, data centers, power plants, and electricity demand. Those are all important. But another bottleneck is beginning to emerge, and it may prove to be an underappreciated challenge. The AI boom needs electricians. It also needs line workers,",
-      "url": "https://oilprice.com/Energy/Energy-General/Silicon-Valleys-AI-Dreams-Face-a-Blue-Collar-Reality.html",
-      "age_hours": 6.8
-    },
-    {
-      "source": "OilPrice.com",
-      "title": "Fiji Blocks Controversial Australian-Backed Waste Incinerator Project",
-      "summary": "Fiji has rejected Australia\u2019s proposal to ship waste to the South Pacific country to burn and produce energy, with Fiji\u2019s ambassador to the UN, Filipo Tarakinikini, saying, \u201c[We] must not become the Pacific\u2019s ashtray.\u201d The idea of exporting rubbish to Fiji to be burned for energy has quickly become ",
-      "url": "https://oilprice.com/Energy/Energy-General/Fiji-Blocks-Controversial-Australian-Backed-Waste-Incinerator-Project.html",
-      "age_hours": 8.8
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "We thought we found the perfect luxury retirement community, but it\u2019s millions of dollars in debt. Are we trapped?",
-      "summary": "\u201cIf we were to leave, we would lose a portion of our buy-in \u2014 about $80,000.\u201d",
-      "url": "https://www.marketwatch.com/story/we-thought-we-found-the-perfect-luxury-retirement-community-but-its-millions-of-dollars-in-debt-are-we-trapped-cde2e8f5?mod=mw_rss_topstories",
-      "age_hours": 9.3
-    },
-    {
-      "source": "CNBC Top News",
-      "title": "Can Trump Accounts help close the wealth gap? Here's what experts say stands in the way",
-      "summary": "Trump Accounts come with free money for some children, but it may not be enough to reduce the wealth gap, some experts say.",
-      "url": "https://www.cnbc.com/2026/06/14/trump-accounts-wealth-gap.html",
-      "age_hours": 10.3
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "SpaceX shows investors still want moonshots. The Fed may test that theory this week.",
-      "summary": "Higher interest rates could make the AI growth story that\u2019s been powering the bull market harder to justify.",
-      "url": "https://www.marketwatch.com/story/spacex-shows-investors-still-want-moonshots-the-fed-may-test-that-theory-this-week-d7771f3a?mod=mw_rss_topstories",
-      "age_hours": 10.8
-    },
-    {
-      "source": "CNBC Top News",
-      "title": "Top Wall Street analysts are confident about the growth prospects of these 3 stocks",
-      "summary": "Continued volatility presents an opportunity to find stocks trading at attractive prices and benefit from their long-term growth potential.",
-      "url": "https://www.cnbc.com/2026/06/14/top-analysts-are-confident-about-the-prospects-of-these-3-stocks.html",
-      "age_hours": 10.9
-    },
-    {
-      "source": "FT Markets",
-      "title": "Electrification jumps up corporate agenda after energy crisis, survey finds",
-      "summary": "Security and cost concerns elevate business push for overhaul of power systems",
-      "url": "https://www.ft.com/content/336ad7d4-15b3-4033-9ff3-3ae03111eb1f",
-      "age_hours": 12.8
-    },
-    {
-      "source": "Guardian World",
-      "title": "Jamaica\u2019s beach access crisis: \u2018We shouldn\u2019t be forced to fight for what is already ours\u2019",
-      "summary": "Activists argue business model is \u2018plantation tourism\u2019 designed to benefit elite and disadvantage most Jamaicans Campaigners go to court to fight privatisation of Jamaican coast Devon Taylor remembers when the Mammee Bay shoreline in St Ann, Jamaica, was filled with children frolicking in the ocean ",
-      "url": "https://www.theguardian.com/news/2026/jun/14/jamaica-beach-access-crisis-plantation-tourism",
-      "age_hours": 12.8
+      "source": "BBC World",
+      "title": "Half of France under red heat alert as alcohol banned at street music festival",
+      "summary": "Temperatures are forecast to peak on Monday, and authorities warn they could match historic highs.",
+      "url": "https://www.bbc.com/news/articles/cgmdw4vn7y2o?at_medium=RSS&at_campaign=rss",
+      "age_hours": 7.9
     },
     {
       "source": "BBC World",
-      "title": "US kills leader of Venezuela's Tren de Aragua gang in air strike, Trump says",
-      "summary": "Ni\u00f1o Guerrero was killed in a \"swift and lethal kinetic strike,\" the US President wrote in a social media post.",
-      "url": "https://www.bbc.com/news/articles/cp36z37knlko?at_medium=RSS&at_campaign=rss",
-      "age_hours": 17.1
-    },
-    {
-      "source": "FT Markets",
-      "title": "China tees up digital payments system to compete with dollar",
-      "summary": "Beijing\u2019s cross-border currency platform will be backed by central banks of Hong Kong, Thailand, UAE and Saudi Arabia",
-      "url": "https://www.ft.com/content/76de5ca6-9ae8-49ae-a0cb-64d09040f327",
-      "age_hours": 21.4
-    },
-    {
-      "source": "BBC World",
-      "title": "Russian families use AI to 'resurrect' loved ones killed in Ukraine",
-      "summary": "The highly controversial trend lies at the intersection of Russia's war on Ukraine, new AI technologies and grief.",
-      "url": "https://www.bbc.com/news/articles/cwy24v72n19o?at_medium=RSS&at_campaign=rss",
-      "age_hours": 24.4
-    },
-    {
-      "source": "BBC World",
-      "title": "As Trump turns 80, what's it really like to work as an octogenarian?",
-      "summary": "As President Donald Trump celebrates his birthday, we ask people who have worked into their 80s themselves about what it takes to keep going.",
-      "url": "https://www.bbc.com/news/articles/cm20vyxppneo?at_medium=RSS&at_campaign=rss",
-      "age_hours": 24.4
+      "title": "Ethiopia PM's party wins landslide as fears grow of new conflict",
+      "summary": "Abiy Ahmed's party retains its huge majority despite unrest in several parts of Ethiopia and tensions with its neighbours.",
+      "url": "https://www.bbc.com/news/articles/cz750q5e3w3o?at_medium=RSS&at_campaign=rss",
+      "age_hours": 8.2
     },
     {
       "source": "OilPrice.com",
-      "title": "Fuel Tax Changes Hit Six States As Energy Inflation Accelerates",
-      "summary": "Oil markets extended their decline on Friday, with crude prices falling sharply after U.S. President Donald Trump said a peace agreement with Iran was close and canceled previously threatened military strikes. Brent crude slipped below $90 per barrel, trading around $88\u2013$89, while WTI fell to roughl",
-      "url": "https://oilprice.com/Energy/Energy-General/Fuel-Tax-Changes-Hit-Six-States-As-Energy-Inflation-Accelerates.html",
-      "age_hours": 26.8
+      "title": "The Hormuz Crisis Has Forced India to Rethink Its Energy Strategy",
+      "summary": "India has been battling to secure its energy security in recent months, as its heavy dependence on fossil fuel imports has made it highly vulnerable to a closure of the Strait of Hormuz. Severe energy supply chain disruptions have prompted India to deepen its ties with the United States to secure su",
+      "url": "https://oilprice.com/Energy/Energy-General/The-Hormuz-Crisis-Has-Forced-India-to-Rethink-Its-Energy-Strategy.html",
+      "age_hours": 8.2
     },
     {
       "source": "Guardian World",
-      "title": "Mourners line Bangkok streets to pay respects to Thailand\u2019s Princess Bha",
-      "summary": "Funeral procession travels to palace as people remember royal\u2019s campaigning and work for underprivileged As the sun began to set on the golden spires and gilded finials of Bangkok\u2019s Grand Palace, the gates were open, waiting for the return of a princess. Since December 2022, Princess Bajrakitiyabha ",
-      "url": "https://www.theguardian.com/world/2026/jun/13/bangkok-thailand-princess-bha-royal-funeral-procession-mourners",
-      "age_hours": 32.5
-    },
-    {
-      "source": "FT Markets",
-      "title": "Investment firms join Donald Trump\u2019s $100bn race for Venezuelan oil",
-      "summary": "Lionheart Capital and Keo Energy create Nasdaq-listed company to pursue assets in Latin American nation.",
-      "url": "https://www.ft.com/content/6982febe-5d1b-4e16-9505-fbee84ca60ab",
-      "age_hours": 37.8
+      "title": "Colombians vote in runoff election expected to trigger shift in decades-long armed conflict",
+      "summary": "Frontrunner Abelardo de la Espriella has vowed to return to full-scale military confrontation with armed groups Ghost of far-right paramilitaries hovers over Colombia\u2019s presidential runoff vote Colombians are going to the polls in a presidential runoff expected to trigger a dramatic shift in the cou",
+      "url": "https://www.theguardian.com/world/2026/jun/21/colombias-runoff-election-expected-to-trigger-shift-in-decades-long-armed-conflict",
+      "age_hours": 8.5
     },
     {
       "source": "CNBC Top News",
-      "title": "UAE denies 'false' reports of fund transfer to Iran",
-      "summary": "The statement follows a Reuters report that the UAE has agreed to unlock billions of dollars of frozen funds for Iran.",
-      "url": "https://www.cnbc.com/2026/06/13/uae-denies-false-reports-of-fund-transfer-to-iran.html",
-      "age_hours": 38.3
-    },
-    {
-      "source": "Guardian World",
-      "title": "Trump says leader of Venezuelan Tren de Aragua gang killed in US strike",
-      "summary": "President says Hector Rusthenford Guerrero Flores killed in \u2018swift and lethal\u2019 military strike with help from Venezuela The US military has killed a leader in the Venezuelan street gang Tren de Aragua, Hector Rusthenford Guerrero Flores, with the help of Venezuela, Donald Trump  announced  on Friday",
-      "url": "https://www.theguardian.com/us-news/2026/jun/12/trump-venezuela-tren-de-aragua-leader-killed",
-      "age_hours": 45.9
-    },
-    {
-      "source": "BBC World",
-      "title": "Watch: Why is Trump not at the World Cup?",
-      "summary": "All three leaders of the North America host nations have missed the tournament opening matches.",
-      "url": "https://www.bbc.com/news/videos/ced48dv99lvo?at_medium=RSS&at_campaign=rss",
-      "age_hours": 46.8
-    },
-    {
-      "source": "BBC World",
-      "title": "The college scam that promised students fleeing war a new life in Finland",
-      "summary": "BBC speaks to students from war-torn Myanmar who say they were cheated after paying to study abroad.",
-      "url": "https://www.bbc.com/news/articles/cgrprx55zpvo?at_medium=RSS&at_campaign=rss",
-      "age_hours": 49.6
-    },
-    {
-      "source": "FT Markets",
-      "title": "Paramount\u2019s $111bn takeover of Warner Bros wins US antitrust approval",
-      "summary": "Deal is critical to David Ellison\u2019s ambition to create new media empire",
-      "url": "https://www.ft.com/content/fd52360a-20f7-4000-851f-2d2421e17fb7",
-      "age_hours": 49.9
+      "title": "Republicans buy crypto more than Democrats, data shows \u2014 what's driving the divide",
+      "summary": "\"There's a massive, massive partisan gap,\" of crypto adoption between Democrats and Republicans. Here's why.",
+      "url": "https://www.cnbc.com/2026/06/21/republicans-democrats-crypto-bitcoin-use.html",
+      "age_hours": 9.7
     },
     {
       "source": "ForexLive",
-      "title": "investingLive Americas market news wrap: SpaceX IPO succeeds, mixed signals on Iran",
-      "summary": "Iranian finance minister: End of war on all fronts will be announced under interim deal At least $10 billion for Iran to be unlocked in Iran deal Trump says the terms of the Iran deal that leaked out are fake. Upset about drone attacks Iranian Foreign Minister says the memorandum of understanding ha",
-      "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-spacex-ipo-succeeds-mixed-signals-on-iran-20260612/",
-      "age_hours": 51.5
-    },
-    {
-      "source": "BBC Business",
-      "title": "UK vows to phase out Russian diesel and jet fuel imports by new year",
-      "summary": "The ban forms part of the government's package of sanctions on Moscow due to the ongoing war with Ukraine.",
-      "url": "https://www.bbc.com/news/articles/ceqdl8xre7qo?at_medium=RSS&at_campaign=rss",
-      "age_hours": 51.8
-    },
-    {
-      "source": "ForexLive",
-      "title": "Iranian finance minister: End of war on all fronts will be announced under interim deal",
-      "summary": "Here are some comments from Araghchi on local TV: ENd of war in Lebanon means Israel's withdrawal from occupied areas Interim deal is first step, if not implemented, there will be no nuclear talks End of US blockade and reopening of Hormuz is part of the interim deal Says enemies like Israel are aga",
-      "url": "https://investinglive.com/news/iranian-finance-minister-end-of-war-on-all-fronts-will-be-announced-under-interim-deal-20260612/",
-      "age_hours": 52.2
-    },
-    {
-      "source": "ForexLive",
-      "title": "At least $10 billion for Iran to be unlocked in Iran deal",
-      "summary": "Trump spent years railing against the $1.7 cash settlement the US paid out to Iran in 2016 and now there is this: Reuters reports that the UAE will unlock \"at least\" $10 billion in frozen Iranian funds and that he first $3 billion is already delivered. Two separate sources say the dagreement is for ",
-      "url": "https://investinglive.com/news/at-least-10-billion-for-iran-to-be-unlocked-in-iran-deal-20260612/",
-      "age_hours": 52.8
+      "title": "J.D. Vance: These kinds of ceasefires are awlays \"a littel bit messy\"",
+      "summary": "US Vice President J.D. Vance is in Switzerland meeting with Iranian officials in meetings mediated by Qatar: Trump empowered us to find a diplomatic solution to a host of issues The question is whether we can change relations in the Middle East permanently Iran has been a driver of regional instabil",
+      "url": "https://investinglive.com/news/jd-vance-these-kinds-of-ceasefires-are-awlays-a-littel-bit-messy-20260621/",
+      "age_hours": 10.1
     },
     {
       "source": "CNBC Finance",
-      "title": "From startup to $1.8 trillion: The investors who took a chance on SpaceX now reap the rewards",
-      "summary": "With SpaceX seeking an IPO valuation of nearly $1.8 trillion, early bets are poised to generate some of the biggest paper gains in venture capital history.",
-      "url": "https://www.cnbc.com/2026/06/11/spacex-investors-reap-rewards-1-8-trillion-valuation.html",
-      "age_hours": 57.0
+      "title": "U.S. and Iran begin peace talks amid conflicting claims over Strait of Hormuz",
+      "summary": "Iran's military said it had closed the Strait of Hormuz in response to continued Israeli military strikes in Lebanon; the U.S. said it remains open.",
+      "url": "https://www.cnbc.com/2026/06/20/iran-reportedly-closes-strait-of-hormuz-again-raising-doubt-over-talks.html",
+      "age_hours": 11.0
     },
     {
-      "source": "ECB News",
-      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-      "summary": "",
-      "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260612~12de4776f6.en.html",
-      "age_hours": 58.8
+      "source": "CNBC Top News",
+      "title": "'Regime change but in a velvet glove': How Kevin Warsh has set out to remake the Fed",
+      "summary": "The first big announced changes point toward a quiet revolution, with task forces set up to rethink virtually everything done at the Fed.",
+      "url": "https://www.cnbc.com/2026/06/21/how-kevin-warsh-has-set-out-to-remake-the-fed.html",
+      "age_hours": 12.0
+    },
+    {
+      "source": "CNBC Finance",
+      "title": "'Regime change but in a velvet glove': How Kevin Warsh has set out to remake the Fed",
+      "summary": "The first big announced changes point toward a quiet revolution, with task forces set up to rethink virtually everything done at the Fed.",
+      "url": "https://www.cnbc.com/2026/06/21/how-kevin-warsh-has-set-out-to-remake-the-fed.html",
+      "age_hours": 12.0
+    },
+    {
+      "source": "BBC World",
+      "title": "Fuel sales halted in occupied Crimea as Ukraine targets oil facilities",
+      "summary": "Fuel had already been rationed due to shortages caused by Kyiv's attacks against supply routes in Russian-occupied territories.",
+      "url": "https://www.bbc.com/news/articles/clyx2lk9d15o?at_medium=RSS&at_campaign=rss",
+      "age_hours": 12.3
     },
     {
       "source": "Guardian World",
-      "title": "China arrests US academic at conference for \u2018espionage activities\u2019",
-      "summary": "Arrest of Min Zin, who writes about Myanmar and Chinese foreign policy, comes just month after Trump visit to Beijing China has arrested a US scholar who writes about Myanmar and Chinese foreign policy on suspicion of spying. Min Zin was suspected of \u201cengaging in espionage activities that endanger C",
-      "url": "https://www.theguardian.com/world/2026/jun/12/china-arrests-us-academic-min-zin-espionage",
-      "age_hours": 61.3
+      "title": "Sweat, tears and camaraderie as 20,000 runners take on world\u2019s largest ultramarathon",
+      "summary": "For one day every June, South Africa\u2019s searing racial inequality seems to melt away at Comrades race In the early morning dark, thousands of runners waited, jostling with anticipation. South Africa\u2019s national anthem rang out. Then the haunting swell of  Shosholoza , first sung by Zimbabwean migrant ",
+      "url": "https://www.theguardian.com/world/2026/jun/21/comrades-ultramarathon-south-africa",
+      "age_hours": 15.2
+    },
+    {
+      "source": "Guardian World",
+      "title": "Bolivian president declares state of emergency and deploys military to quell anti-government protests",
+      "summary": "Bulldozers sent in to clear roadblocks that have stifled the country as farmers and Indigenous groups protest against conservative president  Bolivia\u2019s president declared a state of emergency on Saturday and deployed soldiers and bulldozers to raze anti-government roadblocks that have paralysed the ",
+      "url": "https://www.theguardian.com/world/2026/jun/21/bolivian-president-declares-state-of-emergency-and-deploys-military-to-quell-anti-government-protests",
+      "age_hours": 18.8
+    },
+    {
+      "source": "FT Markets",
+      "title": "SpaceX handed lowest possible ESG rating by MSCI",
+      "summary": "Triple C score puts Elon Musk\u2019s company on par with Russia after 2022 invasion of Ukraine",
+      "url": "https://www.ft.com/content/a0dd4ea7-ef3d-4460-a96c-8c6975a053e3",
+      "age_hours": 19.2
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Dow Jones Futures: Iran Says Hormuz Closed But New Talks To Start; Nvidia, SpaceX Are Stocks To Watch",
+      "summary": "",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-5-chips-buy-points-spacex-stock/?src=A00220&yptr=yahoo",
+      "age_hours": 20.6
+    },
+    {
+      "source": "BBC World",
+      "title": "Colombia's escalating, brutal internal conflict is defining its presidential election",
+      "summary": "A left-wing senator who backs talks with armed gangs faces an outsider endorsed by Trump.",
+      "url": "https://www.bbc.com/news/articles/cvgqv8q1ndpo?at_medium=RSS&at_campaign=rss",
+      "age_hours": 23.9
+    },
+    {
+      "source": "OilPrice.com",
+      "title": "G7 Takes Aim at China\u2019s Grip on Critical Minerals",
+      "summary": "The leaders of the G7 have created a strategic alliance on critical minerals in a coordinated effort to break China\u2019s oversized control of the metals and minerals and rare earth elements crucial to the defense, automotive, and clean energy industries. At the G7 summit in Evian, France, the leaders o",
+      "url": "https://oilprice.com/Energy/Energy-General/G7-Takes-Aim-at-Chinas-Grip-on-Critical-Minerals.html",
+      "age_hours": 24.2
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Fed\u2019s Favorite Gauge Is Seen Showing Faster Inflation",
+      "summary": "The latest update to the Federal Reserve\u2019s favorite inflation gauge is unlikely to challenge a growing consensus at the US central bank around the need for interest-rate hikes this year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-20/fed-s-favorite-gauge-is-seen-showing-faster-inflation",
+      "age_hours": 27.2
+    },
+    {
+      "source": "CNBC Top News",
+      "title": "Bitcoin's future as revolutionary as the smartphone, according to CoinDesk",
+      "summary": "CoinDesk\u2019s president of indices and data has a message for investors: Don\u2019t count out bitcoin.",
+      "url": "https://www.cnbc.com/2026/06/20/bitcoin-as-revolutionary-as-smartphone-according-to-coindesk.html",
+      "age_hours": 32.2
+    },
+    {
+      "source": "CNBC Finance",
+      "title": "Bitcoin's future as revolutionary as the smartphone, according to CoinDesk",
+      "summary": "CoinDesk\u2019s president of indices and data has a message for investors: Don\u2019t count out bitcoin.",
+      "url": "https://www.cnbc.com/2026/06/20/bitcoin-as-revolutionary-as-smartphone-according-to-coindesk.html",
+      "age_hours": 32.2
+    },
+    {
+      "source": "ForexLive",
+      "title": "Iran military command says it's closing the Strait of Hormuz due to ceasefire violations",
+      "summary": "Iran's Khatam-al Anbiya HQ announced that the Strait of Hormuz will be closed to all maritime traffic. The military headquarters cites US breaches of the war-ending deal and ongoing Israeli ceasefire violations, along with the non-withdrawal in Lebanon. They warned this is only the \"first step.\" The",
+      "url": "https://investinglive.com/news/iran-military-command-says-its-closing-the-strait-of-hormuz-due-to-ceasefire-violations-20260620/",
+      "age_hours": 33.7
+    },
+    {
+      "source": "CNBC Top News",
+      "title": "AI buildout gives tech investors new reasons to watch bond market",
+      "summary": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
+      "url": "https://www.cnbc.com/2026/06/20/ai-buildout-giving-tech-investors-new-reasons-to-watch-bond-market.html",
+      "age_hours": 35.2
+    },
+    {
+      "source": "Guardian World",
+      "title": "Ghost of far-right paramilitaries hovers over Colombia\u2019s presidential runoff vote",
+      "summary": "Colombians will choose on Sunday between two men whose lives have been very differently shaped by the militias, and whose visions for the country are poles apart Whoever wins Sunday\u2019s presidential runoff vote in Colombia, the country\u2019s next leader will have a personal history intertwined with one of",
+      "url": "https://www.theguardian.com/world/2026/jun/20/colombia-presidential-election-paramilitary-militia-runoff",
+      "age_hours": 35.2
+    },
+    {
+      "source": "FT Markets",
+      "title": "Markets get the measure of Trump",
+      "summary": "At the very first sign that the president is buckling on an unorthodox foreign policy decision, that is the time to pounce",
+      "url": "https://www.ft.com/content/56d4d21f-05e5-46e3-ae82-aa8854fa3395",
+      "age_hours": 43.2
+    },
+    {
+      "source": "FT Markets",
+      "title": "Europe\u2019s stocks offer a peace dividend their US peers can\u2019t match",
+      "summary": "European companies have more to gain by way of recovery if energy shortages caused by the Iran conflict ease",
+      "url": "https://www.ft.com/content/13deea29-7603-4c6a-bbf1-1beb57f1d149",
+      "age_hours": 43.2
+    },
+    {
+      "source": "FT Markets",
+      "title": "Fertiliser prices tumble as traders look beyond Middle East disruption",
+      "summary": "Urea back to prewar levels but drop in demand \u2018is not good news\u2019",
+      "url": "https://www.ft.com/content/e13f54a4-433c-4ab8-a70a-a38c7279de92",
+      "age_hours": 43.2
+    },
+    {
+      "source": "ForexLive",
+      "title": "investingLive Americas market news wrap: Israel and Hezbollah agree to shaky ceasefire",
+      "summary": "Israel and Hezbollah have agreed to a ceasefire to start almost immediately Two killed in drone strike in Southern Lebanon after ceasefire Canada April retail sales +0.5% vs +0.6% expected UK PM Starmer to weigh future over the weekend - report \"Multiple\" cabinet ministers will tell Starmer to set o",
+      "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-israel-and-hezbollah-agree-to-shaky-ceasefire-20260619/",
+      "age_hours": 51.2
+    },
+    {
+      "source": "ForexLive",
+      "title": "Questions are creeping in about AI usefulness and spend",
+      "summary": "The party can't last forever. Friday's rally in stock markets -- particularly in chip stocks -- surprised me. The Fed was hawkish and stock market sold off during the FOMC press conference as bonds priced in a more-hawkish rate path. That all made perfect sense but then stocks immediately turned aft",
+      "url": "https://investinglive.com/news/questions-are-creeping-in-about-ai-usefulness-and-spend-20260619/",
+      "age_hours": 54.2
+    },
+    {
+      "source": "CNBC Top News",
+      "title": "In photos: Star-studded crowd gathers to celebrate the Obama Presidential Center dedication",
+      "summary": "Barack Obama opened his presidential center in Chicago with former presidents, celebrities and dignitaries in attendance. President Donald Trump was absent.",
+      "url": "https://www.cnbc.com/2026/06/18/obama-presidential-center-opening-chicago-photos-trump.html",
+      "age_hours": 57.4
+    },
+    {
+      "source": "BBC Business",
+      "title": "Five ways the Iran peace deal could affect you and your money",
+      "summary": "With fuel and gas prices having fallen in recent days, we look at how the end of hostilities might affect you - in five charts.",
+      "url": "https://www.bbc.com/news/articles/c4g5574pwreo?at_medium=RSS&at_campaign=rss",
+      "age_hours": 61.7
+    },
+    {
+      "source": "BBC Business",
+      "title": "Five ways the Iran peace deal could affect you and your money",
+      "summary": "With fuel and gas prices having fallen in recent days, we look at how the end of hostilities might affect you - in five charts.",
+      "url": "https://www.bbc.com/news/articles/c4g5574pwreo?at_medium=RSS&at_campaign=rss",
+      "age_hours": 61.7
+    },
+    {
+      "source": "BBC Business",
+      "title": "What's happening to UK petrol and diesel prices now the US and Iran have a deal?",
+      "summary": "When the conflict began on 28 February, fuel costs jumped as the war disrupted the production and transportation of energy across the Middle East.",
+      "url": "https://www.bbc.com/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+      "age_hours": 62.3
+    },
+    {
+      "source": "BBC Business",
+      "title": "Warning over 'fragile' public finances as borrowing rises",
+      "summary": "The UK borrowed \u00a323.3bn in May, according to official figures, up almost a third on the same month last year.",
+      "url": "https://www.bbc.com/news/articles/cqx1e8nrwgvo?at_medium=RSS&at_campaign=rss",
+      "age_hours": 62.6
+    },
+    {
+      "source": "ECB News",
+      "title": "ECB publishes consolidated banking data for end-December 2025",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260619~f097597c01.en.html",
+      "age_hours": 63.2
     }
   ]
 }
