@@ -1,6 +1,6 @@
 {
-  "generated_at": "Sunday 2026-06-28 00:21 UTC",
-  "macro_theme": "The dominant theme this week is the escalating tensions between the US and Iran, with the US carrying out fresh strikes against Iran after a commercial tanker was hit in the Strait of Hormuz. This has led to a rise in geopolitical risk and a potential shift in market sentiment.",
+  "generated_at": "Sunday 2026-06-28 00:23 UTC",
+  "macro_theme": "Escalating tensions between the US and Iran, with the US carrying out fresh strikes against Iran, are driving market sentiment this week. The situation is being closely monitored, with potential implications for global oil prices and geopolitical stability.",
   "trump_risk_level": "EXTREME",
   "geopolitical_risk": "EXTREME",
   "recommended_assets": [
@@ -9,333 +9,332 @@
     "GOLD"
   ],
   "assets_to_avoid": [
-    "EURUSD",
-    "GBPUSD",
-    "AUDUSD"
+    "NAS100",
+    "US30"
   ],
   "signals": {
     "EURUSD": {
       "direction": "SELL",
-      "confidence": 60,
-      "gap_type": "FILL",
+      "confidence": 70,
+      "gap_type": "CONTINUATION",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "US strikes on Iran",
+        "US strikes against Iran",
         "Escalating tensions in the Middle East",
         "Trump's threats against Tehran"
       ],
       "risks": [
-        "A sudden de-escalation in US-Iran tensions",
-        "A strong economic data release from the Eurozone",
-        "A surprise rate cut from the ECB"
+        "De-escalation of US-Iran tensions",
+        "Intervention by other global powers",
+        "Unexpected economic data releases"
       ],
-      "trade_bias": "Look for a short opportunity on a gap down, targeting the 1.1300 level."
+      "trade_bias": "Look for a sell opportunity on a gap down, targeting the lower end of the recent range."
     },
     "GBPUSD": {
       "direction": "SELL",
-      "confidence": 50,
-      "gap_type": "FILL",
+      "confidence": 60,
+      "gap_type": "CONTINUATION",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "US-UK trade tensions",
-        "Brexit uncertainty",
-        "Weak UK economic data"
+        "US-Iran tensions",
+        "Global economic uncertainty",
+        "Brexit-related concerns"
       ],
       "risks": [
-        "A breakthrough in US-UK trade talks",
-        "A strong UK economic data release",
-        "A surprise rate hike from the BoE"
+        "Positive UK economic data",
+        "US-UK trade deal progress",
+        "Sterling-specific news"
       ],
-      "trade_bias": "Look for a short opportunity on a gap down, targeting the 1.3100 level."
+      "trade_bias": "Consider selling on a gap down, with a focus on the psychological 1.30 level."
     },
     "USDJPY": {
       "direction": "BUY",
       "confidence": 80,
       "gap_type": "CONTINUATION",
-      "expected_gap_size": "LARGE(>0.5%)",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
         "US-Iran tensions",
         "Safe-haven flows into the yen",
-        "BoJ's dovish stance"
+        "BoJ's monetary policy stance"
       ],
       "risks": [
-        "A sudden de-escalation in US-Iran tensions",
-        "A strong economic data release from Japan",
-        "A surprise rate hike from the BoJ"
+        "Intervention by the BoJ",
+        "Unexpected weakness in the US economy",
+        "Risk-on sentiment"
       ],
-      "trade_bias": "Look for a long opportunity on a gap up, targeting the 162.00 level."
+      "trade_bias": "Buy on a gap up, targeting the upper end of the recent range, as safe-haven flows into the yen are expected to continue."
     },
     "USDCHF": {
+      "direction": "BUY",
+      "confidence": 75,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US-Iran tensions",
+        "Safe-haven flows into the Swiss franc",
+        "SNB's monetary policy stance"
+      ],
+      "risks": [
+        "Intervention by the SNB",
+        "Unexpected weakness in the US economy",
+        "Risk-on sentiment"
+      ],
+      "trade_bias": "Consider buying on a gap up, targeting the upper end of the recent range, as safe-haven flows into the Swiss franc are expected to continue."
+    },
+    "AUDUSD": {
+      "direction": "SELL",
+      "confidence": 65,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran tensions",
+        "Global economic uncertainty",
+        "RBA's monetary policy stance"
+      ],
+      "risks": [
+        "Positive Australian economic data",
+        "US-Australia trade deal progress",
+        "Commodity price increases"
+      ],
+      "trade_bias": "Look for a sell opportunity on a gap down, targeting the lower end of the recent range."
+    },
+    "NZDUSD": {
+      "direction": "SELL",
+      "confidence": 60,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "SMALL(<0.2%)",
+      "key_drivers": [
+        "US-Iran tensions",
+        "Global economic uncertainty",
+        "RBNZ's monetary policy stance"
+      ],
+      "risks": [
+        "Positive New Zealand economic data",
+        "US-New Zealand trade deal progress",
+        "Commodity price increases"
+      ],
+      "trade_bias": "Consider selling on a gap down, with a focus on the psychological 0.60 level."
+    },
+    "USDCAD": {
       "direction": "BUY",
       "confidence": 70,
       "gap_type": "CONTINUATION",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
         "US-Iran tensions",
-        "Safe-haven flows into the franc",
-        "SNB's dovish stance"
+        "Oil price increases",
+        "BoC's monetary policy stance"
       ],
       "risks": [
-        "A sudden de-escalation in US-Iran tensions",
-        "A strong economic data release from Switzerland",
-        "A surprise rate hike from the SNB"
+        "Intervention by the BoC",
+        "Unexpected weakness in the US economy",
+        "Risk-on sentiment"
       ],
-      "trade_bias": "Look for a long opportunity on a gap up, targeting the 0.8150 level."
-    },
-    "AUDUSD": {
-      "direction": "SELL",
-      "confidence": 40,
-      "gap_type": "FILL",
-      "expected_gap_size": "SMALL(<0.2%)",
-      "key_drivers": [
-        "Weak Australian economic data",
-        "RBA's dovish stance",
-        "US-China trade tensions"
-      ],
-      "risks": [
-        "A breakthrough in US-China trade talks",
-        "A strong Australian economic data release",
-        "A surprise rate hike from the RBA"
-      ],
-      "trade_bias": "Look for a short opportunity on a gap down, targeting the 0.6850 level."
-    },
-    "NZDUSD": {
-      "direction": "SELL",
-      "confidence": 30,
-      "gap_type": "FILL",
-      "expected_gap_size": "SMALL(<0.2%)",
-      "key_drivers": [
-        "Weak New Zealand economic data",
-        "RBNZ's dovish stance",
-        "US-China trade tensions"
-      ],
-      "risks": [
-        "A breakthrough in US-China trade talks",
-        "A strong New Zealand economic data release",
-        "A surprise rate hike from the RBNZ"
-      ],
-      "trade_bias": "Look for a short opportunity on a gap down, targeting the 0.5600 level."
-    },
-    "USDCAD": {
-      "direction": "BUY",
-      "confidence": 60,
-      "gap_type": "CONTINUATION",
-      "expected_gap_size": "MEDIUM(0.2-0.5%)",
-      "key_drivers": [
-        "US-Iran tensions",
-        "Oil price volatility",
-        "BoC's dovish stance"
-      ],
-      "risks": [
-        "A sudden de-escalation in US-Iran tensions",
-        "A strong Canadian economic data release",
-        "A surprise rate hike from the BoC"
-      ],
-      "trade_bias": "Look for a long opportunity on a gap up, targeting the 1.4250 level."
+      "trade_bias": "Buy on a gap up, targeting the upper end of the recent range, as oil price increases are expected to continue."
     },
     "EURJPY": {
       "direction": "SELL",
-      "confidence": 50,
-      "gap_type": "FILL",
+      "confidence": 65,
+      "gap_type": "CONTINUATION",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
         "US-Iran tensions",
-        "Safe-haven flows into the yen",
-        "ECB's dovish stance"
+        "Global economic uncertainty",
+        "ECB's monetary policy stance"
       ],
       "risks": [
-        "A sudden de-escalation in US-Iran tensions",
-        "A strong European economic data release",
-        "A surprise rate hike from the ECB"
+        "Positive European economic data",
+        "US-Europe trade deal progress",
+        "Yen-specific news"
       ],
-      "trade_bias": "Look for a short opportunity on a gap down, targeting the 182.00 level."
+      "trade_bias": "Look for a sell opportunity on a gap down, targeting the lower end of the recent range."
     },
     "GBPJPY": {
       "direction": "SELL",
-      "confidence": 40,
-      "gap_type": "FILL",
+      "confidence": 60,
+      "gap_type": "CONTINUATION",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
         "US-Iran tensions",
-        "Safe-haven flows into the yen",
-        "BoE's dovish stance"
+        "Global economic uncertainty",
+        "BoE's monetary policy stance"
       ],
       "risks": [
-        "A sudden de-escalation in US-Iran tensions",
-        "A strong UK economic data release",
-        "A surprise rate hike from the BoE"
+        "Positive UK economic data",
+        "US-UK trade deal progress",
+        "Yen-specific news"
       ],
-      "trade_bias": "Look for a short opportunity on a gap down, targeting the 210.00 level."
+      "trade_bias": "Consider selling on a gap down, with a focus on the psychological 150 level."
     },
     "EURGBP": {
-      "direction": "BUY",
-      "confidence": 30,
-      "gap_type": "FILL",
-      "expected_gap_size": "SMALL(<0.2%)",
+      "direction": "NEUTRAL",
+      "confidence": 50,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
       "key_drivers": [
-        "Weak UK economic data",
-        "Brexit uncertainty",
-        "ECB's dovish stance"
+        "US-Iran tensions",
+        "Global economic uncertainty",
+        "ECB-BoE monetary policy divergence"
       ],
       "risks": [
-        "A breakthrough in US-UK trade talks",
-        "A strong UK economic data release",
-        "A surprise rate hike from the BoE"
+        "Unexpected European economic data",
+        "UK-Europe trade deal progress",
+        "Sterling-specific news"
       ],
-      "trade_bias": "Look for a long opportunity on a gap up, targeting the 0.8650 level."
+      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
     },
     "AUDJPY": {
       "direction": "SELL",
-      "confidence": 40,
-      "gap_type": "FILL",
+      "confidence": 65,
+      "gap_type": "CONTINUATION",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "Weak Australian economic data",
-        "RBA's dovish stance",
-        "US-China trade tensions"
+        "US-Iran tensions",
+        "Global economic uncertainty",
+        "RBA-BoJ monetary policy divergence"
       ],
       "risks": [
-        "A breakthrough in US-China trade talks",
-        "A strong Australian economic data release",
-        "A surprise rate hike from the RBA"
+        "Positive Australian economic data",
+        "US-Australia trade deal progress",
+        "Yen-specific news"
       ],
-      "trade_bias": "Look for a short opportunity on a gap down, targeting the 110.00 level."
+      "trade_bias": "Look for a sell opportunity on a gap down, targeting the lower end of the recent range."
     },
     "EURAUD": {
       "direction": "BUY",
       "confidence": 60,
       "gap_type": "CONTINUATION",
-      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "Weak Australian economic data",
-        "RBA's dovish stance",
-        "ECB's dovish stance"
+        "US-Iran tensions",
+        "Global economic uncertainty",
+        "ECB-RBA monetary policy divergence"
       ],
       "risks": [
-        "A breakthrough in US-China trade talks",
-        "A strong Australian economic data release",
-        "A surprise rate hike from the RBA"
+        "Positive Australian economic data",
+        "US-Australia trade deal progress",
+        "Euro-specific news"
       ],
-      "trade_bias": "Look for a long opportunity on a gap up, targeting the 1.6600 level."
+      "trade_bias": "Consider buying on a gap up, with a focus on the psychological 1.60 level."
     },
     "GBPAUD": {
       "direction": "BUY",
-      "confidence": 50,
+      "confidence": 65,
       "gap_type": "CONTINUATION",
-      "expected_gap_size": "MEDIUM(0.2-0.5%)",
-      "key_drivers": [
-        "Weak Australian economic data",
-        "RBA's dovish stance",
-        "BoE's dovish stance"
-      ],
-      "risks": [
-        "A breakthrough in US-China trade talks",
-        "A strong Australian economic data release",
-        "A surprise rate hike from the RBA"
-      ],
-      "trade_bias": "Look for a long opportunity on a gap up, targeting the 1.9200 level."
-    },
-    "EURCAD": {
-      "direction": "BUY",
-      "confidence": 40,
-      "gap_type": "FILL",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "Weak Canadian economic data",
-        "BoC's dovish stance",
-        "ECB's dovish stance"
+        "US-Iran tensions",
+        "Global economic uncertainty",
+        "BoE-RBA monetary policy divergence"
       ],
       "risks": [
-        "A strong Canadian economic data release",
-        "A surprise rate hike from the BoC",
-        "A breakthrough in US-Canada trade talks"
+        "Positive Australian economic data",
+        "US-Australia trade deal progress",
+        "Sterling-specific news"
       ],
-      "trade_bias": "Look for a long opportunity on a gap up, targeting the 1.6200 level."
+      "trade_bias": "Look for a buy opportunity on a gap up, targeting the upper end of the recent range."
+    },
+    "EURCAD": {
+      "direction": "NEUTRAL",
+      "confidence": 50,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran tensions",
+        "Global economic uncertainty",
+        "ECB-BoC monetary policy divergence"
+      ],
+      "risks": [
+        "Unexpected European economic data",
+        "Canada-Europe trade deal progress",
+        "Oil price increases"
+      ],
+      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
     },
     "CADJPY": {
       "direction": "SELL",
-      "confidence": 30,
-      "gap_type": "FILL",
+      "confidence": 60,
+      "gap_type": "CONTINUATION",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "Weak Canadian economic data",
-        "BoC's dovish stance",
-        "Safe-haven flows into the yen"
+        "US-Iran tensions",
+        "Global economic uncertainty",
+        "BoC-BoJ monetary policy divergence"
       ],
       "risks": [
-        "A strong Canadian economic data release",
-        "A surprise rate hike from the BoC",
-        "A sudden de-escalation in US-Iran tensions"
+        "Positive Canadian economic data",
+        "US-Canada trade deal progress",
+        "Yen-specific news"
       ],
-      "trade_bias": "Look for a short opportunity on a gap down, targeting the 112.00 level."
+      "trade_bias": "Consider selling on a gap down, with a focus on the psychological 90 level."
     },
     "US30": {
+      "direction": "NEUTRAL",
+      "confidence": 50,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran tensions",
+        "Global economic uncertainty",
+        "Fed's monetary policy stance"
+      ],
+      "risks": [
+        "Unexpected US economic data",
+        "US-China trade deal progress",
+        "Earnings season"
+      ],
+      "trade_bias": "Avoid trading this index due to high uncertainty and conflicting signals."
+    },
+    "NAS100": {
+      "direction": "NEUTRAL",
+      "confidence": 50,
+      "gap_type": "UNCERTAIN",
+      "expected_gap_size": "NONE",
+      "key_drivers": [
+        "US-Iran tensions",
+        "Global economic uncertainty",
+        "Fed's monetary policy stance"
+      ],
+      "risks": [
+        "Unexpected US economic data",
+        "US-China trade deal progress",
+        "Earnings season"
+      ],
+      "trade_bias": "Avoid trading this index due to high uncertainty and conflicting signals."
+    },
+    "GOLD": {
       "direction": "BUY",
-      "confidence": 60,
+      "confidence": 75,
       "gap_type": "CONTINUATION",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
         "US-Iran tensions",
-        "Safe-haven flows into US assets",
-        "Fed's dovish stance"
+        "Global economic uncertainty",
+        "Safe-haven flows into gold"
       ],
       "risks": [
-        "A sudden de-escalation in US-Iran tensions",
-        "A strong economic data release from the US",
-        "A surprise rate hike from the Fed"
+        "De-escalation of US-Iran tensions",
+        "Intervention by central banks",
+        "Unexpected economic data releases"
       ],
-      "trade_bias": "Look for a long opportunity on a gap up, targeting the 52000 level."
+      "trade_bias": "Buy on a gap up, targeting the upper end of the recent range, as safe-haven flows into gold are expected to continue."
     },
-    "NAS100": {
-      "direction": "SELL",
-      "confidence": 50,
-      "gap_type": "FILL",
-      "expected_gap_size": "SMALL(<0.2%)",
-      "key_drivers": [
-        "US-Iran tensions",
-        "Tech sector volatility",
-        "Fed's dovish stance"
-      ],
-      "risks": [
-        "A sudden de-escalation in US-Iran tensions",
-        "A strong economic data release from the US",
-        "A surprise rate hike from the Fed"
-      ],
-      "trade_bias": "Look for a short opportunity on a gap down, targeting the 29000 level."
-    },
-    "GOLD": {
+    "OIL": {
       "direction": "BUY",
       "confidence": 80,
       "gap_type": "CONTINUATION",
       "expected_gap_size": "LARGE(>0.5%)",
       "key_drivers": [
         "US-Iran tensions",
-        "Safe-haven flows into gold",
-        "Fed's dovish stance"
+        "Oil supply disruptions",
+        "OPEC+ production policy"
       ],
       "risks": [
-        "A sudden de-escalation in US-Iran tensions",
-        "A strong economic data release from the US",
-        "A surprise rate hike from the Fed"
+        "De-escalation of US-Iran tensions",
+        "Intervention by oil-producing countries",
+        "Unexpected changes in global demand"
       ],
-      "trade_bias": "Look for a long opportunity on a gap up, targeting the 4100 level."
-    },
-    "OIL": {
-      "direction": "BUY",
-      "confidence": 70,
-      "gap_type": "CONTINUATION",
-      "expected_gap_size": "MEDIUM(0.2-0.5%)",
-      "key_drivers": [
-        "US-Iran tensions",
-        "Oil price volatility",
-        "OPEC's production cuts"
-      ],
-      "risks": [
-        "A sudden de-escalation in US-Iran tensions",
-        "A strong economic data release from the US",
-        "A surprise increase in oil production from OPEC"
-      ],
-      "trade_bias": "Look for a long opportunity on a gap up, targeting the 72.00 level."
+      "trade_bias": "Buy on a gap up, targeting the upper end of the recent range, as oil price increases are expected to continue due to supply disruptions and geopolitical tensions."
     }
   },
   "news_articles": [
@@ -351,7 +350,7 @@
       "title": "US carries out fresh strikes against Iran after tanker struck in Hormuz, escalating hostilities",
       "summary": "",
       "url": "https://www.investing.com/news/world-news/us-carries-out-fresh-strikes-against-iran-after-tanker-struck-in-hormuz-escalating-hostilities-4764056",
-      "age_hours": 0.8
+      "age_hours": 0.9
     },
     {
       "source": "Investing.com News",
@@ -359,13 +358,6 @@
       "summary": "",
       "url": "https://www.investing.com/news/economy-news/trump-says-iran-violated-ceasefire-agreement-with-drone-attack-on-cargo-ship-4763166",
       "age_hours": 1.1
-    },
-    {
-      "source": "CNBC Top News",
-      "title": "U.S. military attacks Iranian targets after commercial tanker hit in the Strait of Hormuz",
-      "summary": "The attacks come as the United States and Iran are supposed to be engaging in a 60-day ceasefire as they attempt to work toward a resolution.",
-      "url": "https://www.cnbc.com/2026/06/27/tanker-struck-in-strait-of-hormuz-as-us-iran-tensions-escalate.html",
-      "age_hours": 1.4
     },
     {
       "source": "OilPrice.com",
@@ -382,18 +374,25 @@
       "age_hours": 1.4
     },
     {
+      "source": "CNBC Top News",
+      "title": "U.S. military attacks Iranian targets after commercial tanker hit in the Strait of Hormuz",
+      "summary": "The attacks come as the United States and Iran are supposed to be engaging in a 60-day ceasefire as they attempt to work toward a resolution.",
+      "url": "https://www.cnbc.com/2026/06/27/tanker-struck-in-strait-of-hormuz-as-us-iran-tensions-escalate.html",
+      "age_hours": 1.5
+    },
+    {
       "source": "Al Jazeera",
       "title": "US launches second night of strikes on Iran after ship hit by drone",
       "summary": "The attacks come after an alleged Iranian drone struck another commercial vessel in the Strait of Hormuz on Saturday.",
       "url": "https://www.aljazeera.com/news/2026/6/27/us-launches-second-night-of-strikes-against-iran-after-ship-struck-by-drone?traffic_source=rss",
-      "age_hours": 2.2
+      "age_hours": 2.3
     },
     {
       "source": "Investing.com News",
       "title": "U.S. conducts further strikes on Iran",
       "summary": "",
       "url": "https://www.investing.com/news/world-news/us-conducts-further-strikes-on-iran-4764054",
-      "age_hours": 2.3
+      "age_hours": 2.4
     },
     {
       "source": "BBC World",
@@ -407,21 +406,21 @@
       "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
       "summary": "",
       "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4764052",
-      "age_hours": 3.0
+      "age_hours": 3.1
     },
     {
       "source": "Investing.com News",
       "title": "Bitcoin holds above $60,000 as Strategy\u2019s funding model faces growing scrutiny",
       "summary": "",
       "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-60000-as-strategys-funding-model-faces-growing-scrutiny-4763957",
-      "age_hours": 3.0
+      "age_hours": 3.1
     },
     {
       "source": "Al Jazeera",
       "title": "Videos show Israeli settlers trying to seize house in occupied West Bank",
       "summary": "Videos show Israeli settlers trying to seize a house under construction in the occupied West Bank.",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/6/27/videos-show-israeli-settlers-trying-to-seize-house-in-occupied-west-bank?traffic_source=rss",
-      "age_hours": 3.1
+      "age_hours": 3.2
     },
     {
       "source": "OilPrice.com",
@@ -512,7 +511,7 @@
       "title": "Sen. Armstrong: Permitting Is Key to Lower Energy Costs",
       "summary": "Senator Alan Armstrong (R-Oklahoma) joins David Gura and Christina Ruffini on Bloomberg This Weekend and says permitting reform\u2014not additional federal spending\u2014is the most effective way to lower housing and energy costs, arguing regulatory delays have created infrastructure bottlenecks that drive up",
       "url": "https://www.bloomberg.com/news/videos/2026-06-27/sen-armstrong-permitting-is-key-to-lower-energy-costs-video",
-      "age_hours": 10.2
+      "age_hours": 10.3
     },
     {
       "source": "CNBC Top News",
@@ -526,7 +525,7 @@
       "title": "Trading in these two ETFs suggests inflation fears are overblown",
       "summary": "It could have been a big week for bond bears, if it weren't for crude oil.",
       "url": "https://www.cnbc.com/2026/06/27/trading-in-these-two-etfs-suggests-inflation-fears-are-overblown.html",
-      "age_hours": 12.0
+      "age_hours": 12.1
     },
     {
       "source": "ForexLive",
@@ -554,14 +553,14 @@
       "title": "Baltic states urge EU to speed up ban on Russian oil imports",
       "summary": "Talks about the phaseout stalled after the closure of the Strait of Hormuz sparked concerns of an energy supply crisis",
       "url": "https://www.ft.com/content/573aa813-43c1-4c2c-aa1d-72f05af960ab",
-      "age_hours": 20.3
+      "age_hours": 20.4
     },
     {
       "source": "FT Markets",
       "title": "Why your finances are heading for a summer of uncertainty",
       "summary": "A change of UK leadership, a new hawkish Fed chair and continuing concerns about the Middle East are worrying for investors",
       "url": "https://www.ft.com/content/57e5e08c-504d-4a0c-8bfa-b38d5ccb9eb0",
-      "age_hours": 20.3
+      "age_hours": 20.4
     },
     {
       "source": "BBC World",
@@ -575,7 +574,7 @@
       "title": "Trump threatens 100% tariff on European nations over tech tax",
       "summary": "The US president says \"Numerous European countries\" have been discussing bringing in such a levy.",
       "url": "https://www.bbc.co.uk/news/articles/cn4rd71411ko?at_medium=RSS&at_campaign=rss",
-      "age_hours": 22.7
+      "age_hours": 22.8
     },
     {
       "source": "Bloomberg Markets",
@@ -589,7 +588,7 @@
       "title": "Meloni and Trump: A very public fall-out that is proving very hard to fix",
       "summary": "Italy's PM was not long ago being called the \"Trump whisperer\", but their relationship has gone from public attacks to personal insults.",
       "url": "https://www.bbc.co.uk/news/articles/cze962pgk27o?at_medium=RSS&at_campaign=rss",
-      "age_hours": 25.3
+      "age_hours": 25.4
     },
     {
       "source": "FT Markets",
@@ -603,7 +602,7 @@
       "title": "investingLive Americas FX news wrap 26 Jun: Greenback ends mixed, still higher for week",
       "summary": "Major stock indices close modestly lower with the Nasdaq leading the way. Rubio:  Framework raises hopes for peace, but major obstacles remain Crude oil settles the day/week at $69.23 Hezbollah's Fadlallah: Cannot enforce Washington agreement unless they go to civil war US, Israel and Lebanon sign t",
       "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-26-jun-greenback-ends-mixed-still-higher-for-week-20260626/",
-      "age_hours": 27.0
+      "age_hours": 27.1
     },
     {
       "source": "FT Markets",
@@ -642,10 +641,10 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Standard Chartered Thinks This Under-the-Radar Crypto Is Going to Skyrocket 30x in Price. Is It Worth a Closer Look?",
+      "title": "A Couple Built a Treasury Ladder for Safe Income. The Yields Nudged Them Toward Medicare\u2019s $218,000 IRMAA Cliff.",
       "summary": "",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/standard-chartered-thinks-under-radar-175300435.html",
-      "age_hours": 30.5
+      "url": "https://finance.yahoo.com/healthcare/articles/couple-built-treasury-ladder-safe-180202199.html",
+      "age_hours": 30.4
     },
     {
       "source": "Yahoo Finance",
@@ -659,7 +658,7 @@
       "title": "Bitcoin Tests $59K as ETF Outflows and Options Expiry Weigh on Market",
       "summary": "",
       "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-tests-59k-etf-outflows-173200686.html",
-      "age_hours": 30.8
+      "age_hours": 30.9
     },
     {
       "source": "CNBC Finance",
@@ -673,7 +672,7 @@
       "title": "Brent Erases Iran War Premium as Hormuz Flows Show Signs of Recovery",
       "summary": "",
       "url": "https://finance.yahoo.com/energy/articles/brent-erases-iran-war-premium-161944594.html",
-      "age_hours": 32.0
+      "age_hours": 32.1
     },
     {
       "source": "Yahoo Finance",
@@ -708,21 +707,21 @@
       "title": "JPMorgan names Doug Petno and Troy Rohrbaugh co-presidents as longtime exec Marianne Lake exits",
       "summary": "The moves would appear to make Doug Petno and Troy Rohrbaugh the most obvious possible successors to JPMorgan Chase CEO Jamie Dimon.",
       "url": "https://www.cnbc.com/2026/06/25/jpmorgan-chase-co-presidents-lake-exits.html",
-      "age_hours": 35.8
+      "age_hours": 35.9
     },
     {
       "source": "Guardian World",
       "title": "Whereabouts of nearly 300 people with Ebola unknown in DR Congo",
       "summary": "Fears over \u2018huge community transmission\u2019 as modelling predicts thousands of deaths in DRC by September The whereabouts of almost 300 people who have tested positive for Ebola in the Democratic Republic of the Congo is unknown, according to Africa\u2019s top public health official. The humanitarian crisis",
       "url": "https://www.theguardian.com/global-development/2026/jun/26/whereabouts-of-nearly-300-people-with-ebola-unknown-in-drc",
-      "age_hours": 37.4
+      "age_hours": 37.5
     },
     {
       "source": "BBC Business",
       "title": "The abundant but expensive energy source that's under your feet",
       "summary": "Start-ups are taking fresh approaches to geothermal energy, but will the economics work?",
       "url": "https://www.bbc.co.uk/news/articles/cj3gj1n8yz8o?at_medium=RSS&at_campaign=rss",
-      "age_hours": 38.1
+      "age_hours": 38.2
     },
     {
       "source": "Guardian World",
