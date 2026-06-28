@@ -1,6 +1,6 @@
 {
-  "generated_at": "Sunday 2026-06-28 00:23 UTC",
-  "macro_theme": "Escalating tensions between the US and Iran, with the US carrying out fresh strikes against Iran, are driving market sentiment this week. The situation is being closely monitored, with potential implications for global oil prices and geopolitical stability.",
+  "generated_at": "Sunday 2026-06-28 00:37 UTC",
+  "macro_theme": "The dominant theme this week is the escalation of tensions between the US and Iran, with the US carrying out fresh strikes against Iran after a commercial tanker was hit in the Strait of Hormuz. This has led to a rise in risk-off sentiment and a potential increase in volatility in the markets.",
   "trump_risk_level": "EXTREME",
   "geopolitical_risk": "EXTREME",
   "recommended_assets": [
@@ -9,43 +9,43 @@
     "GOLD"
   ],
   "assets_to_avoid": [
-    "NAS100",
-    "US30"
+    "US30",
+    "NAS100"
   ],
   "signals": {
     "EURUSD": {
       "direction": "SELL",
       "confidence": 70,
-      "gap_type": "CONTINUATION",
+      "gap_type": "FILL",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "US strikes against Iran",
-        "Escalating tensions in the Middle East",
-        "Trump's threats against Tehran"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "DXY strength"
       ],
       "risks": [
-        "De-escalation of US-Iran tensions",
-        "Intervention by other global powers",
-        "Unexpected economic data releases"
+        "Unexpected dovish ECB comments",
+        "Weaker-than-expected US data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Look for a sell opportunity on a gap down, targeting the lower end of the recent range."
+      "trade_bias": "Look for a short opportunity on a gap down, targeting the 1.1300 level."
     },
     "GBPUSD": {
       "direction": "SELL",
       "confidence": 60,
-      "gap_type": "CONTINUATION",
+      "gap_type": "FILL",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "US-Iran tensions",
-        "Global economic uncertainty",
-        "Brexit-related concerns"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Brexit uncertainty"
       ],
       "risks": [
-        "Positive UK economic data",
-        "US-UK trade deal progress",
-        "Sterling-specific news"
+        "Unexpected hawkish BoE comments",
+        "Weaker-than-expected UK data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Consider selling on a gap down, with a focus on the psychological 1.30 level."
+      "trade_bias": "Look for a short opportunity on a gap down, targeting the 1.3100 level."
     },
     "USDJPY": {
       "direction": "BUY",
@@ -53,16 +53,16 @@
       "gap_type": "CONTINUATION",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "US-Iran tensions",
-        "Safe-haven flows into the yen",
-        "BoJ's monetary policy stance"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Safe-haven flows"
       ],
       "risks": [
-        "Intervention by the BoJ",
-        "Unexpected weakness in the US economy",
-        "Risk-on sentiment"
+        "Unexpected dovish Fed comments",
+        "Weaker-than-expected US data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Buy on a gap up, targeting the upper end of the recent range, as safe-haven flows into the yen are expected to continue."
+      "trade_bias": "Look for a long opportunity on a gap up, targeting the 162.00 level."
     },
     "USDCHF": {
       "direction": "BUY",
@@ -70,50 +70,50 @@
       "gap_type": "CONTINUATION",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "US-Iran tensions",
-        "Safe-haven flows into the Swiss franc",
-        "SNB's monetary policy stance"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Safe-haven flows"
       ],
       "risks": [
-        "Intervention by the SNB",
-        "Unexpected weakness in the US economy",
-        "Risk-on sentiment"
+        "Unexpected dovish SNB comments",
+        "Weaker-than-expected Swiss data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Consider buying on a gap up, targeting the upper end of the recent range, as safe-haven flows into the Swiss franc are expected to continue."
+      "trade_bias": "Look for a long opportunity on a gap up, targeting the 0.8150 level."
     },
     "AUDUSD": {
       "direction": "SELL",
       "confidence": 65,
-      "gap_type": "CONTINUATION",
+      "gap_type": "FILL",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "US-Iran tensions",
-        "Global economic uncertainty",
-        "RBA's monetary policy stance"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Weaker-than-expected Australian data"
       ],
       "risks": [
-        "Positive Australian economic data",
-        "US-Australia trade deal progress",
-        "Commodity price increases"
+        "Unexpected hawkish RBA comments",
+        "Weaker-than-expected US data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Look for a sell opportunity on a gap down, targeting the lower end of the recent range."
+      "trade_bias": "Look for a short opportunity on a gap down, targeting the 0.6850 level."
     },
     "NZDUSD": {
       "direction": "SELL",
       "confidence": 60,
-      "gap_type": "CONTINUATION",
+      "gap_type": "FILL",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "US-Iran tensions",
-        "Global economic uncertainty",
-        "RBNZ's monetary policy stance"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Weaker-than-expected New Zealand data"
       ],
       "risks": [
-        "Positive New Zealand economic data",
-        "US-New Zealand trade deal progress",
-        "Commodity price increases"
+        "Unexpected hawkish RBNZ comments",
+        "Weaker-than-expected US data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Consider selling on a gap down, with a focus on the psychological 0.60 level."
+      "trade_bias": "Look for a short opportunity on a gap down, targeting the 0.5600 level."
     },
     "USDCAD": {
       "direction": "BUY",
@@ -121,50 +121,50 @@
       "gap_type": "CONTINUATION",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "US-Iran tensions",
-        "Oil price increases",
-        "BoC's monetary policy stance"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Oil price weakness"
       ],
       "risks": [
-        "Intervention by the BoC",
-        "Unexpected weakness in the US economy",
-        "Risk-on sentiment"
+        "Unexpected dovish BoC comments",
+        "Weaker-than-expected Canadian data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Buy on a gap up, targeting the upper end of the recent range, as oil price increases are expected to continue."
+      "trade_bias": "Look for a long opportunity on a gap up, targeting the 1.4250 level."
     },
     "EURJPY": {
       "direction": "SELL",
       "confidence": 65,
-      "gap_type": "CONTINUATION",
+      "gap_type": "FILL",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "US-Iran tensions",
-        "Global economic uncertainty",
-        "ECB's monetary policy stance"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Weaker-than-expected European data"
       ],
       "risks": [
-        "Positive European economic data",
-        "US-Europe trade deal progress",
-        "Yen-specific news"
+        "Unexpected hawkish ECB comments",
+        "Weaker-than-expected Japanese data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Look for a sell opportunity on a gap down, targeting the lower end of the recent range."
+      "trade_bias": "Look for a short opportunity on a gap down, targeting the 182.00 level."
     },
     "GBPJPY": {
       "direction": "SELL",
       "confidence": 60,
-      "gap_type": "CONTINUATION",
+      "gap_type": "FILL",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "US-Iran tensions",
-        "Global economic uncertainty",
-        "BoE's monetary policy stance"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Brexit uncertainty"
       ],
       "risks": [
-        "Positive UK economic data",
-        "US-UK trade deal progress",
-        "Yen-specific news"
+        "Unexpected hawkish BoE comments",
+        "Weaker-than-expected UK data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Consider selling on a gap down, with a focus on the psychological 150 level."
+      "trade_bias": "Look for a short opportunity on a gap down, targeting the 210.00 level."
     },
     "EURGBP": {
       "direction": "NEUTRAL",
@@ -172,67 +172,67 @@
       "gap_type": "UNCERTAIN",
       "expected_gap_size": "NONE",
       "key_drivers": [
-        "US-Iran tensions",
-        "Global economic uncertainty",
-        "ECB-BoE monetary policy divergence"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Brexit uncertainty"
       ],
       "risks": [
-        "Unexpected European economic data",
-        "UK-Europe trade deal progress",
-        "Sterling-specific news"
+        "Unexpected hawkish ECB comments",
+        "Weaker-than-expected European data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+      "trade_bias": "Avoid trading this pair due to conflicting signals and high uncertainty."
     },
     "AUDJPY": {
       "direction": "SELL",
       "confidence": 65,
-      "gap_type": "CONTINUATION",
+      "gap_type": "FILL",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "US-Iran tensions",
-        "Global economic uncertainty",
-        "RBA-BoJ monetary policy divergence"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Weaker-than-expected Australian data"
       ],
       "risks": [
-        "Positive Australian economic data",
-        "US-Australia trade deal progress",
-        "Yen-specific news"
+        "Unexpected hawkish RBA comments",
+        "Weaker-than-expected Japanese data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Look for a sell opportunity on a gap down, targeting the lower end of the recent range."
+      "trade_bias": "Look for a short opportunity on a gap down, targeting the 110.00 level."
     },
     "EURAUD": {
       "direction": "BUY",
-      "confidence": 60,
+      "confidence": 70,
       "gap_type": "CONTINUATION",
-      "expected_gap_size": "SMALL(<0.2%)",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "US-Iran tensions",
-        "Global economic uncertainty",
-        "ECB-RBA monetary policy divergence"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Weaker-than-expected Australian data"
       ],
       "risks": [
-        "Positive Australian economic data",
-        "US-Australia trade deal progress",
-        "Euro-specific news"
+        "Unexpected dovish ECB comments",
+        "Weaker-than-expected European data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Consider buying on a gap up, with a focus on the psychological 1.60 level."
+      "trade_bias": "Look for a long opportunity on a gap up, targeting the 1.6600 level."
     },
     "GBPAUD": {
       "direction": "BUY",
-      "confidence": 65,
+      "confidence": 75,
       "gap_type": "CONTINUATION",
-      "expected_gap_size": "SMALL(<0.2%)",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "US-Iran tensions",
-        "Global economic uncertainty",
-        "BoE-RBA monetary policy divergence"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Brexit uncertainty"
       ],
       "risks": [
-        "Positive Australian economic data",
-        "US-Australia trade deal progress",
-        "Sterling-specific news"
+        "Unexpected hawkish BoE comments",
+        "Weaker-than-expected UK data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Look for a buy opportunity on a gap up, targeting the upper end of the recent range."
+      "trade_bias": "Look for a long opportunity on a gap up, targeting the 1.9200 level."
     },
     "EURCAD": {
       "direction": "NEUTRAL",
@@ -240,424 +240,424 @@
       "gap_type": "UNCERTAIN",
       "expected_gap_size": "NONE",
       "key_drivers": [
-        "US-Iran tensions",
-        "Global economic uncertainty",
-        "ECB-BoC monetary policy divergence"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Oil price weakness"
       ],
       "risks": [
-        "Unexpected European economic data",
-        "Canada-Europe trade deal progress",
-        "Oil price increases"
+        "Unexpected dovish ECB comments",
+        "Weaker-than-expected European data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Avoid trading this pair due to high uncertainty and conflicting signals."
+      "trade_bias": "Avoid trading this pair due to conflicting signals and high uncertainty."
     },
     "CADJPY": {
       "direction": "SELL",
-      "confidence": 60,
-      "gap_type": "CONTINUATION",
+      "confidence": 65,
+      "gap_type": "FILL",
       "expected_gap_size": "SMALL(<0.2%)",
       "key_drivers": [
-        "US-Iran tensions",
-        "Global economic uncertainty",
-        "BoC-BoJ monetary policy divergence"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Oil price weakness"
       ],
       "risks": [
-        "Positive Canadian economic data",
-        "US-Canada trade deal progress",
-        "Yen-specific news"
+        "Unexpected hawkish BoC comments",
+        "Weaker-than-expected Canadian data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Consider selling on a gap down, with a focus on the psychological 90 level."
+      "trade_bias": "Look for a short opportunity on a gap down, targeting the 112.00 level."
     },
     "US30": {
       "direction": "NEUTRAL",
-      "confidence": 50,
+      "confidence": 40,
       "gap_type": "UNCERTAIN",
       "expected_gap_size": "NONE",
       "key_drivers": [
-        "US-Iran tensions",
-        "Global economic uncertainty",
-        "Fed's monetary policy stance"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Trade tensions"
       ],
       "risks": [
-        "Unexpected US economic data",
-        "US-China trade deal progress",
-        "Earnings season"
+        "Unexpected dovish Fed comments",
+        "Weaker-than-expected US data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Avoid trading this index due to high uncertainty and conflicting signals."
+      "trade_bias": "Avoid trading this index due to conflicting signals and high uncertainty."
     },
     "NAS100": {
       "direction": "NEUTRAL",
-      "confidence": 50,
+      "confidence": 40,
       "gap_type": "UNCERTAIN",
       "expected_gap_size": "NONE",
       "key_drivers": [
-        "US-Iran tensions",
-        "Global economic uncertainty",
-        "Fed's monetary policy stance"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Trade tensions"
       ],
       "risks": [
-        "Unexpected US economic data",
-        "US-China trade deal progress",
-        "Earnings season"
+        "Unexpected dovish Fed comments",
+        "Weaker-than-expected US data",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Avoid trading this index due to high uncertainty and conflicting signals."
+      "trade_bias": "Avoid trading this index due to conflicting signals and high uncertainty."
     },
     "GOLD": {
       "direction": "BUY",
+      "confidence": 80,
+      "gap_type": "CONTINUATION",
+      "expected_gap_size": "MEDIUM(0.2-0.5%)",
+      "key_drivers": [
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Safe-haven flows"
+      ],
+      "risks": [
+        "Unexpected dovish Fed comments",
+        "Weaker-than-expected US data",
+        "Trump tweets on trade"
+      ],
+      "trade_bias": "Look for a long opportunity on a gap up, targeting the 4120 level."
+    },
+    "OIL": {
+      "direction": "SELL",
       "confidence": 75,
       "gap_type": "CONTINUATION",
       "expected_gap_size": "MEDIUM(0.2-0.5%)",
       "key_drivers": [
-        "US-Iran tensions",
-        "Global economic uncertainty",
-        "Safe-haven flows into gold"
+        "US strikes on Iran",
+        "Risk-off sentiment",
+        "Supply chain disruptions"
       ],
       "risks": [
-        "De-escalation of US-Iran tensions",
-        "Intervention by central banks",
-        "Unexpected economic data releases"
+        "Unexpected dovish OPEC comments",
+        "Weaker-than-expected global demand",
+        "Trump tweets on trade"
       ],
-      "trade_bias": "Buy on a gap up, targeting the upper end of the recent range, as safe-haven flows into gold are expected to continue."
-    },
-    "OIL": {
-      "direction": "BUY",
-      "confidence": 80,
-      "gap_type": "CONTINUATION",
-      "expected_gap_size": "LARGE(>0.5%)",
-      "key_drivers": [
-        "US-Iran tensions",
-        "Oil supply disruptions",
-        "OPEC+ production policy"
-      ],
-      "risks": [
-        "De-escalation of US-Iran tensions",
-        "Intervention by oil-producing countries",
-        "Unexpected changes in global demand"
-      ],
-      "trade_bias": "Buy on a gap up, targeting the upper end of the recent range, as oil price increases are expected to continue due to supply disruptions and geopolitical tensions."
+      "trade_bias": "Look for a short opportunity on a gap down, targeting the 67.00 level."
     }
   },
   "news_articles": [
     {
       "source": "Al Jazeera",
+      "title": "Anger grows in Venezuela as citizens blocked from aiding earthquake rescue",
+      "summary": "Anger is mounting in Venezuela after the military barred citizens from entering zones devastated by the earthquakes.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/anger-grows-in-venezuela-as-citizens-blocked-from-aiding-earthquake-rescue?traffic_source=rss",
+      "age_hours": 0.5
+    },
+    {
+      "source": "Al Jazeera",
       "title": "Iran war live: Trump threatens Tehran as US bombs Sirik, Qeshm for 2nd day",
       "summary": "US president threatens to 'militarily complete the job' as the US strikes Sirik and Qeshm Island over ship attacks.",
       "url": "https://www.aljazeera.com/news/liveblog/2026/6/28/iran-war-live-trump-threatens-tehran-as-us-bombs-sirik-qeshm-for-2nd-day?traffic_source=rss",
-      "age_hours": 0.4
+      "age_hours": 0.6
     },
     {
       "source": "Investing.com News",
       "title": "US carries out fresh strikes against Iran after tanker struck in Hormuz, escalating hostilities",
       "summary": "",
       "url": "https://www.investing.com/news/world-news/us-carries-out-fresh-strikes-against-iran-after-tanker-struck-in-hormuz-escalating-hostilities-4764056",
-      "age_hours": 0.9
+      "age_hours": 1.1
     },
     {
       "source": "Investing.com News",
       "title": "U.S. carries out fresh strikes on Iran after another ship is attacked",
       "summary": "",
       "url": "https://www.investing.com/news/economy-news/trump-says-iran-violated-ceasefire-agreement-with-drone-attack-on-cargo-ship-4763166",
-      "age_hours": 1.1
+      "age_hours": 1.4
     },
     {
       "source": "OilPrice.com",
       "title": "The $7 Trillion AI Boom Is Turning Into The Energy Trade of the Century",
       "summary": "You might think that Shark Tank\u2019s \u201cMr. Wonderful,\u201d Kevin O\u2019Leary, is betting it all on AI, but he is not.\u00a0 He is betting on the $5+ trillion in infrastructure required to run it, and that\u2019s where big capital is flowing now.\u00a0 And he\u2019s betting on Bitzero (NASDAQ: AIBZ) to be one of the first to break ",
       "url": "https://oilprice.com/Energy/Energy-General/The-7-Trillion-AI-Boom-Is-Turning-Into-The-Energy-Trade-of-the-Century.html",
-      "age_hours": 1.4
+      "age_hours": 1.6
     },
     {
       "source": "OilPrice.com",
       "title": "One of Texas' Oldest Oil Plays Is Running Dry",
       "summary": "The Eagle Ford shale play has shown remarkably consistent crude oil production and rising natural gas output in recent years. A formation beneath the Eagle Ford has been producing for nearly a century, but now it has its remaining resources nearly exhausted. The Buda Limestone formation, which lies ",
       "url": "https://oilprice.com/Energy/Energy-General/One-of-Texas-Oldest-Oil-Plays-Is-Running-Dry.html",
-      "age_hours": 1.4
+      "age_hours": 1.6
     },
     {
       "source": "CNBC Top News",
       "title": "U.S. military attacks Iranian targets after commercial tanker hit in the Strait of Hormuz",
       "summary": "The attacks come as the United States and Iran are supposed to be engaging in a 60-day ceasefire as they attempt to work toward a resolution.",
       "url": "https://www.cnbc.com/2026/06/27/tanker-struck-in-strait-of-hormuz-as-us-iran-tensions-escalate.html",
-      "age_hours": 1.5
+      "age_hours": 1.7
     },
     {
       "source": "Al Jazeera",
       "title": "US launches second night of strikes on Iran after ship hit by drone",
       "summary": "The attacks come after an alleged Iranian drone struck another commercial vessel in the Strait of Hormuz on Saturday.",
       "url": "https://www.aljazeera.com/news/2026/6/27/us-launches-second-night-of-strikes-against-iran-after-ship-struck-by-drone?traffic_source=rss",
-      "age_hours": 2.3
+      "age_hours": 2.5
     },
     {
       "source": "Investing.com News",
       "title": "U.S. conducts further strikes on Iran",
       "summary": "",
       "url": "https://www.investing.com/news/world-news/us-conducts-further-strikes-on-iran-4764054",
-      "age_hours": 2.4
+      "age_hours": 2.6
     },
     {
       "source": "BBC World",
       "title": "Israel strikes southern Lebanon as Hezbollah condemns new deal",
       "summary": "Strikes have killed at least one person, state media say a day after Lebanon and Israel signed a framework agreement.",
       "url": "https://www.bbc.co.uk/news/articles/cx2kpn0eeweo?at_medium=RSS&at_campaign=rss",
-      "age_hours": 2.8
+      "age_hours": 3.0
     },
     {
       "source": "Investing.com News",
       "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
       "summary": "",
       "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4764052",
-      "age_hours": 3.1
+      "age_hours": 3.3
     },
     {
       "source": "Investing.com News",
       "title": "Bitcoin holds above $60,000 as Strategy\u2019s funding model faces growing scrutiny",
       "summary": "",
       "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-60000-as-strategys-funding-model-faces-growing-scrutiny-4763957",
-      "age_hours": 3.1
+      "age_hours": 3.3
     },
     {
       "source": "Al Jazeera",
       "title": "Videos show Israeli settlers trying to seize house in occupied West Bank",
       "summary": "Videos show Israeli settlers trying to seize a house under construction in the occupied West Bank.",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/6/27/videos-show-israeli-settlers-trying-to-seize-house-in-occupied-west-bank?traffic_source=rss",
-      "age_hours": 3.2
+      "age_hours": 3.4
     },
     {
       "source": "OilPrice.com",
       "title": "China Is Quietly Winning the Clean Energy Trade War",
       "summary": "China\u2019s clean energy dominance is growing. Buoyed by the skyrocketing energy needs and future projected demands of the artificial intelligence boom, clean energy projects are getting greenlit at a breakneck pace. And those projects depend on cheap Chinese clean energy components, as Beijing has near",
       "url": "https://oilprice.com/Alternative-Energy/Renewable-Energy/China-Is-Quietly-Winning-the-Clean-Energy-Trade-War.html",
-      "age_hours": 3.4
+      "age_hours": 3.6
     },
     {
       "source": "Al Jazeera",
       "title": "Donald Trump nominates ex-state trooper Lance Schroyer as ICE director",
       "summary": "The immigration enforcement agency has been without a Senate-confirmed director since 2017, during Trump's first term.",
       "url": "https://www.aljazeera.com/news/2026/6/27/donald-trump-nominates-lance-schroyer-to-serve-as-ice-director?traffic_source=rss",
-      "age_hours": 3.8
-    },
-    {
-      "source": "BBC World",
-      "title": "Trump's face is added to select US passports for America's 250th birthday",
-      "summary": "The commemorative special edition passports will be available on 6 July, and can only be applied for in person",
-      "url": "https://www.bbc.co.uk/news/articles/ce3ewkdgw9ro?at_medium=RSS&at_campaign=rss",
-      "age_hours": 4.3
+      "age_hours": 4.0
     },
     {
       "source": "Bloomberg Markets",
       "title": "Warsh Makes Debut on the Global Stage With the Class of 2008",
       "summary": "Kevin Warsh and three other veterans of the 2008 global financial crisis will share a stage this week as the danger of renewed turmoil continues to haunt central bankers.",
       "url": "https://www.bloomberg.com/news/articles/2026-06-27/warsh-makes-debut-on-the-global-stage-with-the-class-of-2008",
-      "age_hours": 4.4
+      "age_hours": 4.6
+    },
+    {
+      "source": "BBC World",
+      "title": "Trump's face is added to select US passports for America's 250th birthday",
+      "summary": "The commemorative special edition passports will be available on 6 July, and can only be applied for in person",
+      "url": "https://www.bbc.co.uk/news/articles/ce3ewkdgw9ro?at_medium=RSS&at_campaign=rss",
+      "age_hours": 4.6
     },
     {
       "source": "MarketWatch Top",
       "title": "Annuities are coming to more 401(k) plans. Should workers embrace them?",
       "summary": "The Trump administration wants more annuities in your 401(k). Here is why it might be a mixed bag.",
       "url": "https://www.marketwatch.com/story/annuities-are-coming-to-more-401-k-plans-should-workers-embrace-them-78f014e9?mod=mw_rss_topstories",
-      "age_hours": 4.9
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Why is Crimea critical to the Russia\u2013Ukraine war?",
-      "summary": "Ukraine is intensifying attacks on Russian-controlled Crimea as Kyiv tries to pressure Moscow into ending the war.",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/6/27/why-is-crimea-critical-to-the-russia-ukraine?traffic_source=rss",
-      "age_hours": 5.0
+      "age_hours": 5.1
     },
     {
       "source": "OilPrice.com",
       "title": "NASA Eyes Moon Base Powered by Solar Panels and Nuclear Reactors",
       "summary": "With major plans for space travel, several governments are proposing lunar energy production, including solar and nuclear projects. In May, NASA announced plans to send robotic landers, hopping drones, and vehicles to the moon as part of the United States government\u2019s plans to develop a lunar base. ",
       "url": "https://oilprice.com/Energy/Energy-General/NASA-Eyes-Moon-Base-Powered-by-Solar-Panels-and-Nuclear-Reactors.html",
-      "age_hours": 5.4
+      "age_hours": 5.6
     },
     {
       "source": "Bloomberg Markets",
       "title": "Bloomberg This Weekend 6/27/2026",
       "summary": "The news doesn\u2019t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend\u2019s biggest headlines, LIVE from New York. Joined by Fmr. UN Ambassador and Fmr. USAID Administrator Samantha Power and Oklahoma Senator Alan Armstrong.",
       "url": "https://www.bloomberg.com/news/videos/2026-06-27/bloomberg-this-weekend-6-27-2026-video",
-      "age_hours": 8.2
+      "age_hours": 8.5
     },
     {
       "source": "CNBC Top News",
       "title": "Why investors may want to prioritize bond markets outside the U.S.",
       "summary": "Allspring Global Investments is pushing clients toward countries with central banks that are raising interest rates or have different inflation dynamics.",
       "url": "https://www.cnbc.com/2026/06/27/inflation-as-major-reason-to-invest-in-global-bond-markets.html",
-      "age_hours": 9.4
+      "age_hours": 9.6
     },
     {
       "source": "CNBC Finance",
       "title": "Why investors may want to prioritize bond markets outside the U.S.",
       "summary": "Allspring Global Investments is pushing clients toward countries with central banks that are raising interest rates or have different inflation dynamics.",
       "url": "https://www.cnbc.com/2026/06/27/inflation-as-major-reason-to-invest-in-global-bond-markets.html",
-      "age_hours": 9.4
+      "age_hours": 9.6
     },
     {
       "source": "OilPrice.com",
       "title": "The AI Power Crisis Is Creating a Massive New Market for Fuel Cells",
       "summary": "Data center developers are scrambling for reliable power, turning away from congested grids and toward on-site fuel cells. Rystad Energy research and analysis projects a tenfold increase in fuel cell market revenues by 2030, rising from around $2.8 billion in 2025 to roughly $30 billion, as AI compu",
       "url": "https://oilprice.com/Energy/Energy-General/The-AI-Power-Crisis-Is-Creating-a-Massive-New-Market-for-Fuel-Cells.html",
-      "age_hours": 9.4
+      "age_hours": 9.6
     },
     {
       "source": "Bloomberg Markets",
       "title": "ECB\u2019s Schnabel Sees Upside Inflation Risks Despite Peace Deal",
       "summary": "European Central Bank Executive Board member Isabel Schnabel warned that price pressures could turn out stronger than anticipated even as a US-Iran peace deal reopens the Strait of Hormuz.",
       "url": "https://www.bloomberg.com/news/articles/2026-06-27/ecb-s-schnabel-sees-upside-inflation-risks-despite-peace-deal",
-      "age_hours": 10.1
+      "age_hours": 10.4
     },
     {
       "source": "Bloomberg Markets",
       "title": "Sen. Armstrong: Permitting Is Key to Lower Energy Costs",
       "summary": "Senator Alan Armstrong (R-Oklahoma) joins David Gura and Christina Ruffini on Bloomberg This Weekend and says permitting reform\u2014not additional federal spending\u2014is the most effective way to lower housing and energy costs, arguing regulatory delays have created infrastructure bottlenecks that drive up",
       "url": "https://www.bloomberg.com/news/videos/2026-06-27/sen-armstrong-permitting-is-key-to-lower-energy-costs-video",
-      "age_hours": 10.3
+      "age_hours": 10.5
     },
     {
       "source": "CNBC Top News",
       "title": "Before there were Trump Accounts, SEED OK gave some newborns $1,000 \u2014 how researchers say the grants affected kids",
       "summary": "Some state-sponsored programs paved the way for Trump Accounts, the new\u00a0tax-deferred\u00a0investing\u00a0accounts for children.",
       "url": "https://www.cnbc.com/2026/06/27/trump-accounts-seed-ok.html",
-      "age_hours": 10.9
+      "age_hours": 11.1
     },
     {
       "source": "CNBC Top News",
       "title": "Trading in these two ETFs suggests inflation fears are overblown",
       "summary": "It could have been a big week for bond bears, if it weren't for crude oil.",
       "url": "https://www.cnbc.com/2026/06/27/trading-in-these-two-etfs-suggests-inflation-fears-are-overblown.html",
-      "age_hours": 12.1
+      "age_hours": 12.3
     },
     {
       "source": "ForexLive",
       "title": "Two revealing macro quotes from the FedEx earnings call",
       "summary": "FedEx reported earnings this week and it's a company worth watching because freight demand is a great proxy for economic activity.  Here is Brie Carere, EVP & Chief Customer Officer: \u201cI was concerned a quarter ago that we maybe would see some demand destruction. That has not at all been the case.\u201d R",
       "url": "https://investinglive.com/news/two-revealing-macro-quotes-from-the-fedex-earnings-call-20260627/",
-      "age_hours": 12.2
+      "age_hours": 12.5
     },
     {
       "source": "BBC World",
       "title": "US strikes Iran after attack on cargo ship",
       "summary": "Iran accuses the US of violating their deal and says it struck targets linked to American forces in response.",
       "url": "https://www.bbc.co.uk/news/articles/ckg590wqxwpo?at_medium=RSS&at_campaign=rss",
-      "age_hours": 13.7
+      "age_hours": 14.0
     },
     {
       "source": "CNBC Top News",
       "title": "From concerts to train rides, bots are winning the ticket wars \u2014 but they're only part of the problem",
       "summary": "From concerts to train reservations, automated bots have become the latest target in the fight against ticket scalping.",
       "url": "https://www.cnbc.com/2026/06/27/ticket-bots-concert-scalpers-ticketmaster-china-korea.html",
-      "age_hours": 14.6
+      "age_hours": 14.9
     },
     {
       "source": "FT Markets",
       "title": "Baltic states urge EU to speed up ban on Russian oil imports",
       "summary": "Talks about the phaseout stalled after the closure of the Strait of Hormuz sparked concerns of an energy supply crisis",
       "url": "https://www.ft.com/content/573aa813-43c1-4c2c-aa1d-72f05af960ab",
-      "age_hours": 20.4
+      "age_hours": 20.6
     },
     {
       "source": "FT Markets",
       "title": "Why your finances are heading for a summer of uncertainty",
       "summary": "A change of UK leadership, a new hawkish Fed chair and continuing concerns about the Middle East are worrying for investors",
       "url": "https://www.ft.com/content/57e5e08c-504d-4a0c-8bfa-b38d5ccb9eb0",
-      "age_hours": 20.4
+      "age_hours": 20.6
     },
     {
       "source": "BBC World",
       "title": "Ex-Trump adviser John Bolton pleads guilty to mishandling classified documents",
       "summary": "Bolton faces a prison sentence of up to five years and has agreed to pay $2.25m in fine, prosecutors say.",
       "url": "https://www.bbc.co.uk/news/articles/czxqwg4nrvlo?at_medium=RSS&at_campaign=rss",
-      "age_hours": 21.4
+      "age_hours": 21.7
     },
     {
       "source": "BBC Business",
       "title": "Trump threatens 100% tariff on European nations over tech tax",
       "summary": "The US president says \"Numerous European countries\" have been discussing bringing in such a levy.",
       "url": "https://www.bbc.co.uk/news/articles/cn4rd71411ko?at_medium=RSS&at_campaign=rss",
-      "age_hours": 22.8
+      "age_hours": 23.0
     },
     {
       "source": "Bloomberg Markets",
       "title": "Aid Groups Flock to Venezuela In Search-and-Rescue Frenzy",
       "summary": "Two of the US military ships used in a blockade meant to pressure Nicol\u00e1s Maduro have headed back toward Venezuela, this time with rescue teams, equipment and medical aid after devastating twin earthquakes struck the country this week.",
       "url": "https://www.bloomberg.com/news/articles/2026-06-27/aid-groups-flock-to-venezuela-in-search-and-rescue-frenzy",
-      "age_hours": 23.0
+      "age_hours": 23.3
     },
     {
       "source": "BBC World",
       "title": "Meloni and Trump: A very public fall-out that is proving very hard to fix",
       "summary": "Italy's PM was not long ago being called the \"Trump whisperer\", but their relationship has gone from public attacks to personal insults.",
       "url": "https://www.bbc.co.uk/news/articles/cze962pgk27o?at_medium=RSS&at_campaign=rss",
-      "age_hours": 25.4
+      "age_hours": 25.6
     },
     {
       "source": "FT Markets",
       "title": "\u2018Tit-for-tat\u2019 trade warfare threatens global economy, says IMF chief economist",
       "summary": "Pierre-Olivier Gourinchas, who is leaving the fund, warns attempts to gain small advantages will be \u2018self-defeating\u2019",
       "url": "https://www.ft.com/content/8199cd6d-e513-4c9a-9beb-8a7acd2b65dc",
-      "age_hours": 26.4
+      "age_hours": 26.6
     },
     {
       "source": "ForexLive",
       "title": "investingLive Americas FX news wrap 26 Jun: Greenback ends mixed, still higher for week",
       "summary": "Major stock indices close modestly lower with the Nasdaq leading the way. Rubio:  Framework raises hopes for peace, but major obstacles remain Crude oil settles the day/week at $69.23 Hezbollah's Fadlallah: Cannot enforce Washington agreement unless they go to civil war US, Israel and Lebanon sign t",
       "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-26-jun-greenback-ends-mixed-still-higher-for-week-20260626/",
-      "age_hours": 27.1
+      "age_hours": 27.3
     },
     {
       "source": "FT Markets",
       "title": "SpaceX bonds sell off days after AI and rocket group\u2019s $25bn debt deal",
       "summary": "Yields move towards levels commonly associated with junk-rated companies",
       "url": "https://www.ft.com/content/04f98e21-4ce7-43d2-8651-44557e12c31c",
-      "age_hours": 27.5
+      "age_hours": 27.8
     },
     {
       "source": "FT Markets",
       "title": "S&P 500 notches longest losing streak in 10 months as chipmakers slide",
       "summary": "Software stock-led recovery proves fleeting as Wall Street\u2019s main indices fall for fifth consecutive session",
       "url": "https://www.ft.com/content/bb70e272-5b09-4806-8b19-7c03c350f580",
-      "age_hours": 28.0
+      "age_hours": 28.2
     },
     {
       "source": "ForexLive",
       "title": "Rubio:  Framework raises hopes for peace, but major obstacles remain",
       "summary": "U.S. Secretary of State Marco Rubio outlined a framework aimed at ending hostilities and restoring stability in Lebanon. The proposal attempts to balance Israel's security concerns with Lebanon's sovereignty while addressing the longstanding issue of Hezbollah's military infrastructure. Rubio said: ",
       "url": "https://investinglive.com/news/rubio-framework-raises-hopes-for-peace-but-major-obstacles-remain-20260626/",
-      "age_hours": 28.5
+      "age_hours": 28.8
     },
     {
       "source": "ForexLive",
       "title": "Hezbollah's Fadlallah: Cannot enforce Washington agreement unless they go to civil war",
       "summary": "Hezbollah's Fadlallah is telling Al Mayadeen that: Authorities cannot enforce Washington agreement unless they go to Civil War with the US support. What happened in Washington was attempt to obstruct Islamabad track and without the resistance nothing will pass. Report confront any measure taken by L",
       "url": "https://investinglive.com/news/hezbollahs-fadlallah-cannot-enforce-washington-agreement-unless-they-go-to-civil-war-20260626/",
-      "age_hours": 29.6
+      "age_hours": 29.9
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Goldman Sachs Predicts 3 Stocks to Benefit Most From $757B AI\u2019s Capex Supercycle",
+      "summary": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/goldman-sachs-predicts-3-stocks-182355615.html",
+      "age_hours": 30.2
     },
     {
       "source": "ForexLive",
       "title": "US, Israel and Lebanon sign trilateral agreement",
       "summary": "Secretary of State Rubio said that there is a framework agreement between Israel and Lebanon after talks in Washington. He added that there is still a lot of work ahead.  The US, Israel, and Lebanon signed a trilateral framework agreement. There are no further details.  Netanyahu adds: The agreement",
       "url": "https://investinglive.com/news/us-israel-and-lebanon-sign-trilateral-agreement-20260626/",
-      "age_hours": 30.2
+      "age_hours": 30.4
     },
     {
       "source": "Yahoo Finance",
-      "title": "A Couple Built a Treasury Ladder for Safe Income. The Yields Nudged Them Toward Medicare\u2019s $218,000 IRMAA Cliff.",
+      "title": "Strategy's bitcoin bet is now a $13B paper loss",
       "summary": "",
-      "url": "https://finance.yahoo.com/healthcare/articles/couple-built-treasury-ladder-safe-180202199.html",
-      "age_hours": 30.4
+      "url": "https://finance.yahoo.com/video/strategys-bitcoin-bet-now-13b-180802089.html",
+      "age_hours": 30.5
     },
     {
       "source": "Yahoo Finance",
       "title": "US Drillers Add Oil, Gas Rigs As Hormuz Transit Resumes",
       "summary": "",
       "url": "https://finance.yahoo.com/energy/articles/us-drillers-add-oil-gas-174427580.html",
-      "age_hours": 30.6
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Bitcoin Tests $59K as ETF Outflows and Options Expiry Weigh on Market",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-tests-59k-etf-outflows-173200686.html",
       "age_hours": 30.9
     },
     {
@@ -665,98 +665,98 @@
       "title": "Warsh reaches within the Fed for latest advisory appointments",
       "summary": "Warsh has added two more key advisors as he seeks to remake how the central bank approaches the economy and monetary policy.",
       "url": "https://www.cnbc.com/2026/06/26/warsh-reaches-within-the-fed-for-latest-advisory-appointments.html",
-      "age_hours": 31.5
+      "age_hours": 31.8
     },
     {
       "source": "Yahoo Finance",
       "title": "Brent Erases Iran War Premium as Hormuz Flows Show Signs of Recovery",
       "summary": "",
       "url": "https://finance.yahoo.com/energy/articles/brent-erases-iran-war-premium-161944594.html",
-      "age_hours": 32.1
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "If Interest Rates Fall, United Rentals Stock Could Skyrocket on a Building Boom",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/interest-rates-fall-united-rentals-161003559.html",
-      "age_hours": 32.2
+      "age_hours": 32.3
     },
     {
       "source": "CNBC Finance",
       "title": "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year",
       "summary": "Kashkari said he sees a hike likely this year as the economy continues to feel the hit from spiking inflation.",
       "url": "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html",
-      "age_hours": 32.3
+      "age_hours": 32.6
     },
     {
       "source": "Guardian World",
       "title": "Venezuela earthquakes: 589 confirmed dead so far as international rescue teams arrive \u2013 as it happened",
       "summary": "This blog is now closed, you can read more on this story  here China\u2019s president  Xi Jinping  said Beijing was ready to provide Venezuela with  \u201cdisaster relief and reconstruction\u201d assistance. Xi sent a message of condolence to Venezuela\u2019s interim president  Delcy Rodr\u00edguez  today, according to Chin",
       "url": "https://www.theguardian.com/world/live/2026/jun/26/venezuela-earthquakes-search-survivors-death-toll-rodriguez-rubio-latest-news-updates",
-      "age_hours": 33.4
+      "age_hours": 33.6
     },
     {
       "source": "BBC Business",
       "title": "What's happening to petrol prices now oil is back to pre-Iran war levels?",
       "summary": "When the conflict began on 28 February, fuel costs jumped as the war disrupted the production and transportation of energy across the Middle East.",
       "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-      "age_hours": 34.5
+      "age_hours": 34.8
     },
     {
       "source": "CNBC Finance",
       "title": "JPMorgan names Doug Petno and Troy Rohrbaugh co-presidents as longtime exec Marianne Lake exits",
       "summary": "The moves would appear to make Doug Petno and Troy Rohrbaugh the most obvious possible successors to JPMorgan Chase CEO Jamie Dimon.",
       "url": "https://www.cnbc.com/2026/06/25/jpmorgan-chase-co-presidents-lake-exits.html",
-      "age_hours": 35.9
+      "age_hours": 36.1
     },
     {
       "source": "Guardian World",
       "title": "Whereabouts of nearly 300 people with Ebola unknown in DR Congo",
       "summary": "Fears over \u2018huge community transmission\u2019 as modelling predicts thousands of deaths in DRC by September The whereabouts of almost 300 people who have tested positive for Ebola in the Democratic Republic of the Congo is unknown, according to Africa\u2019s top public health official. The humanitarian crisis",
       "url": "https://www.theguardian.com/global-development/2026/jun/26/whereabouts-of-nearly-300-people-with-ebola-unknown-in-drc",
-      "age_hours": 37.5
+      "age_hours": 37.7
     },
     {
       "source": "BBC Business",
       "title": "The abundant but expensive energy source that's under your feet",
       "summary": "Start-ups are taking fresh approaches to geothermal energy, but will the economics work?",
       "url": "https://www.bbc.co.uk/news/articles/cj3gj1n8yz8o?at_medium=RSS&at_campaign=rss",
-      "age_hours": 38.2
+      "age_hours": 38.4
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Mortgage and refinance interest rates today, Friday, June 26, 2026: Rates relatively flat heading into the weekend",
+      "summary": "",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-june-26-2026-rates-relatively-flat-heading-into-the-weekend-100000320.html",
+      "age_hours": 38.6
     },
     {
       "source": "Guardian World",
       "title": "Weather tracker: Heatwave expected to bring Germany and Poland to 40C",
       "summary": "Austrian Grand Prix declares heat hazard as dramatic rise in temperatures forecast in central and northern Europe Temperatures are forecast to rise dramatically in parts of central and northern Europe this weekend as  the intense heatwave continues . In Germany and Poland, highs up to or exceeding 4",
       "url": "https://www.theguardian.com/environment/2026/jun/26/weather-tracker-heatwave-germany-poland-40c-temperatures",
-      "age_hours": 40.0
+      "age_hours": 40.3
     },
     {
       "source": "ECB News",
       "title": "ECB Consumer Expectations Survey results \u2013 May 2026",
       "summary": "",
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260626_1~60a21704a8.en.html",
-      "age_hours": 40.4
+      "age_hours": 40.6
     },
     {
       "source": "Guardian World",
       "title": "South Korea to train half a million military personnel to become \u2018drone warriors\u2019",
       "summary": "All branches of the military will be taught how to use technology that has become a \u2018game changer on the battlefield\u2019, says defence minister All of South Korea\u2019s military forces will be trained as drone operators in a sweeping overhaul of its warfare strategy, the defence minister has said. \u201cAll sol",
       "url": "https://www.theguardian.com/world/2026/jun/26/south-korea-drone-warriors-military-training",
-      "age_hours": 42.3
+      "age_hours": 42.6
     },
     {
       "source": "Guardian World",
       "title": "Xi Jinping has hosted more than a dozen leaders this year, as \u2018middle powers\u2019 look beyond the US",
       "summary": "China\u2019s leader wants to promote his alternative to the current world order, and his efforts are being assisted by a capricious US  Xi Jinping meets Bangladesh\u2019s new prime minister on Friday, the latest in a wave of world leaders to visit Beijing this year as the Chinese leader builds his influence a",
       "url": "https://www.theguardian.com/world/2026/jun/26/xi-jinping-china-host-of-world-leaders-middle-powers",
-      "age_hours": 46.9
+      "age_hours": 47.2
     },
     {
       "source": "CNBC Finance",
       "title": "Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
       "summary": "In a live CNBC interview from his home district, Goolsbee declined to speculate on where he thinks interest rates are headed.",
       "url": "https://www.cnbc.com/2026/06/25/chicago-fed-president-goolsbee-says-inflation-is-too-high-calls-warsh-a-serious-guy.html",
-      "age_hours": 51.3
+      "age_hours": 51.6
     }
   ]
 }
